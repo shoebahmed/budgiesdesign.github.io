@@ -861,7 +861,7 @@ $(document).ready(function() {
         }
     });
 
-	var owl = $('.pictures-carousel-02');
+	/*var owl = $('.pictures-carousel-02');
     owl.owlCarousel({
 
         autoplay: false,
@@ -886,7 +886,7 @@ $(document).ready(function() {
                 items: 1
             }
         }
-    });
+    });*/
 	
 	var owl = $('.featured-work-carousel');
     owl.owlCarousel({
