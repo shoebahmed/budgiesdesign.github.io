@@ -16124,7 +16124,7 @@ a:focus {
 .button--ghost.active.button--green-bg-dk,
 .button--ghost:hover.button--green-bg-dk {
 	background-color: #2595a2;
-	color: #29383f
+	color: #ffffff;
 }
 
 .button--ghost.active.button--orange,
@@ -20401,9 +20401,9 @@ body .video-lazy {
 }
 
 .process {
-	background-image: url(../images/v5/process-light.png), -webkit-linear-gradient(135deg, #00bc66 0, #00a57f 100%);
-	background-image: url(../images/v5/process-light.png), -o-linear-gradient(135deg, #00bc66 0, #00a57f 100%);
-	background-image: url(../images/v5/process-light.png), linear-gradient(-45deg, #00bc66 0, #00a57f 100%);
+	background-image: url(../images/v5/process-light.png), -webkit-linear-gradient(135deg, #2595a2 0, #00a57f 100%);
+	background-image: url(../images/v5/process-light.png), -o-linear-gradient(135deg, #2595a2 0, #00a57f 100%);
+	background-image: url(../images/v5/process-light.png), linear-gradient(-45deg, #2595a2 0, #00a57f 100%);
 	background-size: cover;
 	background-position: center right;
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .81);
