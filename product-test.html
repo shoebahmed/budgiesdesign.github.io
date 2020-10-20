@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+</body>
+
+<script>
+$(document).ready(function(){
+	
+	$.getJSON( "json/product-list.json", function( data ) {
+  		
+  		var items = [];
+	  	$.each( data, function( key, val ) {
+	    	items.push( "<li id='" + val.id + "'>" + val.name + "</li>" );
+	  	});
+ 
+  		$( "<ul/>", {
+    		"class": "my-new-list",
+    		html: items.join( "" )
+  		}).appendTo( "body" );
+});
+  
+});
+</script>
+</html>
