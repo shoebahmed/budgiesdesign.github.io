@@ -1,0 +1,40 @@
+{
+  products : [
+      {
+	     "productId" : "1001",
+		 "class"     : "one",
+		 "label"	 : "Moss Adams",
+		 "image"     : "images/home-screen/moss_adams_thumb-squashed.jpg",
+	  },
+	  {
+	     "productId" : "1002",
+		 "class"     : "two",
+		 "label"	 : "Ben Bridge Jeweler",
+		 "image"     : "images/home-screen/ben_bridge_thumb.jpg",
+	  },
+	  {
+	     "productId" : "1003",
+		 "class"     : "three",
+		 "label"	 : "Laser Motive Space Elevator Collaboration",
+		 "image"     : "images/home-screen/laser_motive_thumb.jpg",
+	  },
+	  {
+	     "productId" : "1004",
+		 "class"     : "four",
+		 "label"	 : "Project Moab",
+		 "image"     : "images/home-screen/Moab_CoverImage_v01_JS-1.jpg",
+	  },
+	  {
+	     "productId" : "1005",
+		 "class"     : "five",
+		 "label"	 : "Epiq",
+		 "image"     : "images/home-screen/DTI_EPIQ_thumb.jpg",
+	  },
+	  {
+	     "productId" : "1006",
+		 "class"     : "six",
+		 "label"	 : "Google &#8211; Just a Line",
+		 "image"     : "images/home-screen/justaline-video-poster-1.jpg",
+	  }
+  ]
+}
