@@ -5,7 +5,8 @@
 </head>
 
 <body>
-
+  <div id="product-list">
+  </div>
 
 </body>
 
@@ -13,16 +14,27 @@
 $(document).ready(function(){
 	
 	$.getJSON( "json/product-list.json", function( data ) {
-  		
-  		var items = [];
-	  	$.each( data, function( key, val ) {
-	    	items.push( "<li id='" + val.id + "'>" + val.name + "</li>" );
-	  	});
+  		var htmlString = '';
+  		$.each( data, function( key, val) {
+		    htmlString = htmlString + 
+			
+			'<div class=\"section-portfolio__grid-item ' + val.class + '\">' +
+            '<a data-bottom-top=\"background-position: center bottom 0%\"' +
+              'data-top-bottom=\"background-position: center bottom 110%\"'+
+              'href=\"portfolio.html\" aria-label=' + val.label +  
+              'class=\"section-portfolio__grid-tile\"' +
+              'style=\"background-image:url('+ val.image +')\">'+
+              '<div class=\"section-portfolio__item-label\">'+
+              '<div class=\"section-portfolio__item-title\">'+ val.class + ' </div>'+
+              '<div class\="button button--green-bg-dk button--ghost button--arrow mt-3x\">View Work</div>'+
+              '</div>'+
+            '</a>'+
+          '</div>';
+		  
+		  
+	    });
  
-  		$( "<ul/>", {
-    		"class": "my-new-list",
-    		html: items.join( "" )
-  		}).appendTo( "body" );
+  		$( "#product-list").html(htmlString);
 });
   
 });

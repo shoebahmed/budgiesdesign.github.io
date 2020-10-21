@@ -1,5 +1,4 @@
-{
-  products : [
+[
       {
 	     "productId" : "1001",
 		 "class"     : "one",
@@ -36,5 +35,4 @@
 		 "label"	 : "Google &#8211; Just a Line",
 		 "image"     : "images/home-screen/justaline-video-poster-1.jpg",
 	  }
-  ]
-}
+]
