@@ -20,8 +20,6 @@
     type='text/css' media='all' />
   <link rel='stylesheet' id='sage/css-css' href='css/main-6739bee8b6.css' type='text/css' media='all' />
   
-  <link rel='stylesheet' id="custom.css" href='css/custom.css' type='text/css' />
-  
   <script type='text/javascript'
     src='js/jquery.min.js?ver=3.5.1'></script>
   <link rel='https://api.w.org/' href='https://www.freshconsulting.com/wp-json/' />
@@ -142,20 +140,7 @@
         </div>
       </div>
       <div id="product-list" class="row">
-	<div class="section-portfolio__tile-grid">
-		<div class="section-portfolio__grid-item one">
-			<a data-bottom-top="background-position: center bottom 0%"
-			data-top-bottom="background-position: center bottom 110%"
-			href="portfolio.html" aria-label="Moss adams" class="section-portfolio__grid-tile"
-			style="background-image:url(https://www.mazeqube.com/budgiesdesign.github.io/images/home-screen/moss_adams_thumb-squashed.jpg)">
-				<div class="section-portfolio__item-label">
-					<div class="section-portfolio__item-title">one </div>
-					<div class="button button--green-bg-dk button--ghost button--arrow mt-3x">View Work</div>
-				</div>
-			</a>
-		</div>
-	</div>
-</div>
+	  </div>
     </div>
   </section>
     <footer class="site-footer">
@@ -268,10 +253,10 @@ $(document).ready(function(){
 			'<div class=\"section-portfolio__grid-item ' + val.class + '\">' +
             '<a data-bottom-top=\"background-position: center bottom 0%\"' +
               'data-top-bottom=\"background-position: center bottom 110%\"'+
-              'href=\"portfolio.html\" aria-label=' + val.label + '\" class=\"section-portfolio__grid-tile\"' +
+              'href=\"product.html?productId='+ val.productId + '\" aria-label=' + val.label + '\" class=\"section-portfolio__grid-tile\"' +
               'style=\"background-image:url('+ val.image +')\">'+
               '<div class=\"section-portfolio__item-label\">'+
-              '<div class=\"section-portfolio__item-title\">'+ val.class + ' </div>'+
+              '<div class=\"section-portfolio__item-title\">'+ val.label + ' </div>'+
               '<div class\="button button--green-bg-dk button--ghost button--arrow mt-3x\">View Work</div>'+
               '</div>'+
             '</a>'+

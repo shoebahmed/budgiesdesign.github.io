@@ -555,9 +555,7 @@ function initHeroTextSkroll() {
             e = $(window).width();
         e <= 767 && void 0 !== t ? t.destroy() : e > 767 && void 0 === t && skrollr.init()
     })), $(window).on("load", function() {
-        $(window).width() > 767 && skrollr.init({
-            forceHeight: !1
-        })
+        
     })
 }
 

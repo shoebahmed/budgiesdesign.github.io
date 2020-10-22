@@ -85,13 +85,15 @@
             style="background-image:url('images/product/header-v6-1024x348.jpg');"
             data-50-top="background-position: center top 0%" data-top-bottom="background-position: center top -40%">
             <div class="centered">
-
-
-              <h1 id="heading" data-start="transform:translateY(0%);opacity:1;"
-                data-60-top="transform:translateY(-90%);opacity:0;" class="billboard-title text-xxl">
-              </h1>
-              <div data-start="transform:translateY(0%);opacity:1;" data-180-top="transform:translateY(-50%);opacity:0;"
-                class="text-sm mb-xs-20 mb-sm-30 mb-md-30 mb-lg-30">
+              <div class="header-content">
+                <h1 data-start="transform:translateY(0%);opacity:1;" data-60-top="transform:translateY(-90%);opacity:0;"
+                  class="billboard-title text-xxl">
+				  <div id=heading" />
+				  </h1>
+                <div data-start="transform:translateY(0%);opacity:1;"
+                  data-180-top="transform:translateY(-50%);opacity:0;"
+                  class="text-sm mb-xs-20 mb-sm-30 mb-md-30 mb-lg-30">
+                </div>
               </div>
             </div>
           </div>
@@ -103,22 +105,11 @@
               <div class="billboard no-margin" style="padding-top:55px; padding-bottom:90px">
                 <div class="container ">
                   <div class="row ">
-                    <div id="details" class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-
-
-                      <div class="header-content">
-                        <h1 data-start="transform:translateY(0%);opacity:1;"
-                          data-60-top="transform:translateY(-90%);opacity:0;" class="billboard-title text-xxl">Ben
-                          Bridge Jeweler</h1>
-                        <div data-start="transform:translateY(0%);opacity:1;"
-                          data-180-top="transform:translateY(-50%);opacity:0;"
-                          class="text-sm mb-xs-20 mb-sm-30 mb-md-30 mb-lg-30">
-                        </div>
-                      </div>
-
-
-
-                    </div>
+                    <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                      <span class="intro-text text-lg">
+                        <p>Ben Bridge needed a digital partner to create an eCommerce presence that would have a more
+                          serious impact on their overall business.</p>
+                      </span> </div>
                   </div>
                 </div>
               </div>
@@ -300,8 +291,12 @@
                       <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_4'
                         id='gform_ajax_frame_4' title='Ajax Frame'>This iframe contains the logic required to handle
                         Ajax powered Gravity Forms.</iframe>
-                      
-                      
+                      <script
+                        type='text/javascript'>document.addEventListener("DOMContentLoaded", function () { jQuery(document).ready(function ($) { gformInitSpinner(4, 'https://www.freshconsulting.com/wp-content/plugins/gravityforms/images/spinner.gif'); jQuery('#gform_ajax_frame_4').on('load', function () { var contents = jQuery(this).contents().find('*').html(); var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0; if (!is_postback) { return; } var form_content = jQuery(this).contents().find('#gform_wrapper_4'); var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_4').length > 0; var is_redirect = contents.indexOf('gformRedirect(){') >= 0; var is_form = form_content.length > 0 && !is_redirect && !is_confirmation; var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100; if (is_form) { jQuery('#gform_wrapper_4').html(form_content.html()); if (form_content.hasClass('gform_validation_error')) { jQuery('#gform_wrapper_4').addClass('gform_validation_error'); } else { jQuery('#gform_wrapper_4').removeClass('gform_validation_error'); } setTimeout(function () { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ }, 50); if (window['gformInitDatepicker']) { gformInitDatepicker(); } if (window['gformInitPriceFields']) { gformInitPriceFields(); } var current_page = jQuery('#gform_source_page_number_4').val(); gformInitSpinner(4, 'https://www.freshconsulting.com/wp-content/plugins/gravityforms/images/spinner.gif'); jQuery(document).trigger('gform_page_loaded', [4, current_page]); window['gf_submitting_4'] = false; } else if (!is_redirect) { var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html(); if (!confirmation_content) { confirmation_content = contents; } setTimeout(function () { jQuery('#gform_wrapper_4').replaceWith(confirmation_content); jQuery(document).trigger('gform_confirmation_loaded', [4]); window['gf_submitting_4'] = false; }, 50); } else { jQuery('#gform_4').append(contents); if (window['gformRedirect']) { gformRedirect(); } } jQuery(document).trigger('gform_post_render', [4, current_page]); }); }); }, false);</script>
+                      <script
+                        type='text/javascript'>document.addEventListener("DOMContentLoaded", function () { jQuery(document).bind('gform_post_render', function (event, formId, currentPage) { if (formId == 4) { } }); jQuery(document).bind('gform_post_conditional_logic', function (event, formId, fields, isInit) { }); }, false);</script>
+                      <script
+                        type='text/javascript'>document.addEventListener("DOMContentLoaded", function () { jQuery(document).ready(function () { jQuery(document).trigger('gform_post_render', [4, 1]) }); }, false);</script>
                     </div>
                   </div>
                 </div>
@@ -401,27 +396,39 @@
     </div>
   </footer>
 
+  <script type='text/javascript' src='js/enlighterjs.min.js?ver=4.2'></script>
   <script type='text/javascript' src='js/jquery.mmenu.js'></script>
+  <script type='text/javascript' src='js/skrollr.min.js'></script>
+  <script type='text/javascript' src='js/jquery.carouFredSel-plugins.js'></script>
+  <script type='text/javascript' src='js/jquery.carouFredSel-6.2.1-packed.js'></script>
+
   <script type='text/javascript' src='js/main-e1b8872fcd.js'></script>
+  <script type='text/javascript' src='js/wp-embed.min.js?ver=5.4.2'></script>
+  <script type='text/javascript' src='js/jquery.json.min.js?ver=2.4.12'></script>
+
   <script>
     $(document).ready(function () {
       var productId = getUrlVars()["productId"];
       var filePath = 'json/' + productId + '.json';
 
-
       $.getJSON(filePath, function (data) {
-        var htmlString = '';
-        htmlString = htmlString + data.heading;
-        $("#heading").html(htmlString);
+        alert(data.heading);
       });
+	  
+	  
+	  $.getJSON( filePath, function( data ) {
+  		var htmlString = data.heading;
+  		$.each( data, function( key, val) {
+		    htmlString = data.heading;
+		});
+ 
+  		$( "#heading").html(htmlString );
+});
+	  
+	  
+	  
+	  
 
-
-
-      $.getJSON(filePath, function (data) {
-        var htmlString = '<span class="intro-text text-lg">';
-        htmlString = htmlString + '<p>' + data.details + '</p>';
-        $("#details").html(htmlString + '</span>');
-      });
       // Read a page's GET URL variables and return them as an associative array.
       function getUrlVars() {
         var vars = [], hash;
