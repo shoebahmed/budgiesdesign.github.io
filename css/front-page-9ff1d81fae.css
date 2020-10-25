@@ -3480,7 +3480,7 @@ textarea {
 }
 
 a {
-	color: #337ab7;
+	color: #fcd327;
 	text-decoration: none
 }
 
@@ -3757,7 +3757,7 @@ mark {
 }
 
 .text-primary {
-	color: #337ab7
+	color: #fcd327
 }
 
 a.text-primary:focus,
@@ -3806,7 +3806,7 @@ a.text-danger:hover {
 }
 
 .bg-primary {
-	background-color: #337ab7
+	background-color: #fcd327
 }
 
 a.bg-primary:focus,
@@ -6062,7 +6062,7 @@ fieldset[disabled] .btn-default:hover {
 
 .btn-primary {
 	color: #fff;
-	background-color: #337ab7;
+	background-color: #fcd327;
 	border-color: #2e6da4
 }
 
@@ -6116,12 +6116,12 @@ fieldset[disabled] .btn-default:hover {
 fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:hover {
-	background-color: #337ab7;
+	background-color: #fcd327;
 	border-color: #2e6da4
 }
 
 .btn-primary .badge {
-	color: #337ab7;
+	color: #fcd327;
 	background-color: #fff
 }
 
@@ -6386,7 +6386,7 @@ fieldset[disabled] .btn-danger:hover {
 }
 
 .btn-link {
-	color: #337ab7;
+	color: #fcd327;
 	font-weight: 400;
 	border-radius: 0
 }
@@ -6580,7 +6580,7 @@ tbody.collapse.in {
 	color: #fff;
 	text-decoration: none;
 	outline: 0;
-	background-color: #337ab7
+	background-color: #fcd327
 }
 
 .dropdown-menu>.disabled>a,
@@ -7094,7 +7094,7 @@ tbody.collapse.in {
 .nav .open>a:focus,
 .nav .open>a:hover {
 	background-color: #eee;
-	border-color: #337ab7
+	border-color: #fcd327
 }
 
 .nav .nav-divider {
@@ -7154,7 +7154,7 @@ tbody.collapse.in {
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
 	color: #fff;
-	background-color: #337ab7
+	background-color: #fcd327
 }
 
 .nav-stacked>li {
@@ -7934,7 +7934,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 	padding: 6px 12px;
 	line-height: 1.428571429;
 	text-decoration: none;
-	color: #337ab7;
+	color: #fcd327;
 	background-color: #fff;
 	border: 1px solid #ddd;
 	margin-left: -1px
@@ -7971,8 +7971,8 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 .pagination>.active>span:hover {
 	z-index: 3;
 	color: #fff;
-	background-color: #337ab7;
-	border-color: #337ab7;
+	background-color: #fcd327;
+	border-color: #fcd327;
 	cursor: default
 }
 
@@ -8120,7 +8120,7 @@ a.label:hover {
 }
 
 .label-primary {
-	background-color: #337ab7
+	background-color: #fcd327
 }
 
 .label-primary[href]:focus,
@@ -8196,7 +8196,7 @@ a.label:hover {
 
 .list-group-item.active>.badge,
 .nav-pills>.active>a>.badge {
-	color: #337ab7;
+	color: #fcd327;
 	background-color: #fff
 }
 
@@ -8299,7 +8299,7 @@ a.badge:hover {
 a.thumbnail.active,
 a.thumbnail:focus,
 a.thumbnail:hover {
-	border-color: #337ab7
+	border-color: #fcd327
 }
 
 .alert {
@@ -8440,7 +8440,7 @@ a.thumbnail:hover {
 	line-height: 20px;
 	color: #fff;
 	text-align: center;
-	background-color: #337ab7;
+	background-color: #fcd327;
 	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
 	-webkit-transition: width .6s ease;
 	-o-transition: width .6s ease;
@@ -8637,8 +8637,8 @@ button.list-group-item {
 .list-group-item.active:hover {
 	z-index: 2;
 	color: #fff;
-	background-color: #337ab7;
-	border-color: #337ab7
+	background-color: #fcd327;
+	border-color: #fcd327
 }
 
 .list-group-item.active .list-group-item-heading,
@@ -9112,26 +9112,26 @@ button.list-group-item-danger.active:hover {
 }
 
 .panel-primary {
-	border-color: #337ab7
+	border-color: #fcd327
 }
 
 .panel-primary>.panel-heading {
 	color: #fff;
-	background-color: #337ab7;
-	border-color: #337ab7
+	background-color: #fcd327;
+	border-color: #fcd327
 }
 
 .panel-primary>.panel-heading+.panel-collapse>.panel-body {
-	border-top-color: #337ab7
+	border-top-color: #fcd327
 }
 
 .panel-primary>.panel-heading .badge {
-	color: #337ab7;
+	color: #fcd327;
 	background-color: #fff
 }
 
 .panel-primary>.panel-footer+.panel-collapse>.panel-body {
-	border-bottom-color: #337ab7
+	border-bottom-color: #fcd327
 }
 
 .panel-success {
@@ -15793,7 +15793,7 @@ a:focus {
 	font-family: EuclidCircular, sans-serif;
 	font-weight: 600;
 	font-size: 12px;
-	color: #2595a2;
+	color: #fcd327;
 	text-transform: uppercase;
 	position: relative;
 	padding-top: 7px;
@@ -15807,7 +15807,7 @@ a:focus {
 	position: relative;
 	width: 70px;
 	height: 5px;
-	background: #2595a2
+	background: #fcd327;
 }
 
 .card__cta {

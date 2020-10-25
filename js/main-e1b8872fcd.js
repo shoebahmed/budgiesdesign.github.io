@@ -550,13 +550,7 @@ function stickyGreenBar() {
 }
 
 function initHeroTextSkroll() {
-    $(window).resize($.debounce(250, function() {
-        var t = skrollr.get(),
-            e = $(window).width();
-        e <= 767 && void 0 !== t ? t.destroy() : e > 767 && void 0 === t && skrollr.init()
-    })), $(window).on("load", function() {
-        
-    })
+    
 }
 
 function resizeWistiaPlayer(t, e, i, n) {

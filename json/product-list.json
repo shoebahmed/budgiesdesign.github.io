@@ -3,42 +3,217 @@
 	     "productId" : "1001",
 		 "class"     : "one",
 		 "label"	 : "Moss Adams",
-		 "image"     : "images/home-screen/moss_adams_thumb-squashed.jpg"
+		 "image"     : "images/home-screen/moss_adams_thumb-squashed.jpg",
+		 "detailText"	: "1 json Ben Bridge needed a <strong>digital partner</strong> to create an eCommerce presence that would have a more serious impact on their overall business",
+		 "splide"       : [
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/1.jpg"
+							},
+							{
+							  "type" : "video",
+							  "thumnail" :"splide/images/4.jpg",
+							  "media" : "splide/videos/1.mkv"
+							},
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/2.jpg"
+							},
+							{
+							  "type" : "video",
+							  "thumnail" :"splide/images/4.jpg",
+							  "media" : "splide/videos/1.mkv"
+							},
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/3.jpg"
+							}
+						  ]
 	  },
 	  {
 	     "productId" : "1002",
 		 "class"     : "two",
 		 "label"	 : "Ben Bridge Jeweler",
-		 "image"     : "images/home-screen/ben_bridge_thumb.jpg"
+		 "image"     : "images/home-screen/ben_bridge_thumb.jpg",
+		 "detailText"	: "2 json Ben Bridge needed a <strong>digital partner</strong> to create an eCommerce presence that would have a more serious impact on their overall business",
+		 "splide"       : [
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/4.jpg"
+							},
+							{
+							  "type" : "video",
+							  "thumnail" :"splide/images/4.jpg",
+							  "media" : "splide/videos/1.mkv"
+							},
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/2.jpg"
+							},
+							{
+							  "type" : "video",
+							  "thumnail" :"splide/images/1.jpg",
+							  "media" : "splide/videos/1.mkv"
+							},
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/3.jpg"
+							}
+						  ]
 	  },
 	  {
 	     "productId" : "1003",
 		 "class"     : "three",
 		 "label"	 : "Laser Motive Space Elevator Collaboration",
-		 "image"     : "images/home-screen/laser_motive_thumb.jpg"
+		 "image"     : "images/home-screen/laser_motive_thumb.jpg",
+		 "detailText"	: "3 json Ben Bridge needed a <strong>digital partner</strong> to create an eCommerce presence that would have a more serious impact on their overall business",
+		 "splide"       : [
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/2.jpg"
+							},
+							{
+							  "type" : "video",
+							  "thumnail" :"splide/images/4.jpg",
+							  "media" : "splide/videos/1.mkv"
+							},
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/2.jpg"
+							},
+							{
+							  "type" : "video",
+							  "thumnail" :"splide/images/4.jpg",
+							  "media" : "splide/videos/1.mkv"
+							},
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/3.jpg"
+							}
+						  ]
 	  },
 	  {
 	     "productId" : "1004",
 		 "class"     : "four",
 		 "label"	 : "Project Moab",
-		 "image"     : "images/home-screen/Moab_CoverImage_v01_JS-1.jpg"
+		 "image"     : "images/home-screen/Moab_CoverImage_v01_JS-1.jpg",
+		 "detailText"	: "4 json Ben Bridge needed a <strong>digital partner</strong> to create an eCommerce presence that would have a more serious impact on their overall business",
+		 "splide"       : [
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/3.jpg"
+							},
+							{
+							  "type" : "video",
+							  "thumnail" :"splide/images/4.jpg",
+							  "media" : "splide/videos/1.mkv"
+							},
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/2.jpg"
+							},
+							{
+							  "type" : "video",
+							  "thumnail" :"splide/images/4.jpg",
+							  "media" : "splide/videos/1.mkv"
+							},
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/3.jpg"
+							}
+						  ]
 	  },
 	  {
 	     "productId" : "1005",
 		 "class"     : "five",
 		 "label"	 : "Epiq",
-		 "image"     : "images/home-screen/DTI_EPIQ_thumb.jpg"
+		 "image"     : "images/home-screen/DTI_EPIQ_thumb.jpg",
+		 "detailText"	: "5 json Ben Bridge needed a <strong>digital partner</strong> to create an eCommerce presence that would have a more serious impact on their overall business",
+		 "splide"       : [
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/4.jpg"
+							},
+							{
+							  "type" : "video",
+							  "thumnail" :"splide/images/4.jpg",
+							  "media" : "splide/videos/1.mkv"
+							},
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/2.jpg"
+							},
+							{
+							  "type" : "video",
+							  "thumnail" :"splide/images/4.jpg",
+							  "media" : "splide/videos/1.mkv"
+							},
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/3.jpg"
+							}
+						  ]
 	  },
 	  {
 	     "productId" : "1006",
 		 "class"     : "six",
 		 "label"	 : "Google &#8211; Just a Line",
-		 "image"     : "images/home-screen/justaline-video-poster-1.jpg"
+		 "image"     : "images/home-screen/justaline-video-poster-1.jpg",
+		 "detailText"	: "6 json Ben Bridge needed a <strong>digital partner</strong> to create an eCommerce presence that would have a more serious impact on their overall business",
+		 "splide"       : [
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/1.jpg"
+							},
+							{
+							  "type" : "video",
+							  "thumnail" :"splide/images/4.jpg",
+							  "media" : "splide/videos/1.mkv"
+							},
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/2.jpg"
+							},
+							{
+							  "type" : "video",
+							  "thumnail" :"splide/images/4.jpg",
+							  "media" : "splide/videos/1.mkv"
+							},
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/3.jpg"
+							}
+						  ]
 	  },
 	  {
 	     "productId" : "1007",
 		 "class"     : "seven",
 		 "label"	 : "Facebook &#8211; Diversity and Inclusion Hub",
-		 "image"     : "images/home-screen/diversity-fb-homepage-poster.jpg"
+		 "image"     : "images/home-screen/diversity-fb-homepage-poster.jpg",
+		 "detailText"	: "7 json Ben Bridge needed a <strong>digital partner</strong> to create an eCommerce presence that would have a more serious impact on their overall business",
+		 "splide"       : [
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/2.jpg"
+							},
+							{
+							  "type" : "video",
+							  "thumnail" :"splide/images/4.jpg",
+							  "media" : "splide/videos/1.mkv"
+							},
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/2.jpg"
+							},
+							{
+							  "type" : "video",
+							  "thumnail" :"splide/images/4.jpg",
+							  "media" : "splide/videos/1.mkv"
+							},
+							{
+							  "type" : "image",
+							  "thumnail" :"splide/images/3.jpg"
+							}
+						  ]
 	  }
 ]

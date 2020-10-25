@@ -11,10 +11,19 @@
     href='https://fonts.googleapis.com/css?family=Cedarville+Cursive:400&#038;subset=latin-ext' type='text/css'
     media='all' />
   <link rel='stylesheet' id='jquery-mmenu/css-css' href='css/jquery.mmenu.css' type='text/css' media='all' />
-  <link rel='stylesheet' id='sage/css-css' href='css/main-6739bee8b6.css' type='text/css' media='all' />
-  <script type='text/javascript' src='js/jquery.min.js?ver=3.5.1'></script>
-  <script type='text/javascript' async="async" src='js/E-v1.js'></script>
-  <script type='text/javascript' src='js/focus-visible.min.js?ver=1'></script>
+  <link rel='stylesheet' id='sage/css-css' href='css/main.css' type='text/css' media='all' />
+  
+  <!-- Splide -->
+  <link rel="stylesheet" href="splide/dist/css/splide.min.css">
+  <link rel="stylesheet" href="splide/dist/css/custom.css">
+  <link rel="stylesheet" href="splide/dist/css/themes/splide-sea-green.min.css">
+  <script type='text/javascript' src="splide/dist/js/splide.min.js"></script>
+  <!-- Video Extension -->
+  <link rel="stylesheet" href="splide/dist/css/splide-extension-video.min.css">
+  <script src="splide/dist/js/splide-extension-video.min.js"></script>
+
+  
+
   <style type="text/css" id="wp-custom-css">
     .step-form .gform_footer input {
       display: inline;
@@ -48,6 +57,9 @@
               <div class="right-col">
                 <nav class="nav-primary pull-right hidden-xs">
                   <div id="menu-header-menu" class="navigation megamenu">
+				  <div class="megamenu-parent-item hl-item nav-link "><a href="services.html"
+                    class="megamenu-item-link">Services</a>
+                </div>
                     <div class="megamenu-parent-item hl-item nav-link "><a href="portfolio.html"
                         class="megamenu-item-link">Portfolio</a>
                     </div>
@@ -81,21 +93,36 @@
     <div class="wrap " role="document">
       <div class="content">
         <main class="main">
-          <div class="post-header mb-lg-0 mb-md-0 mb-sm-0 mb-xs-0"
-            style="background-image:url('images/product/header-v6-1024x348.jpg');"
-            data-50-top="background-position: center top 0%" data-top-bottom="background-position: center top -40%">
-            <div class="centered">
-
-
-              <h1 id="heading" data-start="transform:translateY(0%);opacity:1;"
-                data-60-top="transform:translateY(-90%);opacity:0;" class="billboard-title text-xxl">
-              </h1>
-              <div data-start="transform:translateY(0%);opacity:1;" data-180-top="transform:translateY(-50%);opacity:0;"
-                class="text-sm mb-xs-20 mb-sm-30 mb-md-30 mb-lg-30">
-              </div>
-            </div>
-          </div>
-
+          <div class="mb-lg-0 mb-md-0 mb-sm-0 mb-xs-0">
+			<div id="splide" class="splide pt-6">
+			  <div class="splide__track">
+				<ul id="splide-handle" class="splide__list">
+				  <li class="splide__slide">
+					<div class="splide__slide__container">
+					  <img src="splide/images/1.jpg">
+					</div>
+				  </li>
+				  <li class="splide__slide" data-splide-html-video="splide/videos/1.mkv">
+					  <img src="splide/images/4.jpg">
+				  </li>
+				  <li class="splide__slide">
+					<div class="splide__slide__container">
+					  <img src="splide/images/2.jpg">
+					</div>
+				  </li>
+				  <li class="splide__slide" data-splide-html-video="splide/videos/1.mkv">
+					  <img src="splide/images/4.jpg">
+				  </li>
+				  <li class="splide__slide">
+					<div class="splide__slide__container">
+					  <img src="splide/images/3.jpg">
+					</div>
+				  </li>
+				  
+				</ul>
+			  </div>
+			</div>
+		  </div>
 
           <div class="content ">
             <article
@@ -103,89 +130,15 @@
               <div class="billboard no-margin" style="padding-top:55px; padding-bottom:90px">
                 <div class="container ">
                   <div class="row ">
-                    <div id="details" class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-
-
-                      <div class="header-content">
-                        <h1 data-start="transform:translateY(0%);opacity:1;"
-                          data-60-top="transform:translateY(-90%);opacity:0;" class="billboard-title text-xxl">Ben
-                          Bridge Jeweler</h1>
-                        <div data-start="transform:translateY(0%);opacity:1;"
-                          data-180-top="transform:translateY(-50%);opacity:0;"
-                          class="text-sm mb-xs-20 mb-sm-30 mb-md-30 mb-lg-30">
-                        </div>
-                      </div>
-
-
-
+                    <div id="heading-details" class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                      <span class="intro-text text-lg">
+                        <p>! The Ben Bridge needed a digital partner to create an eCommerce presence that would have a more
+                          serious impact on their overall business.</p>
+                      </span>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="billboard no-margin" style="padding-top:0px; padding-bottom:90px">
-                <div class="single-media container-fluid full-width height-bounds">
-                  <div class="row">
-                    <div class="  single-media-image"
-                      style="background-image: url(images/product/home-page-mockup.jpg);"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="billboard no-margin" style="padding-top:0px; padding-bottom:90px">
-                <div class="container ">
-                  <div class="row ">
-                    <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-                      <h3 class="billboard-title text-xl center">Design & Development</h3>
-                      <p>Fresh Consulting created a mobile version of the Ben Bridge website, cleaned up the layout,
-                        optimized navigation, simplified the checkout path, and incorporated many new features such as
-                        PayPal and Amazon Checkout integration to support online sales. Fresh also supported multiple
-                        seasonal campaigns with unique landing pages, banners, and ads to deliver their message.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="billboard no-margin">
-                <div class="grid">
-                  <div class="grid-sizer"></div>
-                  <div class="gutter-sizer"></div>
-                  <div class="portfolio-item masonry grid-item col-1x2">
-                    <div class="item-content" data-original="images/product/Homepage-419x1024.jpg"
-                      style="background-size: cover; background-position: center;"></div>
-                  </div>
-                  <div class="portfolio-item masonry grid-item col-1x2">
-                    <div class="item-content" data-original="images/product/Jewelry-Hub-v02b-438x1024.jpg"
-                      style="background-size: cover; background-position: center;"></div>
-                  </div>
-                  <div class="portfolio-item masonry grid-item col-1x2">
-                    <div class="item-content" data-original="images/product/Mothers-Day-Homepage_R1-416x1024.jpg"
-                      style="background-size: cover; background-position: center;"></div>
-                  </div>
-                  <div class="portfolio-item masonry grid-item col-1x2">
-                    <div class="item-content" data-original="images/product/Jewelry-Hub-v03-456x1024.jpg"
-                      style="background-size: cover; background-position: center;"></div>
-                  </div>
-                  <div class="portfolio-item masonry grid-item col-1x2">
-                    <div class="item-content" data-original="images/product/Product_NEW-522x1024.jpg"
-                      style="background-size: cover; background-position: center;"></div>
-                  </div>
-                </div>
-              </div>
-
-          </div>
-          <div class="billboard no-margin" style="padding-top:90px; padding-bottom:0px">
-            <div class="container ">
-              <div class="row ">
-                <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="billboard no-margin" style="padding-top:90px; padding-bottom:0px">
-            <div class="container ">
-              <div class="row ">
-                <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-                </div>
-              </div>
-            </div>
           </div>
           </article>
       </div>
@@ -301,7 +254,7 @@
                         id='gform_ajax_frame_4' title='Ajax Frame'>This iframe contains the logic required to handle
                         Ajax powered Gravity Forms.</iframe>
                       
-                      
+                        
                     </div>
                   </div>
                 </div>
@@ -312,8 +265,6 @@
       </div>
 
     </div>
-    </main>
-  </div>
   </div>
 
   <footer class="site-footer">
@@ -403,25 +354,65 @@
 
   <script type='text/javascript' src='js/jquery.mmenu.js'></script>
   <script type='text/javascript' src='js/main-e1b8872fcd.js'></script>
+  <script type='text/javascript' src="js/jquery.min.js"></script>
   <script>
+  
     $(document).ready(function () {
       var productId = getUrlVars()["productId"];
-      var filePath = 'json/' + productId + '.json';
+      var filePath = 'json/product-list.json';
 
-
-      $.getJSON(filePath, function (data) {
-        var htmlString = '';
-        htmlString = htmlString + data.heading;
-        $("#heading").html(htmlString);
-      });
-
-
-
-      $.getJSON(filePath, function (data) {
-        var htmlString = '<span class="intro-text text-lg">';
-        htmlString = htmlString + '<p>' + data.details + '</p>';
-        $("#details").html(htmlString + '</span>');
-      });
+	  $.getJSON(filePath, function (data) {
+		
+	    $.each( data, function( key, val) {
+			
+			if(val.productId == productId){
+				
+				//Details Section
+			var headingSection = '<span class=\"intro-text text-lg\">'+
+							'<p>'+ val.detailText +'</p>'+
+						  '</span>';
+						  
+			$("#heading-details").html(headingSection);
+		
+			var htmlSplide = '';
+			$.each(val.splide, function (index, value) {
+				
+				if(value.type == 'image'){
+				  htmlSplide += '<li class=\"splide__slide\">'+
+									'<div class=\"splide__slide__container\">'+
+									  '<img src=\"'+ value.thumnail +'">'+
+									'</div>'+
+								'</li>';
+				}else if(value.type == 'video'){
+				  htmlSplide += '<li class=\"splide__slide\" data-splide-html-video=\"'+ value.media +'\">' +
+									  '<img src=\"'+ value.thumnail +'\">'+
+								'</li>';
+				}
+			});
+			
+			$("#splide-handle").html(htmlSplide);
+			
+			//Initialize Splide
+			new Splide( '.splide',{
+				type: 'loop',
+				speed: 400,
+				autoplay: true,
+				interval: 3000,
+				pauseOnHover: true,
+				pauseOnFocus: true,
+				height: 450,
+				video: {
+					mute: true
+				}
+			  } ).mount(window.splide.Extensions);
+			
+			}
+			
+	    }); //End Each for data
+		
+		
+	});
+	
       // Read a page's GET URL variables and return them as an associative array.
       function getUrlVars() {
         var vars = [], hash;
@@ -433,9 +424,12 @@
         }
         return vars;
       }
-
-
     });
+  </script>
+  <script type='text/javascript'>
+  
+  
+  
   </script>
 </body>
 
