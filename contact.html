@@ -15,6 +15,7 @@
   <link rel='stylesheet' id='jquery-mmenu/css-css' href='css/jquery.mmenu.css' type='text/css' media='all' />
   <link rel='stylesheet' id='frontpage-sage/css-css' href='css/main-new.css' type='text/css' media='all' />
   <script type='text/javascript' src='js/jquery.min.js?ver=3.5.1'></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <style type="text/css">
     .recentcomments a {
       display: inline !important;
@@ -56,7 +57,7 @@
 
             <div class="site-header__wrapper">
               <div class="left-col">
-                <a class="brand-logo" href="index.html">Fresh Consulting</a>
+                <a class="brand-logo" href="index.html">Budgies Design</a>
               </div>
 
               <div class="right-col">
@@ -71,8 +72,7 @@
                     <div class="megamenu-parent-item hl-item nav-link "><a href="about.html"
                         class="megamenu-item-link">About</a>
                     </div>
-                    <div class="megamenu-parent-item hl-item nav-link visible-xs"><a href="contact.html"
-                        class="megamenu-item-link">Contact</a></div>
+                    
                     <div class="lets-build">
                       <a href="contact.html" class="button button--ghost button--orange"
                         style="margin-left: 24px; z-index:999; position:relative">Contact Us</a>
@@ -147,26 +147,26 @@
                 <div class="contact-info">
                   <span class="contact-info__list icon- mail gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
                     <p class="text-contact text-sm"><a href="mailto:connect@freshconsulting.com"
-                        class="gray-med">connect@freshconsulting.com</a></p>
+                        class="gray-med">connect@budgiesdesign.com</a></p>
                   </span>
                   <span class="contact-info__list icon- icon-phone gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
                     <p class="text-contact text-sm">(425) 201-3713</p>
                   </span>
                   <span class="contact-info__list icon- twitter gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
                     <p class="text-contact text-sm"><a href="https://twitter.com/FreshConsulting" target="_blank"
-                        rel="noopener" class="gray-med">@FreshConsulting</a></p>
+                        rel="noopener" class="gray-med">@BudgiesDesign</a></p>
                   </span>
                   <span class="contact-info__list icon- linkedin gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
                     <p class="text-contact text-sm"><a href="https://www.linkedin.com/company/fresh-consulting"
-                        target="_blank" rel="noopener" class="gray-med">linkedin.com/company/fresh-consulting</a></p>
+                        target="_blank" rel="noopener" class="gray-med">linkedin.com/company/BudgiesDesign</a></p>
                   </span>
                   <span class="contact-info__list icon- facebook gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
                     <p class="text-contact text-sm"><a href="https://www.facebook.com/freshconsulting" target="_blank"
-                        rel="noopener" class="gray-med">facebook.com/freshconsulting</a></p>
+                        rel="noopener" class="gray-med">facebook.com/Budgies Design</a></p>
                   </span>
                   <span class="contact-info__list icon- youtube gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
                     <p class="text-contact text-sm"><a href="https://www.youtube.com/user/freshconsulting"
-                        target="_blank" rel="noopener" class="gray-med">youtube.com/user/freshconsulting</a></p>
+                        target="_blank" rel="noopener" class="gray-med">youtube.com/user/Budgies Design</a></p>
                   </span>
                   <span class="contact-info__list icon- location gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
                     <p class="text-contact text-sm"><a
@@ -184,10 +184,9 @@
               <div class="col-md-8 col-sm-7 contact-form">
                 <h3>Got a question or project?</h3>
                 <p class="text-sm">Drop us a line!</p>
-
+				<h3 id="receive-message" class="receive-message" >We receive your details. Thanks</h3>
                 <div class='gf_browser_chrome gform_wrapper input-box_wrapper bold_wrapper' id='gform_wrapper_1'>
-                  <form method='post' enctype='multipart/form-data' id='gform_1' class='input-box bold'
-                    action='/contact/'>
+                  <form method='post'  id='gform_1' class='input-box bold'>
                     <div class='gform_body'>
                       <ul id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'>
                         <li id='field_1_12'
@@ -199,13 +198,13 @@
                             id='input_1_12'>
 
                             <span id='input_1_12_3_container' class='name_first'>
-                              <input type='text' name='input_12.3' id='input_1_12_3' value='' aria-label='First name'
+                              <input type='text' name='firstName' id='firstName' value='' aria-label='First name'
                                 aria-required="true" aria-invalid="false" placeholder='First' />
                               <label for='input_1_12_3'>First</label>
                             </span>
 
                             <span id='input_1_12_6_container' class='name_last'>
-                              <input type='text' name='input_12.6' id='input_1_12_6' value='' aria-label='Last name'
+                              <input type='text' name='lastName' id='lastName' value='' aria-label='Last name'
                                 aria-required="true" aria-invalid="false" placeholder='Last' />
                               <label for='input_1_12_6'>Last</label>
                             </span>
@@ -217,7 +216,7 @@
                           <label class='gfield_label' for='input_1_2'>Email<span
                               class='gfield_required'>*</span></label>
                           <div class='ginput_container ginput_container_email'>
-                            <input style="margin-top: 20px" name='input_2' id='input_1_2' type='email' value=''
+                            <input style="margin-top: 20px" name='emalId' id='emailId' type='email' value=''
                               class='medium' placeholder='Email' aria-required="true" aria-invalid="false" />
                           </div>
                         </li>
@@ -225,14 +224,14 @@
                           class='gfield text-sm mb-lg-20 mb-md-20 mb-sm-10 mb-xs-10 field_sublabel_below field_description_below gfield_visibility_visible'>
                           <label class='gfield_label' for='input_1_13'>Company</label>
                           <div class='ginput_container ginput_container_text'><input style="margin-top: 20px"
-                              name='input_13' id='input_1_13' type='text' value='' class='medium' placeholder='Company'
+                              name='company' id='company' type='text' value='' class='medium' placeholder='Company'
                               aria-invalid="false" /></div>
                         </li>
                         <li id='field_1_11'
                           class='gfield text-sm mb-lg-20 mb-md-20 mb-sm-10 mb-xs-10 field_sublabel_below field_description_below gfield_visibility_visible'>
                           <label class='gfield_label' for='input_1_11'>How did you hear about us?</label>
                           <div class='ginput_container ginput_container_select'><select style="margin-top: 20px"
-                              name='input_11' id='input_1_11' class='medium gfield_select' aria-invalid="false">
+                              name='hearAbout' id='hearAbout' class='medium gfield_select' aria-invalid="false">
                               <option value='' selected='selected' class='gf_placeholder'>How did you hear about us?
                               </option>
                               <option value='Internet Search'>Internet Search</option>
@@ -252,72 +251,29 @@
                           <label class='gfield_label' for='input_1_3'>Your question or a bit about your project<span
                               class='gfield_required'>*</span></label>
                           <div class='ginput_container ginput_container_textarea'><textarea style="margin-top: 20px"
-                              name='input_3' id='input_1_3' class='textarea medium'
+                              name='yourQuestion' id='yourQuestion' class='textarea medium'
                               placeholder='Your question or a bit about your project' aria-required="true"
                               aria-invalid="false" rows='10' cols='50'></textarea></div>
                         </li>
-                        <li id='field_1_5'
-                          class='gfield field_admin_only field_sublabel_below field_description_below gfield_visibility_administrative'>
-                          <input name='input_5' id='input_1_5' class='gform_hidden' type='hidden' value='' /></li>
-                        <li id='field_1_6'
-                          class='gfield field_admin_only field_sublabel_below field_description_below gfield_visibility_administrative'>
-                          <input name='input_6' id='input_1_6' class='gform_hidden' type='hidden' value='' /></li>
-                        <li id='field_1_7'
-                          class='gfield field_admin_only field_sublabel_below field_description_below gfield_visibility_administrative'>
-                          <input name='input_7' id='input_1_7' class='gform_hidden' type='hidden' value='' /></li>
-                        <li id='field_1_8'
-                          class='gfield field_admin_only field_sublabel_below field_description_below gfield_visibility_administrative'>
-                          <input name='input_8' id='input_1_8' class='gform_hidden' type='hidden' value='' /></li>
-                        <li id='field_1_9'
-                          class='gfield field_admin_only field_sublabel_below field_description_below gfield_visibility_administrative'>
-                          <input name='input_9' id='input_1_9' class='gform_hidden' type='hidden' value='' /></li>
-                        <li id='field_1_10'
-                          class='gfield field_admin_only field_sublabel_below field_description_below gfield_visibility_administrative'>
-                          <input name='input_10' id='input_1_10' class='gform_hidden' type='hidden' value='' /></li>
                         <li id='field_1_14'
                           class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible'>
                           <div class="gdpr-notice gdpr-notice--contact">
-                            <p>By clicking Submit, you agree to Fresh Consulting&#8217;s <a href="/privacy-policy"
+                            <p>By clicking Submit, you agree to Budgies Design&#8217;s <a href="/privacy-policy"
                                 rel="noopener" target="_blank">Privacy Policy</a>.</p>
                           </div>
                         </li>
                       </ul>
                     </div>
-                    <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_1'
-                        class='gform_button button' value='Submit'
-                        onclick='if(window["gf_submitting_1"]){return false;}  if( !jQuery("#gform_1")[0].checkValidity || jQuery("#gform_1")[0].checkValidity()){window["gf_submitting_1"]=true;}  '
-                        onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_1"]){return false;} if( !jQuery("#gform_1")[0].checkValidity || jQuery("#gform_1")[0].checkValidity()){window["gf_submitting_1"]=true;}  jQuery("#gform_1").trigger("submit",[true]); }' />
-                      <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
-                      <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
-
-                      <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
-                      <input type='hidden' class='gform_hidden' name='state_1'
-                        value='WyJbXSIsIjI4NThjZDZjMzY4MGVjZDE2M2NjMjZmMzU1Y2Y3M2E5Il0=' />
-                      <input type='hidden' class='gform_hidden' name='gform_target_page_number_1'
-                        id='gform_target_page_number_1' value='0' />
-                      <input type='hidden' class='gform_hidden' name='gform_source_page_number_1'
-                        id='gform_source_page_number_1' value='1' />
-                      <input type='hidden' name='gform_field_values' value='' />
-
+                    <div class='gform_footer top_label'> <input type='button' id='gform_submit_button_1'
+                        class='gform_button button' value='Submit' />
                     </div>
                   </form>
+				  
+				  
+				  
                 </div>
               </div>
             </div>
-
-
-            <div class="flat-map">
-              <a href="/seattle" class="map-button seattle" data-toggle="tooltip" data-html="true" data-placement="top"
-                title="Headquarters<br><span class='help-text'>14725 SE 36th Street Suite 300<br />
-Bellevue, WA 98006</span>">Seattle</a>
-              <a href="/portland" class="map-button portland" data-toggle="tooltip" data-html="true"
-                data-placement="top" title="Portland Office<br><span class='help-text'>811 SE Stark Street Suite 300<br />
-Portland, OR 97214</span>"><span class="map-button__label">Portland</span></a>
-              <a href="/bangkok" class="map-button bangkok" data-toggle="tooltip" data-html="true" data-placement="top"
-                title="Asia/Pacific Office<br><span class='help-text'>67/8 Soi Sathorn 3 (Suanplu), South Sathorn Road<br />
-Tungmahamek, Sathorn, Bangkok, Thailand 10120</span>">Bangkok</a>
-            </div>
-
         </main>
       </div>
     </div>
@@ -371,7 +327,7 @@ Tungmahamek, Sathorn, Bangkok, Thailand 10120</span>">Bangkok</a>
                 <div class="col-sm-12 col-md-10">
                   <div class="text__small site-footer__copyright hidden-xs hidden-sm">
                     &copy; 2020 Budgiesdesign <span class="site-footer__fresh-pp"> &#8226; <a href="index.html"
-                        alt="Fresh Consulting Privacy Policy">Privacy Policy</a></span>
+                        alt="Budgies Design Privacy Policy">Privacy Policy</a></span>
                   </div>
                   <div class="site-footer__nav-wrapper">
                     <ul class="nav--horizontal footer-nav">
@@ -385,18 +341,18 @@ Tungmahamek, Sathorn, Bangkok, Thailand 10120</span>">Bangkok</a>
                 </div>
                 <div class="col-sm-12 col-md-2 site-footer__socials">
                   <a href="/" target="_blank" rel="noopener" title=""><img src="images/logo/linkedin-in.svg"
-                      alt="Fresh Consulting on LinkedIn"></a>
+                      alt="Budgies Design on LinkedIn"></a>
                   <a href="/" target="_blank" rel="noopener" title=""><img src="images/logo/youtube.svg"
-                      alt="Fresh Consulting on YouTube"></a>
+                      alt="Budgies Design on YouTube"></a>
                   <a href="/" target="_blank" rel="noopener" title=""><img src="images/logo/twitter.svg"
-                      alt="Fresh Consulting on Twitter"></a>
+                      alt="Budgies Design on Twitter"></a>
                   <a href="/" target="_blank" rel="noopener" title=""><img src="images/logo/facebook-square.svg"
-                      alt="Fresh Consulting on Facebook"></a>
+                      alt="Budgies Design on Facebook"></a>
                 </div>
                 <div class="col-sm-12 visible-xs visible-sm mt-3x center">
-                  &copy; 2020 Fresh Consulting <span class="site-footer__fresh-pp"> &#8226; <a
-                      href="https://www.freshconsulting.com/privacy-policy/"
-                      alt="Fresh Consulting Privacy Policy">Privacy
+                  &copy; 2020 Budgies Design <span class="site-footer__fresh-pp"> &#8226; <a
+                      href=""
+                      alt="Budgies Design Privacy Policy">Privacy
                       Policy</a></span>
                 </div>
 
@@ -410,5 +366,54 @@ Tungmahamek, Sathorn, Bangkok, Thailand 10120</span>">Bangkok</a>
   </div>
 
 </body>
+	<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js">
+</script>
+
+	<script>
+	$(document).ready(function(){
+		 $("#receive-message").hide();
+		
+		emailjs.init("user_cK0bqr0tbLZzfMNo4Vcgx"); //use your USER ID
+		// Submit form data
+		$("#gform_submit_button_1").click(function(){
+			var firstName = $("#firstName").val();
+			var lastName = $("#lastName").val();
+			var emailId = $("#emailId").val();
+			var company = $("#company").val();
+			var hearAbout = $("#hearAbout").val();
+			var yourQuestion = $("#yourQuestion").val();
+			
+			
+			var templateParams = {
+				firstname: firstName,
+				lastname: lastName,
+				emailid: emailId,
+				company: company,
+				hearabout: hearAbout,
+				yourquestion: yourQuestion
+			};
+		
+		emailjs.send('service_sqt3027', 'template_mupg134', templateParams) //use your Service ID and Template ID
+			.then(function(response) {
+			   console.log('SUCCESS!', response.status, response.text);
+			   //Show message and clear all fields.
+			   $("#receive-message").show();
+			   $("#firstName").val('');
+			   $("#lastName").val('');
+			   $("#emailId").val('');
+			   $("#company").val('');
+			   $("#hearAbout").val('');
+			   $("#yourQuestion").val('');
+			   
+			}, function(error) {
+			   console.log('FAILED...', error);
+			});
+			
+			
+		});
+		
+	});
+	</script>
 
 </html>

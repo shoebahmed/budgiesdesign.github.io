@@ -32656,14 +32656,7 @@ function(t) {
                         e.play()) : (console.log("pause it"),
                         e.pause())
                     };
-                    u.on("init", function(i) {
-                        i = t(i.currentTarget),
-                        s(f, 16 / 9),
-                        setTimeout(function() {
-                            console.log("slide init"),
-                            jQuery(".hero__video-slide").each(e)
-                        }, 1e3)
-                    }),
+                    
                     u.on("afterChange", function(t, i, n) {
                         l.activateSlide(n, 0),
                         jQuery(".hero__video-slide").each(e)

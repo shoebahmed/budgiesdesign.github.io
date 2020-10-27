@@ -10344,26 +10344,7 @@ button.close {
 	opacity: .75
 }
 
-@font-face {
-	font-family: EuclidCircular;
-	src: url(../fonts/euclidcirculara-light-webs.woff2) format("woff2"), url(../fonts/euclidcirculara-light-webs.woff) format("woff"), url(../fonts/euclidcirculara-light-webs.ttf) format("truetype");
-	font-weight: 200;
-	font-style: normal
-}
 
-@font-face {
-	font-family: EuclidCircular;
-	src: url(fonts/euclidcirculara-regular-webs.woff2) format("woff2"), url(fonts/euclidcirculara-regular-webs.woff) format("woff"), url(fonts/euclidcirculara-regular-webs.ttf) format("truetype");
-	font-weight: 300;
-	font-style: normal
-}
-
-@font-face {
-	font-family: EuclidCircular;
-	src: url(../fonts/euclidcirculara-medium-webs.woff2) format("woff2"), url(../fonts/euclidcirculara-medium-webs.woff) format("woff"), url(../fonts/euclidcirculara-medium-webs.ttf) format("truetype");
-	font-weight: 400;
-	font-style: normal
-}
 
 @font-face {
 	font-family: EuclidCircular;
@@ -15716,8 +15697,9 @@ body.is-mobile #mobile-menu-toggle {
 
 .button--ghost.button--orange,
 .button--ghost.gform_button {
+	background-color: #d14600;
 	border-color: #d14600;
-	color: #d14600
+	color: #ffffff
 }
 
 .button--ghost.button--gray {
@@ -15756,7 +15738,7 @@ body.is-mobile #mobile-menu-toggle {
 
 .button--ghost.active.button--green-bg-dk,
 .button--ghost:hover.button--green-bg-dk {
-	background-color: #2595a2;
+	background-color: transparent;
 	color: #ffffff
 }
 
@@ -15764,8 +15746,8 @@ body.is-mobile #mobile-menu-toggle {
 .button--ghost.active.gform_button,
 .button--ghost.gform_button:hover,
 .button--ghost:hover.button--orange {
-	background-color: #d14600;
-	color: #fff
+	background-color: transparent;
+	color: #d14600
 }
 
 .button--ghost.active.button--white,
@@ -23794,7 +23776,7 @@ body.is-mobile .person-info__avatar video {
 }
 @media (min-width: 1200px) {
 	.page-section.contact {
-		padding: 130px 0 40px
+		padding: 75px 0 40px
 	}
 	.page-section.contact--small {
 		padding-top: 110px

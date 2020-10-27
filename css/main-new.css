@@ -11,6 +11,10 @@
 	box-shadow: 0 0 12px rgba(51, 51, 51, .5)
 }
 
+.receive-message{
+	color:red;
+}
+
 .twentytwenty-horizontal .twentytwenty-handle:after,
 .twentytwenty-horizontal .twentytwenty-handle:before {
 	width: 3px;
@@ -10406,9 +10410,7 @@ button.close {
 	display: none
 }
 
-.slick-loading .slick-list {
-	background: #fff url(../images/ajax-loader.gif) center center no-repeat
-}
+
 
 @font-face {
 	font-family: slick;
@@ -10582,12 +10584,7 @@ button.close {
 	font-style: normal
 }
 
-@font-face {
-	font-family: EuclidCircular;
-	src: url(../fonts/euclidcirculara-regular-webs.woff2) format("woff2"), url(../fonts/euclidcirculara-regular-webs.woff) format("woff"), url(fonts/euclidcirculara-regular-webs.ttf) format("truetype");
-	font-weight: 300;
-	font-style: normal
-}
+
 
 @font-face {
 	font-family: EuclidCircular;
@@ -12123,7 +12120,7 @@ body.home .main {
 }
 
 body .main {
-	padding: 0;
+	padding-bottom: 50px;
 	float: none
 }
 
@@ -16080,7 +16077,6 @@ a:focus {
 }
 
 .button--ghost.button--green-bg-dk {
-
 	color: #ffffff;
 	background-color: #2595a2;
 }
@@ -16088,7 +16084,8 @@ a:focus {
 .button--ghost.button--orange,
 .button--ghost.gform_button {
 	border-color: #d14600;
-	color: #d14600
+	    color: #ffffff;
+    background-color: #d14600;
 }
 
 .button--ghost.button--gray {
@@ -16118,14 +16115,14 @@ a:focus {
 .button--ghost:hover.button--green,
 .search-form .button--ghost.active.search-submit,
 .search-form .button--ghost.search-submit:hover {
-	background-color: #2595a2;
-	border-color: #ffffff;
-	color: #fff	
+	background-color: transparent;
+	border-color: #2595a2;
+	color: #2595a2	
 }
 
 .button--ghost.active.button--green-bg-dk,
 .button--ghost:hover.button--green-bg-dk {
-	<!-- background-color: #2595a2; -->
+	background-color: transparent;
 	color: #ffffff;
 }
 
@@ -16133,8 +16130,8 @@ a:focus {
 .button--ghost.active.gform_button,
 .button--ghost.gform_button:hover,
 .button--ghost:hover.button--orange {
-	background-color: #d14600;
-	color: #fff
+	background-color: transparent;
+	color: #d14600
 }
 
 .button--ghost.active.button--white,
@@ -21532,7 +21529,7 @@ body .video-lazy {
 
 @media (min-width:1200px) {
 	.page-section.contact {
-		padding: 130px 0 40px
+		padding: 75px 0 40px
 	}
 	.page-section.contact--small {
 		padding-top: 110px
