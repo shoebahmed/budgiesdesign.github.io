@@ -4,14 +4,7 @@
 <head>
 	
   <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>	
-
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <title>Home | Budgies Design</title>
   <link rel="apple-touch-icon" sizes="180x180" href="images/logo/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="images/logo/favicon-32x32.png">
@@ -20,7 +13,7 @@
   
   <link rel='stylesheet' id='jquery-mmenu/css-css' href='css/jquery.mmenu.css' type='text/css' media='all' />
   <link rel='stylesheet' id='frontpage-sage/css-css' href='css/main-new.css' type='text/css' media='all' />
-  
+  <link rel='stylesheet' href='css/custom.css' type='text/css'  />
   <script type='text/javascript' src='js/jquery.min.js?ver=3.5.1'></script>
   <script type='text/javascript' src='js/pzei2beoa0.jsonp'></script>
   <script type='text/javascript' src='https://www.youtube.com/iframe_api'></script>
@@ -38,12 +31,7 @@
       visibility: hidden;
       left: -99999em
     }
-
-    @media (min-width: 992px) {
-      .fresh-four-dimensions__sub-title {
-        max-width: 100%;
-      }
-    }
+	
   </style>
   <link rel="icon" href="images/logo/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" href="images/logo/favicon-32x32.png" sizes="192x192" />
@@ -52,7 +40,6 @@
 </head>
 
 <body class="home page-template-default page page-id-14 front-page-v5">
-  </div>
   <header class="site-header" data-headroom data-offset="80">
     <div class="container">
       <div class="row">
@@ -79,18 +66,29 @@
                   </div>
                 </div>
               </nav>
-              <a href="#mobile-menu" id="mobile-menu-toggle" class="visible-xs"
+			  
+              <!--<a href="#mobile-menu" id="mobile-menu-toggle" class="visible-xs"
+                                    aria-label="Toggle Mobile Menu">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>-->
+				<a href="#mobile-menu" data-trigger="#navbar_main" id="mobile-menu-toggle" class="visible-xs"
                                     aria-label="Toggle Mobile Menu">
                                     <span></span>
                                     <span></span>
                                     <span></span>
                                     <span></span>
                                 </a>
+								
             </div>
+			
           </div>
         </div>
       </div>
     </div>
+	
   </header>
   <section class="hero">
     <div class="hero__content">
@@ -231,18 +229,16 @@
         </div>
       </div>
   </section>
-  
   <section class="page-section contact page-section--gradient-1">
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
           <h2 class="page-section__title">Ready to work ?</h2>
           <div class="mt-3x">
-		  <div class="lets-build">
-                    <a href="contact.html" class="button button--ghost button--orange"
-                      style="margin-left: 24px; position:relative">Contact Us</a>
-              </div>
-		  
+		    <div class="lets-build">
+                <a href="contact.html" class="button button--ghost button--orange"
+                   style="margin-left: 24px; position:relative">Contact Us</a>
+            </div>
           </div>
         </div>
       </div>
@@ -331,14 +327,60 @@
       </div>
     </div>
   </footer>
+  
+ <nav id="navbar_main" class="mobile-offcanvas navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+    <!-- Links -->
+    <ul class="main-nav" id="js-menu">
+		<li>
+			<a href="services.html" class="nav-links">Services</a>
+		</li>
+    </ul>
+	<ul class="main-nav" id="js-menu">
+		<li>
+			<a href="portfolio.html" class="nav-links">Portfolio</a>
+		</li>
+    </ul>
+	<ul class="main-nav" id="js-menu">
+		<li>
+			<a href="about.html" class="nav-links">About</a>
+		</li>
+    </ul>
+	<ul class="main-nav" id="js-menu">
+		<li>
+			<a href="contact.html" class="nav-links">Contact Us</a>
+		</li>
+    </ul>
+    <!-- Links -->
+
+  </div>
+</nav>
+
   <script type='text/javascript' src='js/enlighterjs.min.js?ver=4.2'></script>
   <script type='text/javascript' src='js/jquery.mmenu.js'></script>
   <script type='text/javascript' src='js/skrollr.min.js'></script>
   <script type='text/javascript' src='js/jquery.carouFredSel-plugins.js'></script>
   <script type='text/javascript' src='js/jquery.carouFredSel-6.2.1-packed.js'></script>
   <script type='text/javascript' src='js/main-d863cfc150.js'></script>
+  
   <script>
   $(document).ready(function () {
+
+	$("[data-trigger]").on("click", function(e){
+		e.preventDefault();
+		e.stopPropagation();
+		var offcanvas_id =  $(this).attr('data-trigger');
+		$(offcanvas_id).toggleClass("show");
+		$('body').toggleClass("offcanvas-active");
+		$(".screen-overlay").toggleClass("show");
+	}); 
+
+	$(".btn-close, .screen-overlay").click(function(e){
+		$(".screen-overlay").removeClass("show");
+		$(".mobile-offcanvas").removeClass("show");
+		$("body").removeClass("offcanvas-active");
+	}); 
 
     $.getJSON("json/services-list.json", function (data) {
       var htmlString = '<div  class=\"section-portfolio__tile-grid\">';
@@ -388,8 +430,17 @@
       $("#product-list-second").html(htmlString + '</div>');
     });
 	
+	
+	
+		let mainNav = document.getElementById('js-menu');
+		let navBarToggle = document.getElementById('js-navbar-toggle');
+
+		navBarToggle.addEventListener('click', function () {
+		  mainNav.classList.toggle('active');
+		});
   });
 </script>
+
 
 </body>
 
