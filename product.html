@@ -4,10 +4,10 @@
 <head>
   <title>Product - Budgies Design</title>
 
-  
+
   <link rel='stylesheet' id='jquery-mmenu/css-css' href='css/jquery.mmenu.css' type='text/css' media='all' />
   <link rel='stylesheet' id='frontpage-sage/css-css' href='css/main-new.css' type='text/css' media='all' />
-  <link rel='stylesheet' href='css/custom.css' type='text/css'  />
+  <link rel='stylesheet' href='css/custom.css' type='text/css' />
   <script type='text/javascript' src='js/jquery.min.js?ver=3.5.1'></script>
   <script type='text/javascript' src='js/pzei2beoa0.jsonp'></script>
   <link rel="icon" href="images/logo/favicon-32x32.png" sizes="32x32" />
@@ -77,12 +77,12 @@
                 </nav>
 
                 <a href="#mobile-menu" data-trigger="#navbar_main" id="mobile-menu-toggle" class="visible-xs"
-                                    aria-label="Toggle Mobile Menu">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </a>
+                  aria-label="Toggle Mobile Menu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </a>
               </div>
             </div>
 
@@ -146,21 +146,21 @@
       </div>
     </div>
   </div>
-	<section class="page-section contact page-section--gradient-1">
-		<div class="container">
-		  <div class="row">
-			<div class="col-md-8 col-md-offset-2 text-center">
-			  <h2 class="page-section__title">Ready to work ?</h2>
-			  <div class="mt-3x">
-				<div class="lets-build">
-					<a href="contact.html" class="button button--ghost button--orange"
-					   style="margin-left: 24px; position:relative">Contact Us</a>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	  </section>
+  <section class="page-section contact page-section--gradient-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          <h2 class="page-section__title">Ready to work ?</h2>
+          <div class="mt-3x">
+            <div class="lets-build">
+              <a href="contact.html" class="button button--ghost button--orange"
+                style="margin-left: 24px; position:relative">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <footer class="site-footer">
     <div class="container">
       <div class="row site-footer__top">
@@ -246,38 +246,38 @@
     </div>
   </footer>
   <nav id="navbar_main" class="mobile-offcanvas navbar navbar-expand-lg navbar-dark bg-primary">
-  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
 
-    <!-- Links -->
-	<ul class="main-nav" id="js-menu">
-		<li>
-			<a href="index.html" class="nav-links">Home</a>
-		</li>
-    </ul>
-    <ul class="main-nav" id="js-menu">
-		<li>
-			<a href="services.html" class="nav-links">Services</a>
-		</li>
-    </ul>
-	<ul class="main-nav" id="js-menu">
-		<li>
-			<a href="portfolio.html" class="nav-links">Portfolio</a>
-		</li>
-    </ul>
-	<ul class="main-nav" id="js-menu">
-		<li>
-			<a href="about.html" class="nav-links">About</a>
-		</li>
-    </ul>
-	<ul class="main-nav" id="js-menu">
-		<li>
-			<a href="contact.html" class="nav-links">Contact Us</a>
-		</li>
-    </ul>
-    <!-- Links -->
+      <!-- Links -->
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="index.html" class="nav-links">Home</a>
+        </li>
+      </ul>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="services.html" class="nav-links">Services</a>
+        </li>
+      </ul>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="portfolio.html" class="nav-links">Portfolio</a>
+        </li>
+      </ul>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="about.html" class="nav-links">About</a>
+        </li>
+      </ul>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="contact.html" class="nav-links">Contact Us</a>
+        </li>
+      </ul>
+      <!-- Links -->
 
-  </div>
-</nav>
+    </div>
+  </nav>
 
   <script type='text/javascript' src='js/jquery.mmenu.js'></script>
   <script type='text/javascript' src='js/main-e1b8872fcd.js'></script>
@@ -285,22 +285,22 @@
   <script>
 
     $(document).ready(function () {
-	
-	  $("[data-trigger]").on("click", function(e){
-		e.preventDefault();
-		e.stopPropagation();
-		var offcanvas_id =  $(this).attr('data-trigger');
-		$(offcanvas_id).toggleClass("show");
-		$('body').toggleClass("offcanvas-active");
-		$(".screen-overlay").toggleClass("show");
-	}); 
 
-	$(".btn-close, .screen-overlay").click(function(e){
-		$(".screen-overlay").removeClass("show");
-		$(".mobile-offcanvas").removeClass("show");
-		$("body").removeClass("offcanvas-active");
-	});
-	
+      $("[data-trigger]").on("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var offcanvas_id = $(this).attr('data-trigger');
+        $(offcanvas_id).toggleClass("show");
+        $('body').toggleClass("offcanvas-active");
+        $(".screen-overlay").toggleClass("show");
+      });
+
+      $(".btn-close, .screen-overlay").click(function (e) {
+        $(".screen-overlay").removeClass("show");
+        $(".mobile-offcanvas").removeClass("show");
+        $("body").removeClass("offcanvas-active");
+      });
+
       var productId = getUrlVars()["productId"];
       var filePath = 'json/product-list.json';
 
@@ -367,12 +367,12 @@
         }
         return vars;
       }
-	  
-	  let mainNav = document.getElementById('js-menu');
-	  let navBarToggle = document.getElementById('js-navbar-toggle');
-		  navBarToggle.addEventListener('click', function () {
-		  mainNav.classList.toggle('active');
-	  });	
+
+      let mainNav = document.getElementById('js-menu');
+      let navBarToggle = document.getElementById('js-navbar-toggle');
+      navBarToggle.addEventListener('click', function () {
+        mainNav.classList.toggle('active');
+      });
     });
   </script>
   <script type='text/javascript'>

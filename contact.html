@@ -3,19 +3,18 @@
 
 <head>
   <title>Contact - Budgies Design</title>
-  <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel='stylesheet' id='jquery-mmenu/css-css' href='css/jquery.mmenu.css' type='text/css' media='all' />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel='stylesheet' id='frontpage-sage/css-css' href='css/main-new.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='css/custom.css' type='text/css' />
+  <script type='text/javascript' src='js/jquery.min.js?ver=3.5.1'></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <link rel="apple-touch-icon" sizes="180x180" href="images/logo/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="images/logo/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/logo/favicon-16x16.png">
   <link rel="mask-icon" href="images/logo/safari-pinned-tab.svg" color="#5ca645">
-
-
-  <link rel='stylesheet' id='jquery-mmenu/css-css' href='css/jquery.mmenu.css' type='text/css' media='all' />
-  <link rel='stylesheet' id='frontpage-sage/css-css' href='css/main-new.css' type='text/css' media='all' />
-  <script type='text/javascript' src='js/jquery.min.js?ver=3.5.1'></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <style type="text/css">
     .recentcomments a {
       display: inline !important;
@@ -45,21 +44,15 @@
 </head>
 
 <body class="page-template page-template-template-contact page-template-template-contact-php page page-id-7389 contact">
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54D8X8" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-
   <div id="page-frame" class="has-notfication-banner">
-
     <header class="site-header" data-headroom data-offset="80">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-
             <div class="site-header__wrapper">
               <div class="left-col">
                 <a class="brand-logo" href="index.html">Budgies Design</a>
               </div>
-
               <div class="right-col">
                 <nav class="nav-primary pull-right hidden-xs">
                   <div id="menu-header-menu" class="navigation megamenu">
@@ -72,15 +65,16 @@
                     <div class="megamenu-parent-item hl-item nav-link "><a href="about.html"
                         class="megamenu-item-link">About</a>
                     </div>
-                    
+                    <div class="megamenu-parent-item hl-item nav-link visible-xs"><a
+                        href="https://www.freshconsulting.com/contact/" class="megamenu-item-link">Contact</a></div>
                     <div class="lets-build">
                       <a href="contact.html" class="button button--ghost button--orange"
                         style="margin-left: 24px; z-index:999; position:relative">Contact Us</a>
                     </div>
                   </div>
                 </nav>
-
-                <a href="#mobile-menu" id="mobile-menu-toggle" class="visible-xs" aria-label="Toggle Mobile Menu">
+                <a href="#mobile-menu" data-trigger="#navbar_main" id="mobile-menu-toggle" class="visible-xs"
+                  aria-label="Toggle Mobile Menu">
                   <span></span>
                   <span></span>
                   <span></span>
@@ -88,332 +82,377 @@
                 </a>
               </div>
             </div>
-
           </div>
         </div>
       </div>
-    </header>
 
-    <div class="wrap " role="document">
-      <div class="content">
-        <main class="main">
+      </header>
 
-          <style>
-            .post-header {
-              box-shadow: none;
-            }
+      <div class="wrap " role="document">
+        <div class="content">
+          <main class="main">
 
-            .post-header.london {
-              background-image: url("https://4cwe911ts279hv8dd1ag5p31-wpengine.netdna-ssl.com/wp-content/themes/fresh/dist/images/london-contact-page-banner-xs.jpg");
-            }
-
-            .post-header.default {
-              background-image: url("https://4cwe911ts279hv8dd1ag5p31-wpengine.netdna-ssl.com/wp-content/themes/fresh/dist/images/bellevue-contact-page-banner-xs.jpg");
-            }
-
-            @media(min-width: 768px) {
-              .post-header.london {
-                background-image: url("https://4cwe911ts279hv8dd1ag5p31-wpengine.netdna-ssl.com/wp-content/themes/fresh/dist/images/london-contact-page-banner-md.jpg");
+            <style>
+              .post-header {
+                box-shadow: none;
               }
 
               .post-header.default {
-                background-image: url("https://4cwe911ts279hv8dd1ag5p31-wpengine.netdna-ssl.com/wp-content/themes/fresh/dist/images/bellevue-contact-page-banner-md.jpg");
-              }
-            }
-
-            @media(min-width: 1200px) {
-              .post-header.london {
-                background-image: url("https://4cwe911ts279hv8dd1ag5p31-wpengine.netdna-ssl.com/wp-content/themes/fresh/dist/images/london-contact-page-banner-lg.jpg");
+                background-image: url("images/map/bellevue-contact-page-banner-xs.jpg");
               }
 
-              .post-header.default {
-                background-image: url("https://4cwe911ts279hv8dd1ag5p31-wpengine.netdna-ssl.com/wp-content/themes/fresh/dist/images/bellevue-contact-page-banner-lg.jpg");
+              @media(min-width: 768px) {
+             
+                .post-header.default {
+                  background-image: url("images/map/bellevue-contact-page-banner-md.jpg");
+                }
               }
-            }
-          </style>
+
+              @media(min-width: 1200px) {
+
+                .post-header.default {
+                  background-image: url("images/map/bellevue-contact-page-banner-lg.jpg");
+                }
+              }
+            </style>
 
 
-          <div class="post-header default">
-            <div class="centered">
-              <div class="header-content">
-                <h1 class="billboard-title text-xxl">Contact Us</h1>
+            <div class="post-header default">
+              <div class="centered">
+                <div class="header-content">
+                  <h1 class="billboard-title text-xxl">Contact Us</h1>
+                </div>
+              </div>
+            </div>
+
+            <div class="content container">
+              <div class="row">
+                <div class="col-md-4 col-sm-5 location-contact-details ">
+                  <div class="contact-info">
+                    <span class="contact-info__list icon- mail gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
+                      <p class="text-contact text-sm"><a href="mailto:connect@freshconsulting.com"
+                          class="gray-med">connect@budgiesdesign.com</a></p>
+                    </span>
+                    <span class="contact-info__list icon- icon-phone gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
+                      <p class="text-contact text-sm">(425) 201-3713</p>
+                    </span>
+                    <span class="contact-info__list icon- twitter gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
+                      <p class="text-contact text-sm"><a href="https://twitter.com/FreshConsulting" target="_blank"
+                          rel="noopener" class="gray-med">@BudgiesDesign</a></p>
+                    </span>
+                    <span class="contact-info__list icon- linkedin gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
+                      <p class="text-contact text-sm"><a href="https://www.linkedin.com/company/fresh-consulting"
+                          target="_blank" rel="noopener" class="gray-med">linkedin.com/company/BudgiesDesign</a></p>
+                    </span>
+                    <span class="contact-info__list icon- facebook gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
+                      <p class="text-contact text-sm"><a href="https://www.facebook.com/freshconsulting" target="_blank"
+                          rel="noopener" class="gray-med">facebook.com/Budgies Design</a></p>
+                    </span>
+                    <span class="contact-info__list icon- youtube gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
+                      <p class="text-contact text-sm"><a href="https://www.youtube.com/user/freshconsulting"
+                          target="_blank" rel="noopener" class="gray-med">youtube.com/user/Budgies Design</a></p>
+                    </span>
+                    <span class="contact-info__list icon- location gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
+                      <p class="text-contact text-sm"><a
+                          href="https://www.google.com/maps/place/14725+SE+36th+Street+Suite+300,+Bellevue,+WA+98006"
+                          target="_blank" rel="noopener" class="gray-med">14725 SE 36th Street Suite 300<br />
+                          Bellevue, WA 98006</a></p>
+                    </span>
+                    <span class="contact-info__list icon- document gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
+                      <p class="text-contact text-sm"><a
+                          href="https://4cwe911ts279hv8dd1ag5p31-wpengine.netdna-ssl.com/wp-content/themes/fresh/Fresh-Bellevue-Office-Directions.pdf"
+                          target="_blank" class="gray-med">Download Directions</a></p>
+                    </span>
+                  </div>
+                </div>
+                <div class="col-md-8 col-sm-7 contact-form">
+                  <h3>Got a question or project?</h3>
+                  <p class="text-sm">Drop us a line!</p>
+                  <h3 id="receive-message" class="receive-message">We receive your details. Thanks</h3>
+                  <div class='gf_browser_chrome gform_wrapper input-box_wrapper bold_wrapper' id='gform_wrapper_1'>
+                    <form method='post' id='gform_1' class='input-box bold'>
+                      <div class='gform_body'>
+                        <ul id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'>
+                          <li id='field_1_12'
+                            class='gfield text-sm mb-lg-20 mb-md-20 mb-sm-10 mb-xs-10 gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible'>
+                            <label class='gfield_label gfield_label_before_complex'>Name<span
+                                class='gfield_required'>*</span></label>
+                            <div
+                              class='ginput_complex ginput_container no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name'
+                              id='input_1_12'>
+
+                              <span id='input_1_12_3_container' class='name_first'>
+                                <input type='text' name='firstName' id='firstName' value='' aria-label='First name'
+                                  aria-required="true" aria-invalid="false" placeholder='First' />
+                                <label for='input_1_12_3'>First</label>
+                              </span>
+
+                              <span id='input_1_12_6_container' class='name_last'>
+                                <input type='text' name='lastName' id='lastName' value='' aria-label='Last name'
+                                  aria-required="true" aria-invalid="false" placeholder='Last' />
+                                <label for='input_1_12_6'>Last</label>
+                              </span>
+
+                            </div>
+                          </li>
+                          <li id='field_1_2'
+                            class='gfield text-sm mb-lg-20 mb-md-20 mb-sm-10 mb-xs-10 gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible'>
+                            <label class='gfield_label' for='input_1_2'>Email<span
+                                class='gfield_required'>*</span></label>
+                            <div class='ginput_container ginput_container_email'>
+                              <input style="margin-top: 20px" name='emalId' id='emailId' type='email' value=''
+                                class='medium' placeholder='Email' aria-required="true" aria-invalid="false" />
+                            </div>
+                          </li>
+                          <li id='field_1_13'
+                            class='gfield text-sm mb-lg-20 mb-md-20 mb-sm-10 mb-xs-10 field_sublabel_below field_description_below gfield_visibility_visible'>
+                            <label class='gfield_label' for='input_1_13'>Company</label>
+                            <div class='ginput_container ginput_container_text'><input style="margin-top: 20px"
+                                name='company' id='company' type='text' value='' class='medium' placeholder='Company'
+                                aria-invalid="false" /></div>
+                          </li>
+                          <li id='field_1_11'
+                            class='gfield text-sm mb-lg-20 mb-md-20 mb-sm-10 mb-xs-10 field_sublabel_below field_description_below gfield_visibility_visible'>
+                            <label class='gfield_label' for='input_1_11'>How did you hear about us?</label>
+                            <div class='ginput_container ginput_container_select'><select style="margin-top: 20px"
+                                name='hearAbout' id='hearAbout' class='medium gfield_select' aria-invalid="false">
+                                <option value='' selected='selected' class='gf_placeholder'>How did you hear about us?
+                                </option>
+                                <option value='Internet Search'>Internet Search</option>
+                                <option value='Facebook'>Facebook</option>
+                                <option value='GeekWire'>GeekWire</option>
+                                <option value='Inc. 500/5000'>Inc. 500/5000</option>
+                                <option value='LinkedIn'>LinkedIn</option>
+                                <option value='New Tech Seattle'>New Tech Seattle</option>
+                                <option value='Puget Sound Business Journal'>Puget Sound Business Journal</option>
+                                <option value='Referral'>Referral</option>
+                                <option value='Twitter'>Twitter</option>
+                                <option value='Other'>Other</option>
+                              </select></div>
+                          </li>
+                          <li id='field_1_3'
+                            class='gfield text-sm mb-lg-20 mb-md-20 mb-sm-10 mb-xs-10 gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible'>
+                            <label class='gfield_label' for='input_1_3'>Your question or a bit about your project<span
+                                class='gfield_required'>*</span></label>
+                            <div class='ginput_container ginput_container_textarea'><textarea style="margin-top: 20px"
+                                name='yourQuestion' id='yourQuestion' class='textarea medium'
+                                placeholder='Your question or a bit about your project' aria-required="true"
+                                aria-invalid="false" rows='10' cols='50'></textarea></div>
+                          </li>
+                          <li id='field_1_14'
+                            class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible'>
+                            <div class="gdpr-notice gdpr-notice--contact">
+                              <p>By clicking Submit, you agree to Budgies Design&#8217;s <a href="/privacy-policy"
+                                  rel="noopener" target="_blank">Privacy Policy</a>.</p>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class='gform_footer top_label'> <input type='button' id='gform_submit_button_1'
+                          class='gform_button button' value='Submit' />
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+          </main>
+        </div>
+      </div>
+	  
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row site-footer__top">
+            <div class="col-sm-1 col-md-1 hidden-xs">
+              <div class="logo__small"></div>
+            </div>
+            <div class="col-sm-offset-1 col-sm-3 col-md-2 col-md-offset-2 hidden-xs">
+              <div class="text__featured"><a href="/seattle/">Seattle</a></div>
+              <div class="text__regular mt-2x">
+                <a style="display: block;" target="_blank" rel="noopener"
+                  href="https://www.google.com/maps/dir/''/Fresh+Consulting,+14725+SE+36th+St+%23300,+Bellevue,+WA+98006">
+                  14725 SE 36th Street<br>
+                  Suite 300<br>
+                  Bellevue, WA 98006
+                </a>
+                <br>
+                <br>
+                <a href="tel:(425)201-3713">(425) 201-3713</a>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-2 col-md-offset-1 hidden-xs">
+              <div class="text__featured"><a href="/portland/">Portland</a></div>
+              <div class="text__regular mt-2x">
+                811 SE Stark Street<br>
+                Suite 300<br>
+                Portland, OR 97214<br>
+                <br>
+                <br>
+                <a href="tel:(503)610-8052">(503) 610-8052</a>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-md-offset-1 hidden-xs">
+              <div class="text__featured"><a href="/bangkok/">Bangkok</a></div>
+              <div class="text__regular mt-2x">
+                67/8 Soi Sathorn 3 (Suanplu), <br>South Sathorn Road
+                <br>
+                Tungmahamek, Sathorn, Bangkok, Thailand 10120
+                <br>
+                <br>
+                <a href="tel:+6622871287">+66 2 287 1287</a>
               </div>
             </div>
           </div>
-
-          <div class="content container">
-            <div class="row">
-              <div class="col-md-4 col-sm-5 location-contact-details ">
-                <div class="contact-info">
-                  <span class="contact-info__list icon- mail gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
-                    <p class="text-contact text-sm"><a href="mailto:connect@freshconsulting.com"
-                        class="gray-med">connect@budgiesdesign.com</a></p>
-                  </span>
-                  <span class="contact-info__list icon- icon-phone gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
-                    <p class="text-contact text-sm">(425) 201-3713</p>
-                  </span>
-                  <span class="contact-info__list icon- twitter gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
-                    <p class="text-contact text-sm"><a href="https://twitter.com/FreshConsulting" target="_blank"
-                        rel="noopener" class="gray-med">@BudgiesDesign</a></p>
-                  </span>
-                  <span class="contact-info__list icon- linkedin gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
-                    <p class="text-contact text-sm"><a href="https://www.linkedin.com/company/fresh-consulting"
-                        target="_blank" rel="noopener" class="gray-med">linkedin.com/company/BudgiesDesign</a></p>
-                  </span>
-                  <span class="contact-info__list icon- facebook gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
-                    <p class="text-contact text-sm"><a href="https://www.facebook.com/freshconsulting" target="_blank"
-                        rel="noopener" class="gray-med">facebook.com/Budgies Design</a></p>
-                  </span>
-                  <span class="contact-info__list icon- youtube gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
-                    <p class="text-contact text-sm"><a href="https://www.youtube.com/user/freshconsulting"
-                        target="_blank" rel="noopener" class="gray-med">youtube.com/user/Budgies Design</a></p>
-                  </span>
-                  <span class="contact-info__list icon- location gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
-                    <p class="text-contact text-sm"><a
-                        href="https://www.google.com/maps/place/14725+SE+36th+Street+Suite+300,+Bellevue,+WA+98006"
-                        target="_blank" rel="noopener" class="gray-med">14725 SE 36th Street Suite 300<br />
-                        Bellevue, WA 98006</a></p>
-                  </span>
-                  <span class="contact-info__list icon- document gray text-sm mb-lg-30 mb-md-20 mb-sm-20 mb-xs-20">
-                    <p class="text-contact text-sm"><a
-                        href="https://4cwe911ts279hv8dd1ag5p31-wpengine.netdna-ssl.com/wp-content/themes/fresh/Fresh-Bellevue-Office-Directions.pdf"
-                        target="_blank" class="gray-med">Download Directions</a></p>
-                  </span>
-                </div>
-              </div>
-              <div class="col-md-8 col-sm-7 contact-form">
-                <h3>Got a question or project?</h3>
-                <p class="text-sm">Drop us a line!</p>
-				<h3 id="receive-message" class="receive-message" >We receive your details. Thanks</h3>
-                <div class='gf_browser_chrome gform_wrapper input-box_wrapper bold_wrapper' id='gform_wrapper_1'>
-                  <form method='post'  id='gform_1' class='input-box bold'>
-                    <div class='gform_body'>
-                      <ul id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'>
-                        <li id='field_1_12'
-                          class='gfield text-sm mb-lg-20 mb-md-20 mb-sm-10 mb-xs-10 gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible'>
-                          <label class='gfield_label gfield_label_before_complex'>Name<span
-                              class='gfield_required'>*</span></label>
-                          <div
-                            class='ginput_complex ginput_container no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name'
-                            id='input_1_12'>
-
-                            <span id='input_1_12_3_container' class='name_first'>
-                              <input type='text' name='firstName' id='firstName' value='' aria-label='First name'
-                                aria-required="true" aria-invalid="false" placeholder='First' />
-                              <label for='input_1_12_3'>First</label>
-                            </span>
-
-                            <span id='input_1_12_6_container' class='name_last'>
-                              <input type='text' name='lastName' id='lastName' value='' aria-label='Last name'
-                                aria-required="true" aria-invalid="false" placeholder='Last' />
-                              <label for='input_1_12_6'>Last</label>
-                            </span>
-
-                          </div>
-                        </li>
-                        <li id='field_1_2'
-                          class='gfield text-sm mb-lg-20 mb-md-20 mb-sm-10 mb-xs-10 gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible'>
-                          <label class='gfield_label' for='input_1_2'>Email<span
-                              class='gfield_required'>*</span></label>
-                          <div class='ginput_container ginput_container_email'>
-                            <input style="margin-top: 20px" name='emalId' id='emailId' type='email' value=''
-                              class='medium' placeholder='Email' aria-required="true" aria-invalid="false" />
-                          </div>
-                        </li>
-                        <li id='field_1_13'
-                          class='gfield text-sm mb-lg-20 mb-md-20 mb-sm-10 mb-xs-10 field_sublabel_below field_description_below gfield_visibility_visible'>
-                          <label class='gfield_label' for='input_1_13'>Company</label>
-                          <div class='ginput_container ginput_container_text'><input style="margin-top: 20px"
-                              name='company' id='company' type='text' value='' class='medium' placeholder='Company'
-                              aria-invalid="false" /></div>
-                        </li>
-                        <li id='field_1_11'
-                          class='gfield text-sm mb-lg-20 mb-md-20 mb-sm-10 mb-xs-10 field_sublabel_below field_description_below gfield_visibility_visible'>
-                          <label class='gfield_label' for='input_1_11'>How did you hear about us?</label>
-                          <div class='ginput_container ginput_container_select'><select style="margin-top: 20px"
-                              name='hearAbout' id='hearAbout' class='medium gfield_select' aria-invalid="false">
-                              <option value='' selected='selected' class='gf_placeholder'>How did you hear about us?
-                              </option>
-                              <option value='Internet Search'>Internet Search</option>
-                              <option value='Facebook'>Facebook</option>
-                              <option value='GeekWire'>GeekWire</option>
-                              <option value='Inc. 500/5000'>Inc. 500/5000</option>
-                              <option value='LinkedIn'>LinkedIn</option>
-                              <option value='New Tech Seattle'>New Tech Seattle</option>
-                              <option value='Puget Sound Business Journal'>Puget Sound Business Journal</option>
-                              <option value='Referral'>Referral</option>
-                              <option value='Twitter'>Twitter</option>
-                              <option value='Other'>Other</option>
-                            </select></div>
-                        </li>
-                        <li id='field_1_3'
-                          class='gfield text-sm mb-lg-20 mb-md-20 mb-sm-10 mb-xs-10 gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible'>
-                          <label class='gfield_label' for='input_1_3'>Your question or a bit about your project<span
-                              class='gfield_required'>*</span></label>
-                          <div class='ginput_container ginput_container_textarea'><textarea style="margin-top: 20px"
-                              name='yourQuestion' id='yourQuestion' class='textarea medium'
-                              placeholder='Your question or a bit about your project' aria-required="true"
-                              aria-invalid="false" rows='10' cols='50'></textarea></div>
-                        </li>
-                        <li id='field_1_14'
-                          class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible'>
-                          <div class="gdpr-notice gdpr-notice--contact">
-                            <p>By clicking Submit, you agree to Budgies Design&#8217;s <a href="/privacy-policy"
-                                rel="noopener" target="_blank">Privacy Policy</a>.</p>
-                          </div>
-                        </li>
+          <div class="row site-footer__bottom">
+            <div class="col-md-12">
+              <div class="site-footer__bottom-wrapper">
+                <div class="row">
+                  <div class="col-sm-12 col-md-10">
+                    <div class="text__small site-footer__copyright hidden-xs hidden-sm">
+                      &copy; 2020 Budgiesdesign <span class="site-footer__fresh-pp"> &#8226; <a href="index.html"
+                          alt="Budgies Design Privacy Policy">Privacy Policy</a></span>
+                    </div>
+                    <div class="site-footer__nav-wrapper">
+                      <ul class="nav--horizontal footer-nav">
+                        <li class="nav__item"><a href="index.html">Home</a></li>
+                        <li class="nav__item"><a href="services.html">Services</a></li>
+                        <li class="nav__item"><a href="portfolio.html">Portfolio</a></li>
+                        <li class="nav__item"><a href="about.html">About</a></li>
+                        <li class="nav__item"><a href="contact.html">Contact</a></li>
                       </ul>
                     </div>
-                    <div class='gform_footer top_label'> <input type='button' id='gform_submit_button_1'
-                        class='gform_button button' value='Submit' />
-                    </div>
-                  </form>
-				  
-				  
-				  
-                </div>
-              </div>
-            </div>
-        </main>
-      </div>
-    </div>
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row site-footer__top">
-          <div class="col-sm-1 col-md-1 hidden-xs">
-            <div class="logo__small"></div>
-          </div>
-          <div class="col-sm-offset-1 col-sm-3 col-md-2 col-md-offset-2 hidden-xs">
-            <div class="text__featured"><a href="/seattle/">Seattle</a></div>
-            <div class="text__regular mt-2x">
-              <a style="display: block;" target="_blank" rel="noopener"
-                href="https://www.google.com/maps/dir/''/Fresh+Consulting,+14725+SE+36th+St+%23300,+Bellevue,+WA+98006">
-                14725 SE 36th Street<br>
-                Suite 300<br>
-                Bellevue, WA 98006
-              </a>
-              <br>
-              <br>
-              <a href="tel:(425)201-3713">(425) 201-3713</a>
-            </div>
-          </div>
-          <div class="col-sm-3 col-md-2 col-md-offset-1 hidden-xs">
-            <div class="text__featured"><a href="/portland/">Portland</a></div>
-            <div class="text__regular mt-2x">
-              811 SE Stark Street<br>
-              Suite 300<br>
-              Portland, OR 97214<br>
-              <br>
-              <br>
-              <a href="tel:(503)610-8052">(503) 610-8052</a>
-            </div>
-          </div>
-          <div class="col-sm-4 col-md-3 col-md-offset-1 hidden-xs">
-            <div class="text__featured"><a href="/bangkok/">Bangkok</a></div>
-            <div class="text__regular mt-2x">
-              67/8 Soi Sathorn 3 (Suanplu), <br>South Sathorn Road
-              <br>
-              Tungmahamek, Sathorn, Bangkok, Thailand 10120
-              <br>
-              <br>
-              <a href="tel:+6622871287">+66 2 287 1287</a>
-            </div>
-          </div>
-        </div>
-        <div class="row site-footer__bottom">
-          <div class="col-md-12">
-            <div class="site-footer__bottom-wrapper">
-              <div class="row">
-                <div class="col-sm-12 col-md-10">
-                  <div class="text__small site-footer__copyright hidden-xs hidden-sm">
-                    &copy; 2020 Budgiesdesign <span class="site-footer__fresh-pp"> &#8226; <a href="index.html"
+                  </div>
+                  <div class="col-sm-12 col-md-2 site-footer__socials">
+                    <a href="/" target="_blank" rel="noopener" title=""><img src="images/logo/linkedin-in.svg"
+                        alt="Budgies Design on LinkedIn"></a>
+                    <a href="/" target="_blank" rel="noopener" title=""><img src="images/logo/youtube.svg"
+                        alt="Budgies Design on YouTube"></a>
+                    <a href="/" target="_blank" rel="noopener" title=""><img src="images/logo/twitter.svg"
+                        alt="Budgies Design on Twitter"></a>
+                    <a href="/" target="_blank" rel="noopener" title=""><img src="images/logo/facebook-square.svg"
+                        alt="Budgies Design on Facebook"></a>
+                  </div>
+                  <div class="col-sm-12 visible-xs visible-sm mt-3x center">
+                    &copy; 2020 Budgies Design <span class="site-footer__fresh-pp"> &#8226; <a href=""
                         alt="Budgies Design Privacy Policy">Privacy Policy</a></span>
                   </div>
-                  <div class="site-footer__nav-wrapper">
-                    <ul class="nav--horizontal footer-nav">
-                      <li class="nav__item"><a href="index.html">Home</a></li>
-                      <li class="nav__item"><a href="services.html">Services</a></li>
-                      <li class="nav__item"><a href="portfolio.html">Portfolio</a></li>
-                      <li class="nav__item"><a href="about.html">About</a></li>
-                      <li class="nav__item"><a href="contact.html">Contact</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-2 site-footer__socials">
-                  <a href="/" target="_blank" rel="noopener" title=""><img src="images/logo/linkedin-in.svg"
-                      alt="Budgies Design on LinkedIn"></a>
-                  <a href="/" target="_blank" rel="noopener" title=""><img src="images/logo/youtube.svg"
-                      alt="Budgies Design on YouTube"></a>
-                  <a href="/" target="_blank" rel="noopener" title=""><img src="images/logo/twitter.svg"
-                      alt="Budgies Design on Twitter"></a>
-                  <a href="/" target="_blank" rel="noopener" title=""><img src="images/logo/facebook-square.svg"
-                      alt="Budgies Design on Facebook"></a>
-                </div>
-                <div class="col-sm-12 visible-xs visible-sm mt-3x center">
-                  &copy; 2020 Budgies Design <span class="site-footer__fresh-pp"> &#8226; <a
-                      href=""
-                      alt="Budgies Design Privacy Policy">Privacy
-                      Policy</a></span>
-                </div>
 
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
   </div>
+  
   </footer>
   </div>
+	<nav id="navbar_main" class="mobile-offcanvas navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
 
+      <!-- Links -->
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="index.html" class="nav-links">Home</a>
+        </li>
+      </ul>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="services.html" class="nav-links">Services</a>
+        </li>
+      </ul>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="portfolio.html" class="nav-links">Portfolio</a>
+        </li>
+      </ul>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="about.html" class="nav-links">About</a>
+        </li>
+      </ul>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="contact.html" class="nav-links">Contact Us</a>
+        </li>
+      </ul>
+      <!-- Links -->
+    </div>
+  </nav>
 </body>
-	<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js">
 </script>
 
-	<script>
-	$(document).ready(function(){
-		 $("#receive-message").hide();
-		
-		emailjs.init("user_cK0bqr0tbLZzfMNo4Vcgx"); //use your USER ID
-		// Submit form data
-		$("#gform_submit_button_1").click(function(){
-			var firstName = $("#firstName").val();
-			var lastName = $("#lastName").val();
-			var emailId = $("#emailId").val();
-			var company = $("#company").val();
-			var hearAbout = $("#hearAbout").val();
-			var yourQuestion = $("#yourQuestion").val();
-			
-			
-			var templateParams = {
-				firstname: firstName,
-				lastname: lastName,
-				emailid: emailId,
-				company: company,
-				hearabout: hearAbout,
-				yourquestion: yourQuestion
-			};
-		
-		emailjs.send('service_sqt3027', 'template_mupg134', templateParams) //use your Service ID and Template ID
-			.then(function(response) {
-			   console.log('SUCCESS!', response.status, response.text);
-			   //Show message and clear all fields.
-			   $("#receive-message").show();
-			   $("#firstName").val('');
-			   $("#lastName").val('');
-			   $("#emailId").val('');
-			   $("#company").val('');
-			   $("#hearAbout").val('');
-			   $("#yourQuestion").val('');
-			   
-			}, function(error) {
-			   console.log('FAILED...', error);
-			});
-			
-			
-		});
-		
+<script type='text/javascript' src='js/enlighterjs.min.js?ver=4.2'></script>
+<script type='text/javascript' src='js/jquery.mmenu.js'></script>
+<script type='text/javascript' src='js/skrollr.min.js'></script>
+<script type='text/javascript' src='js/jquery.carouFredSel-plugins.js'></script>
+<script type='text/javascript' src='js/jquery.carouFredSel-6.2.1-packed.js'></script>
+<script type='text/javascript' src='js/main-d863cfc150.js'></script>
+
+
+<script>
+	
+  $(document).ready(function () {
+    $("[data-trigger]").on("click", function (e) {
+		e.preventDefault();
+		e.stopPropagation();
+		var offcanvas_id = $(this).attr('data-trigger');
+		$(offcanvas_id).toggleClass("show");
+		$('body').toggleClass("offcanvas-active");
+		$(".screen-overlay").toggleClass("show");
 	});
-	</script>
+	$(".btn-close, .screen-overlay").click(function (e) {
+		$(".screen-overlay").removeClass("show");
+		$(".mobile-offcanvas").removeClass("show");
+		$("body").removeClass("offcanvas-active");
+	});
+	
+    $("#receive-message").hide();
+
+    emailjs.init("user_cK0bqr0tbLZzfMNo4Vcgx"); //use your USER ID
+    // Submit form data
+    $("#gform_submit_button_1").click(function () {
+      var firstName = $("#firstName").val();
+      var lastName = $("#lastName").val();
+      var emailId = $("#emailId").val();
+      var company = $("#company").val();
+      var hearAbout = $("#hearAbout").val();
+      var yourQuestion = $("#yourQuestion").val();
+
+
+      var templateParams = {
+        firstname: firstName,
+        lastname: lastName,
+        emailid: emailId,
+        company: company,
+        hearabout: hearAbout,
+        yourquestion: yourQuestion
+      };
+
+      emailjs.send('service_sqt3027', 'template_mupg134', templateParams) //use your Service ID and Template ID
+        .then(function (response) {
+          console.log('SUCCESS!', response.status, response.text);
+          //Show message and clear all fields.
+          $("#receive-message").show();
+          $("#firstName").val('');
+          $("#lastName").val('');
+          $("#emailId").val('');
+          $("#company").val('');
+          $("#hearAbout").val('');
+          $("#yourQuestion").val('');
+
+        }, function (error) {
+          console.log('FAILED...', error);
+        });
+
+
+    });
+	let mainNav = document.getElementById('js-menu');
+	let navBarToggle = document.getElementById('js-navbar-toggle');
+	  navBarToggle.addEventListener('click', function () {
+		mainNav.classList.toggle('active');
+	});
+  });
+  
+</script>
 
 </html>
