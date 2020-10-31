@@ -3491,6 +3491,7 @@ pre code {
 
 @media (min-width:992px) {
 	.container {
+		margin-right: 700px;
 		width: 970px
 	}
 }
@@ -15444,6 +15445,7 @@ a:focus {
 
 @media (min-width:992px) {
 	.brand-logo {
+		margin-right:500px;
 		width: 165px
 	}
 }
@@ -20700,7 +20702,8 @@ body .video-lazy {
 .page-section .container--static,
 .page-section>.container {
 	max-width: 320px;
-	margin: 0 auto
+	margin: 0 auto;
+	margin-bottom:30px;
 }
 .page-section__container-sm {
 	max-width: 600px;
@@ -23754,7 +23757,6 @@ body.is-mobile .person-info__avatar video {
 	padding-top: 0
 }
 .page-section.contact {
-	padding: 110px 0 0;
 	min-height: 0
 }
 @media (max-width: 991px) {

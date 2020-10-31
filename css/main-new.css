@@ -17029,8 +17029,8 @@ p.gform_button:hover {
 	background-position: center;
 	text-indent: -9999px;
 	direction: ltr;
-	height: 40px;
-	width: 120px;
+	height: 30px;
+	width: 100px;
 	margin: 0 auto;
 	padding: 0;
 	box-sizing: content-box;
@@ -17051,6 +17051,7 @@ p.gform_button:hover {
 
 @media (min-width:992px) {
 	.brand-logo {
+		margin-right: 500px;
 		width: 165px
 	}
 }
@@ -21503,7 +21504,7 @@ body .video-lazy {
 }
 
 .page-section.contact {
-	padding: 110px 0 0;
+	/* padding: 110px 0 0; */
 	min-height: 0
 }
 

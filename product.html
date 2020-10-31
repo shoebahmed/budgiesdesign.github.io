@@ -4,12 +4,15 @@
 <head>
   <title>Product - Budgies Design</title>
 
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel='stylesheet' id='jquery-mmenu/css-css' href='css/jquery.mmenu.css' type='text/css' media='all' />
   <link rel='stylesheet' id='frontpage-sage/css-css' href='css/main-new.css' type='text/css' media='all' />
   <link rel='stylesheet' href='css/custom.css' type='text/css' />
+  
   <script type='text/javascript' src='js/jquery.min.js?ver=3.5.1'></script>
   <script type='text/javascript' src='js/pzei2beoa0.jsonp'></script>
+  
   <link rel="icon" href="images/logo/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" href="images/logo/favicon-32x32.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="images/logo/favicon-32x32.png" />
@@ -43,53 +46,37 @@
 
 <body class="portfolio-template-default single single-portfolio postid-6380 ben-bridge-jeweler">
 
-  <div id="page-frame">
+  <div>
 
-    <header class="site-header" data-headroom data-offset="80">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-
-            <div class="site-header__wrapper">
-              <div class="left-col">
-                <a class="brand-logo" href="index.html">Fresh Consulting</a>
-              </div>
-              <div class="right-col">
-                <nav class="nav-primary pull-right hidden-xs">
-                  <div id="menu-header-menu" class="navigation megamenu">
-                    <div class="megamenu-parent-item hl-item nav-link "><a href="services.html"
-                        class="megamenu-item-link">Services</a>
-                    </div>
-                    <div class="megamenu-parent-item hl-item nav-link "><a href="portfolio.html"
-                        class="megamenu-item-link">Portfolio</a>
-                    </div>
-                    <div class="megamenu-parent-item hl-item nav-link "><a href="about.html"
-                        class="megamenu-item-link">About</a>
-                    </div>
-                    <div class="megamenu-parent-item hl-item nav-link visible-xs"><a href="contact.html"
-                        class="megamenu-item-link">Contact</a></div>
-                    <!-- end #menu-header-menu -->
-                    <div class="lets-build">
-                      <a href="contact.html" class="button button--ghost button--orange"
-                        style="margin-left: 24px; z-index:999; position:relative">Contact Us</a>
-                    </div>
-                  </div>
-                </nav>
-
-                <a href="#mobile-menu" data-trigger="#navbar_main" id="mobile-menu-toggle" class="visible-xs"
-                  aria-label="Toggle Mobile Menu">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </header>
+    <header>
+    <div class="topnav" id="myTopnav">
+	  <a href="index.html">
+		  <div class="megamenu-parent-item hl-item nav-link brand-logo">
+		  </div>
+	 </a>
+	  
+	 <a href="services.html">
+		  <div class="megamenu-parent-item hl-item nav-link ">Services
+		  </div>
+	 </a>
+	 <a href="services.html">
+		  <div class="megamenu-parent-item hl-item nav-link ">Portfolio
+		  </div>
+	 </a>
+	 <a href="about.html">
+		  <div class="megamenu-parent-item hl-item nav-link ">About
+		  </div>
+	 </a>
+	 <a href="contact.html">
+		  <div class="megamenu-parent-item hl-item nav-link ">Contact US
+		  </div>
+	 </a>
+	 
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+	  </a>
+	</div>
+  </header>
 
     <div class="wrap " role="document">
       <div class="content">
@@ -245,61 +232,13 @@
     </div>
     </div>
   </footer>
-  <nav id="navbar_main" class="mobile-offcanvas navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-
-      <!-- Links -->
-      <ul class="main-nav" id="js-menu">
-        <li>
-          <a href="index.html" class="nav-links">Home</a>
-        </li>
-      </ul>
-      <ul class="main-nav" id="js-menu">
-        <li>
-          <a href="services.html" class="nav-links">Services</a>
-        </li>
-      </ul>
-      <ul class="main-nav" id="js-menu">
-        <li>
-          <a href="portfolio.html" class="nav-links">Portfolio</a>
-        </li>
-      </ul>
-      <ul class="main-nav" id="js-menu">
-        <li>
-          <a href="about.html" class="nav-links">About</a>
-        </li>
-      </ul>
-      <ul class="main-nav" id="js-menu">
-        <li>
-          <a href="contact.html" class="nav-links">Contact Us</a>
-        </li>
-      </ul>
-      <!-- Links -->
-
-    </div>
-  </nav>
-
+  
   <script type='text/javascript' src='js/jquery.mmenu.js'></script>
   <script type='text/javascript' src='js/main-e1b8872fcd.js'></script>
   <script type='text/javascript' src="js/jquery.min.js"></script>
   <script>
 
     $(document).ready(function () {
-
-      $("[data-trigger]").on("click", function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        var offcanvas_id = $(this).attr('data-trigger');
-        $(offcanvas_id).toggleClass("show");
-        $('body').toggleClass("offcanvas-active");
-        $(".screen-overlay").toggleClass("show");
-      });
-
-      $(".btn-close, .screen-overlay").click(function (e) {
-        $(".screen-overlay").removeClass("show");
-        $(".mobile-offcanvas").removeClass("show");
-        $("body").removeClass("offcanvas-active");
-      });
 
       var productId = getUrlVars()["productId"];
       var filePath = 'json/product-list.json';
@@ -374,6 +313,15 @@
         mainNav.classList.toggle('active');
       });
     });
+	  function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+
   </script>
   <script type='text/javascript'>
 
