@@ -352,6 +352,7 @@
 
   
   
+  
   <script type='text/javascript' src='js/main-d863cfc150.js'></script>
 
   <script>
@@ -366,11 +367,7 @@
         $(".screen-overlay").toggleClass("show");
       });
 
-      $(".btn-close, .screen-overlay").click(function (e) {
-        $(".screen-overlay").removeClass("show");
-        $(".mobile-offcanvas").removeClass("show");
-        $("body").removeClass("offcanvas-active");
-      });
+      
 
       $.getJSON("json/services-list.json", function (data) {
         var htmlString = '<div  class=\"section-portfolio__tile-grid\">';
