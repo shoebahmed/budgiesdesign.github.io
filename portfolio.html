@@ -4,10 +4,10 @@
 <head>
   <title>Portfolio | Budgies Design</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel='stylesheet' id='jquery-mmenu/css-css' href='css/jquery.mmenu.css' type='text/css' media='all' />
   <link rel='stylesheet' id='frontpage-sage/css-css' href='css/main-new.css' type='text/css' media='all' />
-  <link rel='stylesheet' href='css/custom.css' type='text/css' />
+  <link rel='stylesheet' href='css/bootstrap.min.css' type='text/css' />
+  
   <link rel="icon" href="images/logo/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" href="images/logo/favicon-32x32.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="images/logo/favicon-32x32.png" />
@@ -42,34 +42,68 @@
 <body
   class="page-template page-template-template-portfolio page-template-template-portfolio-php page page-id-7209 portfolio">
   <div>
-    <header>
-    <div class="topnav" id="myTopnav" style="position: sticky;">
-	  <a href="index.html">
-		  <div class="megamenu-parent-item hl-item nav-link brand-logo">
-		  </div>
-	 </a>
-	  
-	 <a href="services.html">
-		  <div class="megamenu-parent-item hl-item nav-link align-text">SERVICES
-		  </div>
-	 </a>
-	 <a href="services.html">
-		  <div class="megamenu-parent-item hl-item nav-link align-text">PORTFOLIO
-		  </div>
-	 </a>
-	 <a href="about.html">
-		  <div class="megamenu-parent-item hl-item nav-link align-text">ABOUT
-		  </div>
-	 </a>
-	 <a href="services.html">
-		  <div class="megamenu-parent-item hl-item nav-link align-text">CONTACT US
-		  </div>
-	 </a>
-	 
-	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		<i class="fa fa-bars"></i>
-	  </a>
-	</div>
+     <header>
+	<div class="container hidden-xs">
+    <div class="row">
+      <div class="col-xs-12">
+
+        <div class="site-header__wrapper">
+          <div class="left-col">
+            <a class="brand-logo" href="index.html">Budgies Design</a>
+          </div>
+
+          <div class="right-col">
+            <nav class="nav-primary pull-right hidden-xs">
+              <div id="menu-header-menu" class="navigation megamenu">
+               <div class="megamenu-parent-item hl-item nav-link "><a href="index.html"
+                    class="megamenu-item-link">Home</a>
+                </div>
+                <div class="megamenu-parent-item hl-item nav-link "><a href="services.html"
+                    class="megamenu-item-link">services</a>
+                </div>
+				<div class="megamenu-parent-item hl-item nav-link "><a href="portfolio.html"
+                    class="megamenu-item-link">Portfolio</a>
+                </div>
+                <div class="megamenu-parent-item hl-item nav-link "><a href="about.html"
+                    class="megamenu-item-link">About</a>
+                </div>
+                <div class="lets-build">
+                  <a href="contact.html" class="button button--ghost button--orange"
+                    style="margin-left: 24px; z-index:999; position:relative">Contact Us</a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+	<nav class="navbar navbar-default hidden-lg hidden-sm" style="margin-bottom:0px;" >
+	  <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  
+		   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="services.html">SERVICES</a></li>
+			<li class="active"><a href="portfolio.html">PORTFOLIO<span class="sr-only">(current)</span></a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="contact.html">CONTACT US</a></li>
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
   </header>
     <section class="page-section section-portfolio">
       <div class="container section-portfolio__content">
@@ -223,14 +257,6 @@
       $("#product-list").html(htmlString + '</div>');
     });
   });
-	  function myFunction() {
-		  var x = document.getElementById("myTopnav");
-		  if (x.className === "topnav") {
-			x.className += " responsive";
-		  } else {
-			x.className = "topnav";
-		  }
-		}
 </script>
 
 </html>

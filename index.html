@@ -5,20 +5,20 @@
 
   <title>Home | Budgies Design</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="apple-touch-icon" sizes="180x180" href="images/logo/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="images/logo/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/logo/favicon-16x16.png">
   <link rel="mask-icon" href="images/logo/safari-pinned-tab.svg" color="#5ca645">
-
   
   <link rel='stylesheet' id='jquery-mmenu/css-css' href='css/jquery.mmenu.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='frontpage-sage/css-css' href='css/main.css' type='text/css' media='all' />
   <link rel='stylesheet' id='frontpage-sage/css-css' href='css/main-new.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/bootstrap.min.css' type='text/css' />
   <link rel='stylesheet' href='css/custom.css' type='text/css' />
+
   
   <script type='text/javascript' src='js/jquery.min.js?ver=3.5.1'></script>
   <script type='text/javascript' src='js/pzei2beoa0.jsonp'></script>
-  <script type='text/javascript' src='https://www.youtube.com/iframe_api'></script>
   <link rel='https://api.w.org/' href='js/wp-json.jsonp' />
   <style type="text/css">
     .recentcomments a {
@@ -33,43 +33,87 @@
       visibility: hidden;
       left: -99999em
     }
+	
 }
   </style>
   <link rel="icon" href="images/logo/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" href="images/logo/favicon-32x32.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="images/logo/favicon-32x32.png" />
   <meta name="msapplication-TileImage" content="images/logo/favicon-32x32.png" />
+  <style type="text/css">
+		html{
+				overflow-x: hidden;
+		}
+  </style>
 </head>
 
 <body class="home page-template-default page page-id-14 front-page-v5">
-  <header>
-    <div class="topnav" id="myTopnav" style="position: sticky;">
-	  <a href="index.html">
-		  <div class="megamenu-parent-item hl-item nav-link brand-logo">
-		  </div>
-	 </a>
-	  
-	 <a href="services.html">
-		  <div class="megamenu-parent-item hl-item nav-link align-text">SERVICES
-		  </div>
-	 </a>
-	 <a href="services.html">
-		  <div class="megamenu-parent-item hl-item nav-link align-text">PORTFOLIO
-		  </div>
-	 </a>
-	 <a href="about.html">
-		  <div class="megamenu-parent-item hl-item nav-link align-text">ABOUT
-		  </div>
-	 </a>
-	 <a href="services.html">
-		  <div class="megamenu-parent-item hl-item nav-link align-text">CONTACT US
-		  </div>
-	 </a>
-	 
-	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		<i class="fa fa-bars"></i>
+  <header data-headroom data-offset="80">
+	<div class="container hidden-xs">
+    <div class="row">
+      <div class="col-xs-12">
+
+        <div class="site-header__wrapper">
+          <div class="left-col">
+            <a class="brand-logo" href="index.html">Budgies Design</a>
+          </div>
+
+          <div class="right-col">
+            <nav class="nav-primary pull-right hidden-xs">
+              <div id="menu-header-menu" class="navigation megamenu">
+               <div class="megamenu-parent-item hl-item nav-link "><a href="index.html"
+                    class="megamenu-item-link">Home</a>
+                </div>
+                <div class="megamenu-parent-item hl-item nav-link "><a href="services.html"
+                    class="megamenu-item-link">services</a>
+                </div>
+				<div class="megamenu-parent-item hl-item nav-link "><a href="portfolio.html"
+                    class="megamenu-item-link">Portfolio</a>
+                </div>
+                <div class="megamenu-parent-item hl-item nav-link "><a href="about.html"
+                    class="megamenu-item-link">About</a>
+                </div>
+                <div class="lets-build">
+                  <a href="contact.html" class="button button--ghost button--orange"
+                    style="margin-left: 24px; z-index:999; position:relative">Contact Us</a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+	<nav class="navbar navbar-default fixed-top hidden-lg hidden-sm" style="margin-bottom:0px;">
+	  <div class="container-fluid">
+	  <a class="navbar-brand" href="index.html">
+	  <div class="brand-logo">
+            Budgies Design
+      </div>
 	  </a>
-	</div>
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		
+		  <ul class="nav navbar-nav">
+			<li class="active"><a href="index.html">HOME<span class="sr-only">(current)</span></a></li>
+			<li><a href="services.html">SERVICES</a></li>
+			<li><a href="portfolio.html">PORTFOLIO</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="contact.html">CONTACT US</a></li>
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
   </header>
   <section class="hero">
     <div class="hero__content">
@@ -139,23 +183,19 @@
   <section class="page-section intro">
     <div class="container">
       <div class="row">
-        <div class="intro__iso-1">
-          <div class="layer-1" data-bottom-top="transform:translateY(30%);"
-            data-top-bottom="transform:translateY(-30%);"></div>
-          <div class="layer-2" data-bottom-top="transform:translateY(20%);"
-            data-top-bottom="transform:translateY(-10%);"></div>
-          <div class="layer-3" data-bottom-top="transform:translateY(10%);"
-            data-top-bottom="transform:translateY(15%);"></div>
-        </div>
-        <div
-          class="intro__iso-1-container col-12 col-sm-7 col-sm-offset-5 col-md-6 col-md-offset-5 col-lg-5 col-lg-offset-7">
-          <h2 class="page-section__title">We connect humans, systems, and machines.</h2>
-          <p class="page-section__description mt-3x">By integrating our strategic designers, sophisticated software
-            developers, and advanced engineers into your business, we are as connected as your future is. Bring us your
-            complex challenges today and your vision tomorrow. We’ll bring incredible talent, deep collaboration, and
-            Budgies Design perspective to build your opportunities for growth. </p>
-          <a href="/about/" class="button button--green button--ghost button--arrow mt-3x">Learn more</a>
-        </div>
+        <div class="img-container">
+		  <img src="images/blue-ai.png" alt="Snow" style="width:100%;">
+		  <div class="top-left">
+					<div class="intro__iso-1-container col-12 col-sm-7 col-sm-offset-5 col-md-6 col-md-offset-5 col-lg-5 col-lg-offset-7 text-on-ai">
+				  <h2 class="page-section__title">We connect humans, systems, and machines.</h2>
+				  <p class="page-section__description mt-3x">By integrating our strategic designers, sophisticated software
+					developers, and advanced engineers into your business, we are as connected as your future is. Bring us your
+					complex challenges today and your vision tomorrow. We’ll bring incredible talent, deep collaboration, and
+					Budgies Design perspective to build your opportunities for growth. </p>
+				  <a href="/about/" class="button button--green button--ghost button--arrow mt-3x">Learn more</a>
+			</div>
+		  </div>
+		</div>
       </div>
     </div>
   </section>
@@ -361,28 +401,8 @@
 
         $("#product-list-second").html(htmlString + '</div>');
       });
-	  
-	  let mainNav = document.getElementById('js-menu');
-      let navBarToggle = document.getElementById('js-navbar-toggle');
-
-	  navBarToggle.addEventListener('click', function () {
-		mainNav.classList.toggle('active');
-	  }); 
- 
     });
-	function myFunction() {
-	  var x = document.getElementById("myTopnav");
-	  if (x.className === "topnav") {
-		x.className += " responsive";
-	  } else {
-		x.className = "topnav";
-	  }
-	}
   </script>
-  <script>
-  
-	
-</script>
 
 </body>
 

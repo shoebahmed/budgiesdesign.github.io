@@ -12,7 +12,7 @@
 }
 
 .receive-message{
-	color:red;
+	color:green;
 }
 
 .twentytwenty-horizontal .twentytwenty-handle:after,
@@ -14102,7 +14102,7 @@ a:focus {
 	left: 0;
 	z-index: 10;
 	width: 100%;
-	height: 80px;
+	/* height: 80px; */
 	overflow: hidden;
 	background: #fff;
 	border-bottom: #d8d8d8 1px solid;
@@ -17051,7 +17051,6 @@ p.gform_button:hover {
 
 @media (min-width:992px) {
 	.brand-logo {
-		margin-right: 500px;
 		width: 165px
 	}
 }
@@ -19419,7 +19418,7 @@ body .video-lazy {
 	position: absolute;
 	bottom: 0;
 	top: 0;
-	width: 150vw;
+	width: 148vw;
 	left: -50%;
 	height: 100%;
 	-webkit-clip-path: polygon(0 0, 0 100%, 100% 75%, 100% 0);
@@ -19990,7 +19989,7 @@ body .video-lazy {
 }
 
 .intro__iso-1 {
-	width: 200%;
+	width: 150%;
 	left: -70%;
 	position: absolute;
 	height: 405px;

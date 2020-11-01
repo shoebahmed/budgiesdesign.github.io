@@ -5,10 +5,9 @@
   <title>Product - Budgies Design</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel='stylesheet' id='jquery-mmenu/css-css' href='css/jquery.mmenu.css' type='text/css' media='all' />
   <link rel='stylesheet' id='frontpage-sage/css-css' href='css/main-new.css' type='text/css' media='all' />
-  <link rel='stylesheet' href='css/custom.css' type='text/css' />
+  
   
   <script type='text/javascript' src='js/jquery.min.js?ver=3.5.1'></script>
   <script type='text/javascript' src='js/pzei2beoa0.jsonp'></script>
@@ -25,7 +24,6 @@
   <!-- Video Extension -->
   <link rel="stylesheet" href="splide/dist/css/splide-extension-video.min.css">
   <script src="splide/dist/js/splide-extension-video.min.js"></script>
-
 
 
   <style type="text/css" id="wp-custom-css">
@@ -49,33 +47,67 @@
   <div>
 
     <header>
-    <div class="topnav" id="myTopnav">
-	  <a href="index.html">
-		  <div class="megamenu-parent-item hl-item nav-link brand-logo">
-		  </div>
-	 </a>
-	  
-	 <a href="services.html">
-		  <div class="megamenu-parent-item hl-item nav-link ">Services
-		  </div>
-	 </a>
-	 <a href="services.html">
-		  <div class="megamenu-parent-item hl-item nav-link ">Portfolio
-		  </div>
-	 </a>
-	 <a href="about.html">
-		  <div class="megamenu-parent-item hl-item nav-link ">About
-		  </div>
-	 </a>
-	 <a href="contact.html">
-		  <div class="megamenu-parent-item hl-item nav-link ">Contact US
-		  </div>
-	 </a>
-	 
-	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		<i class="fa fa-bars"></i>
-	  </a>
-	</div>
+	<div class="container hidden-xs">
+    <div class="row">
+      <div class="col-xs-12">
+
+        <div class="site-header__wrapper">
+          <div class="left-col">
+            <a class="brand-logo" href="index.html">Budgies Design</a>
+          </div>
+
+          <div class="right-col">
+            <nav class="nav-primary pull-right hidden-xs">
+              <div id="menu-header-menu" class="navigation megamenu">
+               <div class="megamenu-parent-item hl-item nav-link "><a href="index.html"
+                    class="megamenu-item-link">Home</a>
+                </div>
+                <div class="megamenu-parent-item hl-item nav-link "><a href="services.html"
+                    class="megamenu-item-link">services</a>
+                </div>
+				<div class="megamenu-parent-item hl-item nav-link "><a href="portfolio.html"
+                    class="megamenu-item-link">Portfolio</a>
+                </div>
+                <div class="megamenu-parent-item hl-item nav-link "><a href="about.html"
+                    class="megamenu-item-link">About</a>
+                </div>
+                <div class="lets-build">
+                  <a href="contact.html" class="button button--ghost button--orange"
+                    style="margin-left: 24px; z-index:999; position:relative">Contact Us</a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+	<nav class="navbar navbar-default hidden-lg hidden-sm" style="margin-bottom:0px;" >
+	  <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  
+		   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="services.html">SERVICES</a></li>
+			<li><a href="portfolio.html">PORTFOLIO</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="contact.html">CONTACT US</a></li>
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
   </header>
 
     <div class="wrap " role="document">
@@ -221,7 +253,7 @@
               </div>
               <div class="col-sm-12 visible-xs visible-sm mt-3x center">
                 &copy; 2020 Fresh Consulting <span class="site-footer__fresh-pp"> &#8226; <a
-                    href="https://www.freshconsulting.com/privacy-policy/" alt="Fresh Consulting Privacy Policy">Privacy
+                    href="#" alt="Fresh Consulting Privacy Policy">Privacy
                     Policy</a></span>
               </div>
 
@@ -306,27 +338,7 @@
         }
         return vars;
       }
-
-      let mainNav = document.getElementById('js-menu');
-      let navBarToggle = document.getElementById('js-navbar-toggle');
-      navBarToggle.addEventListener('click', function () {
-        mainNav.classList.toggle('active');
-      });
     });
-	  function myFunction() {
-		  var x = document.getElementById("myTopnav");
-		  if (x.className === "topnav") {
-			x.className += " responsive";
-		  } else {
-			x.className = "topnav";
-		  }
-		}
-
-  </script>
-  <script type='text/javascript'>
-
-
-
   </script>
 </body>
 
