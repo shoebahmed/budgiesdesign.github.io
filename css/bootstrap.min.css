@@ -5446,6 +5446,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default .navbar-toggle {
+	border: none;
 	border-color: #ddd
 }
 

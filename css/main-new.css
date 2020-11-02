@@ -19418,7 +19418,7 @@ body .video-lazy {
 	position: absolute;
 	bottom: 0;
 	top: 0;
-	width: 148vw;
+	width: 150vw;
 	left: -50%;
 	height: 100%;
 	-webkit-clip-path: polygon(0 0, 0 100%, 100% 75%, 100% 0);
@@ -19902,7 +19902,7 @@ body .video-lazy {
 
 .intro {
 	background: #fff;
-	padding-bottom: 425px;
+	padding-bottom: 150px;
 	position: relative
 }
 
@@ -20804,9 +20804,9 @@ body .video-lazy {
 
 .section-portfolio {
 	padding-top: 40px;
-	padding-bottom: 80px;
 	background: #fff;
-	text-align: center
+	text-align: center;
+	margin-bottom: 30px;
 }
 
 .section-portfolio__tile-grid {

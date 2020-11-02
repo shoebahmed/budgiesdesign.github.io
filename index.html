@@ -34,22 +34,32 @@
       left: -99999em
     }
 	
+	.navbar-fixed {
+	  top: 0;
+	  z-index: 100;
+	  position: fixed;
+	  width: 100%;
+	}
+	
+	#nav_bar {
+	 
+	  background-color: #ffffff;
+
+
+
+	}
 }
   </style>
   <link rel="icon" href="images/logo/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" href="images/logo/favicon-32x32.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="images/logo/favicon-32x32.png" />
   <meta name="msapplication-TileImage" content="images/logo/favicon-32x32.png" />
-  <style type="text/css">
-		html{
-				overflow-x: hidden;
-		}
-  </style>
 </head>
 
 <body class="home page-template-default page page-id-14 front-page-v5">
-  <header data-headroom data-offset="80">
-	<div class="container hidden-xs">
+  <header  data-headroom data-offset="80">
+	<div class="site-header hidden-xs"> 
+	<div class="container">
     <div class="row">
       <div class="col-xs-12">
 
@@ -85,7 +95,8 @@
       </div>
     </div>
   </div>
-	<nav class="navbar navbar-default fixed-top hidden-lg hidden-sm" style="margin-bottom:0px;">
+  </div>
+	<nav class="navbar navbar-default hidden-lg hidden-sm nav_bar" style="margin-bottom:0px;" >
 	  <div class="container-fluid">
 	  <a class="navbar-brand" href="index.html">
 	  <div class="brand-logo">
@@ -242,13 +253,14 @@
             products</a></div>
       </div>
     </div>
-    <div class="row">
+	<!-- Scroll problem occurs below div -->
+    <!-- <div class="row">
       <div class="col-sm-6 col-sm-offset-3">
         <p class="page-section__description mt-2x">With a broad range of experience across multiple industries around
           the globe, our award-winning team produces forward-thinking apps, products, websites and systems that people
           love to use.</p>
       </div>
-    </div>
+    </div> -->
   </section>
   <section class="page-section contact page-section--gradient-1">
     <div class="container">
@@ -402,6 +414,27 @@
         $("#product-list-second").html(htmlString + '</div>');
       });
     });
+  </script>
+  <script>
+	$(document).ready(function() {
+	  //change the integers below to match the height of your upper div, which I called
+	  //banner.  Just add a 1 to the last number.  console.log($(window).scrollTop())
+	  //to figure out what the scroll position is when exactly you want to fix the nav
+	  //bar or div or whatever.  I stuck in the console.log for you.  Just remove when
+	  //you know the position.
+	  $(window).scroll(function () { 
+
+		console.log($(window).scrollTop());
+
+		if ($(window).scrollTop() > 550) {
+		  $('#nav_bar').addClass('navbar-fixed-top');
+		}
+
+		if ($(window).scrollTop() < 551) {
+		  $('#nav_bar').removeClass('navbar-fixed-top');
+		}
+	  });
+	});
   </script>
 
 </body>
