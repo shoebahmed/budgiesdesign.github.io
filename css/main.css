@@ -1,4 +1,46 @@
 @charset "UTF-8";
+
+
+@font-face {
+	font-family: EuclidCircular;
+	src: url(../fonts/euclidcirculara-semibold-webs.woff2) format("woff2"), url(../fonts/euclidcirculara-semibold-webs.woff) format("woff"), url(../fonts/euclidcirculara-semibold-webs.ttf) format("truetype");
+	font-weight: 500;
+	font-style: normal
+}
+
+@font-face {
+	font-family: EuclidCircular;
+	src: url(../fonts/euclidcirculara-bold-webs.woff2) format("woff2"), url(../fonts/euclidcirculara-bold-webs.woff) format("woff"), url(../fonts/euclidcirculara-bold-webs.ttf) format("truetype");
+	font-weight: 600;
+	font-style: normal
+}
+
+
+@font-face {
+	font-family: slick;
+	src: url(../fonts/slick.eot);
+	src: url(../fonts/slick.eot?#iefix) format("embedded-opentype"), url(../fonts/slick.woff) format("woff"), url(../fonts/slick.ttf) format("truetype"), url(../fonts/slick.svg#slick) format("svg");
+	font-weight: 400;
+	font-style: normal
+}
+
+@font-face {
+	font-family: icomoon;
+	src: url(../fonts/icomoon.eot?h9l9lo);
+	src: url(../fonts/icomoon.eot?h9l9lo#iefix) format("embedded-opentype"), url(../fonts/icomoon.woff2?h9l9lo) format("woff2"), url(../fonts/icomoon.ttf?h9l9lo) format("truetype"), url(../fonts/icomoon.woff?h9l9lo) format("woff"), url(../fonts/icomoon.svg?h9l9lo#icomoon) format("svg");
+	font-weight: 400;
+	font-style: normal
+}
+
+
+@font-face {
+	font-family: icomoon-addition;
+	src: url(../fonts/icomoon-addition.eot?7vrriw);
+	src: url(../fonts/icomoon-addition.eot?7vrriw#iefix) format("embedded-opentype"), url(../fonts/icomoon-addition.woff2?7vrriw) format("woff2"), url(../fonts/icomoon-addition.ttf?7vrriw) format("truetype"), url(../fonts/icomoon-addition.woff?7vrriw) format("woff"), url(../fonts/icomoon-addition.svg?7vrriw#icomoon) format("svg");
+	font-weight: 400;
+	font-style: normal
+}
+
 .twentytwenty - horizontal.twentytwenty - handle:after,
 .twentytwenty - horizontal.twentytwenty - handle:before,
 .twentytwenty - vertical.twentytwenty - handle:after,
@@ -10180,13 +10222,6 @@ button.close {
 	background: #fff url(../images/ajax-loader.gif) center center no-repeat
 }
 
-@font-face {
-	font-family: slick;
-	src: url(../fonts/slick.eot);
-	src: url(../fonts/slick.eot?#iefix) format("embedded-opentype"), url(../fonts/slick.woff) format("woff"), url(../fonts/slick.ttf) format("truetype"), url(../fonts/slick.svg#slick) format("svg");
-	font-weight: 400;
-	font-style: normal
-}
 
 .slick-next,
 .slick-prev {
@@ -10345,21 +10380,6 @@ button.close {
 	opacity: .75
 }
 
-
-
-@font-face {
-	font-family: EuclidCircular;
-	src: url(../fonts/euclidcirculara-semibold-webs.woff2) format("woff2"), url(../fonts/euclidcirculara-semibold-webs.woff) format("woff"), url(../fonts/euclidcirculara-semibold-webs.ttf) format("truetype");
-	font-weight: 500;
-	font-style: normal
-}
-
-@font-face {
-	font-family: EuclidCircular;
-	src: url(../fonts/euclidcirculara-bold-webs.woff2) format("woff2"), url(../fonts/euclidcirculara-bold-webs.woff) format("woff"), url(../fonts/euclidcirculara-bold-webs.ttf) format("truetype");
-	font-weight: 600;
-	font-style: normal
-}
 
 .build-form.ghost .gform_button,
 .button.ghost,
@@ -10641,13 +10661,7 @@ h6 {
 	font-weight: 300
 }
 
-@font-face {
-	font-family: icomoon;
-	src: url(../fonts/icomoon.eot?h9l9lo);
-	src: url(../fonts/icomoon.eot?h9l9lo#iefix) format("embedded-opentype"), url(../fonts/icomoon.woff2?h9l9lo) format("woff2"), url(../fonts/icomoon.ttf?h9l9lo) format("truetype"), url(../fonts/icomoon.woff?h9l9lo) format("woff"), url(../fonts/icomoon.svg?h9l9lo#icomoon) format("svg");
-	font-weight: 400;
-	font-style: normal
-}
+
 
 [class*=' icon-'],
 [class^=icon-] {
@@ -11042,13 +11056,6 @@ h6 {
 	content: '\e930'
 }
 
-@font-face {
-	font-family: icomoon-addition;
-	src: url(../fonts/icomoon-addition.eot?7vrriw);
-	src: url(../fonts/icomoon-addition.eot?7vrriw#iefix) format("embedded-opentype"), url(../fonts/icomoon-addition.woff2?7vrriw) format("woff2"), url(../fonts/icomoon-addition.ttf?7vrriw) format("truetype"), url(../fonts/icomoon-addition.woff?7vrriw) format("woff"), url(../fonts/icomoon-addition.svg?7vrriw#icomoon) format("svg");
-	font-weight: 400;
-	font-style: normal
-}
 
 [class*=' icona-'],
 [class^=icona-] {
