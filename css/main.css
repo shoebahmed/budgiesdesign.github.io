@@ -7470,7 +7470,7 @@ tbody.collapse.in {
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-	background-color: #ddd
+	background-color: #fff !important;
 }
 
 .navbar-default .navbar-toggle .icon-bar {

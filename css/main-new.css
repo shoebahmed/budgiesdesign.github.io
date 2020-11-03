@@ -7706,7 +7706,7 @@ tbody.collapse.in {
 }
 
 .navbar-default .navbar-toggle {
-	border-color: #ddd
+	border-color: #f8f8f8
 }
 
 .navbar-default .navbar-toggle:focus,
@@ -20110,7 +20110,8 @@ body .video-lazy {
 
 @media (min-width:1440px) {
 	.intro--simple {
-		padding-top: 50px
+		padding-top: 50px;
+		width:90%;
 	}
 }
 
@@ -20244,7 +20245,7 @@ body .video-lazy {
 	width: 100%;
 	height: 100%;
 	left: 0;
-	top: -140px;
+	top: -240px;
 	z-index: 1
 }
 

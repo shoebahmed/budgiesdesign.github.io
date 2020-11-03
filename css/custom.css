@@ -1,4 +1,8 @@
-
+.image-effects{
+	background-image: URL('images/blue-ai.png');
+    background-repeat: no-repeat;
+    background-color: #f1f7fa;
+}
 .img-container {
   position: relative;
   text-align: center;
