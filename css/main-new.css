@@ -26,7 +26,7 @@
 
 @font-face {
 	font-family: EuclidCircular;
-	src: url(../fonts/euclidcirculara-bold-webs.woff2) format("woff2"), url(../fonts/euclidcirculara-bold-webs.woff) format("woff"), url(fonts/euclidcirculara-bold-webs.ttf) format("truetype");
+	src: url(../fonts/euclidcirculara-bold-webs.woff2) format("woff2"), url(../fonts/euclidcirculara-bold-webs.woff) format("woff"), url(../fonts/euclidcirculara-bold-webs.ttf) format("truetype");
 	font-weight: 600;
 	font-style: normal
 }
