@@ -1,0 +1,48 @@
+ Volume in drive D is Local_Disk
+ Volume Serial Number is 05E9-1060
+
+ Directory of D:\SandBox\website\budgiesdesign.github.io\fonts
+
+03-Nov-20  08:38 PM    <DIR>          .
+03-Nov-20  08:38 PM    <DIR>          ..
+05-Oct-20  11:41 AM            27,880 Cedarville-Cursive.woff2
+04-Oct-20  02:30 PM           137,760 euclidcirculara-bold-webs.ttf
+04-Oct-20  02:31 PM            49,336 euclidcirculara-bold-webs.woff
+04-Oct-20  02:31 PM            33,904 euclidcirculara-bold-webs.woff2
+17-Oct-20  10:54 AM           137,760 EuclidCircularA-Bold.ttf
+17-Oct-20  10:52 AM            49,336 EuclidCircularA-Bold.woff
+17-Oct-20  10:50 AM            33,904 EuclidCircularA-Bold.woff2
+17-Oct-20  10:54 AM           134,172 EuclidCircularA-Light.ttf
+17-Oct-20  10:53 AM            45,724 EuclidCircularA-Light.woff
+17-Oct-20  10:52 AM            31,136 EuclidCircularA-Light.woff2
+04-Oct-20  02:26 PM           141,320 EuclidCircularA-Medium.ttf
+17-Oct-20  10:55 AM            50,368 EuclidCircularA-Medium.woff
+17-Oct-20  10:53 AM            34,736 EuclidCircularA-Medium.woff2
+17-Oct-20  10:52 AM            50,000 EuclidCircularA-Regular- webs.woff
+24-Oct-20  12:25 PM            34,456 euclidcirculara-regular-webs.woff2
+17-Oct-20  10:54 AM           141,264 EuclidCircularA-Regular.ttf
+17-Oct-20  10:52 AM            50,000 EuclidCircularA-Regular.woff
+17-Oct-20  10:50 AM            34,456 EuclidCircularA-Regular.woff2
+17-Oct-20  10:51 AM            34,724 EuclidCircularA-SemiBold-webs.woff2
+17-Oct-20  10:54 AM           141,256 EuclidCircularA-SemiBold.ttf
+17-Oct-20  10:52 AM            50,188 EuclidCircularA-SemiBold.woff
+17-Oct-20  10:51 AM            34,724 EuclidCircularA-SemiBold.woff2
+17-Oct-20  05:21 PM            50,564 EuclidCircularB-Medium.woff
+17-Oct-20  05:19 PM            34,724 EuclidCircularB-Medium.woff2
+04-Oct-20  02:09 PM            20,127 glyphicons-halflings-regular.eot
+04-Oct-20  02:15 PM           108,738 glyphicons-halflings-regular.svg
+04-Oct-20  02:14 PM            45,404 glyphicons-halflings-regular.ttf
+04-Oct-20  02:13 PM            23,424 glyphicons-halflings-regular.woff
+04-Oct-20  02:12 PM            18,028 glyphicons-halflings-regular.woff2
+21-Aug-19  01:29 PM             2,304 icomoon-addition.ttf
+05-Oct-20  11:35 AM            18,444 icomoon-addition.woff
+05-Oct-20  11:35 AM            10,268 icomoon.eot
+05-Oct-20  11:36 AM            10,104 icomoon.ttf
+17-Oct-20  05:11 PM             5,068 icomoon.woff2
+03-Nov-20  08:38 PM                 0 name.txt
+04-Oct-20  02:17 PM             2,048 slick.eot
+04-Oct-20  08:51 AM             2,152 slick.svg
+04-Oct-20  02:18 PM             1,892 slick.ttf
+04-Oct-20  02:17 PM             1,380 slick.woff
+              39 File(s)      1,833,073 bytes
+               2 Dir(s)   1,384,964,096 bytes free

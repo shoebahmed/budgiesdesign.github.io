@@ -3,11 +3,24 @@
 
 @font-face {
 	font-family: EuclidCircular;
-	src: url(../fonts/euclidcirculara-semibold-webs.woff2) format("woff2"), url(../fonts/euclidcirculara-semibold-webs.woff) format("woff"), url(../fonts/euclidcirculara-semibold-webs.ttf) format("truetype");
-	font-weight: 500;
+	src: url(../fonts/EuclidCircularA-Light.woff2) format("woff2"), url(../fonts/EuclidCircularA-Light.woff) format("woff"), url(../fonts/EuclidCircularA-Light.ttf) format("truetype");
+	font-weight: 200;
 	font-style: normal
 }
 
+@font-face {
+	font-family: EuclidCircular;
+	src: url(../fonts/EuclidCircularA-Medium.woff2) format("woff2"), url(../fonts/EuclidCircularA-Medium.woff) format("woff"), url(../fonts/EuclidCircularA-Medium.ttf) format("truetype");
+	font-weight: 400;
+	font-style: normal
+}
+
+@font-face {
+	font-family: EuclidCircular;
+	src: url(../fonts/EuclidCircularA-SemiBold.woff2) format("woff2"), url(../fonts/EuclidCircularA-SemiBold.woff) format("woff"), url(../fonts/EuclidCircularA-SemiBold.ttf) format("truetype");
+	font-weight: 500;
+	font-style: normal
+}
 @font-face {
 	font-family: EuclidCircular;
 	src: url(../fonts/euclidcirculara-bold-webs.woff2) format("woff2"), url(../fonts/euclidcirculara-bold-webs.woff) format("woff"), url(../fonts/euclidcirculara-bold-webs.ttf) format("truetype");
