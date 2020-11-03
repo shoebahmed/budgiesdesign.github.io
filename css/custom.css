@@ -14,6 +14,8 @@
 	  left: 16px;
 	  max-width: 50%
 }
+
+
 	
 .text-on-ai{
   width: 100%;
@@ -21,6 +23,13 @@
   text-align: left;
 }
 
+@media (max-width: 767px) {
+	.top-left {
+			top:0%;
+		    position: initial;
+		    max-width: 100%;
+	}
+}
 
 @media (max-width: 414px) {
 	.top-left {
@@ -28,5 +37,8 @@
 		    max-width: 100%;
 	}
 }
+
+
+
 
   
