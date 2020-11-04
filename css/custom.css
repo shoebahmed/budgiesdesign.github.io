@@ -14,13 +14,19 @@
 	  left: 16px;
 	  max-width: 50%
 }
-
-
 	
 .text-on-ai{
   width: 100%;
   margin-left: 0px;
   text-align: left;
+}
+
+.col-md-offset-mt-10{
+	margin-top:10%;
+}
+
+.col-md-offset-mt-7{
+	margin-top:7%;
 }
 
 @media (max-width: 767px) {
@@ -31,11 +37,20 @@
 	}
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
 	.top-left {
 		    position: initial;
 		    max-width: 100%;
 	}
+	
+	.col-md-offset-mt-10{
+		margin-top:0px;
+	}
+	
+	.col-md-offset-mt-7{
+		margin-top:0%;
+	}
+	
 }
 
 

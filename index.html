@@ -48,6 +48,17 @@
 
 
 	}
+	.horizontalLine {
+	  width: 100px;
+	  position: relative;
+	  animation: lineAnimation 2s linear 0s infinite;
+	}
+
+	@keyframes lineAnimation {
+	  0%   {left:0px; top:0px;}
+	  50%  {left:-120px; top:0px; right:120px}
+	  100% {left:0px; top:0px; right: 220px}
+	}
 }
   </style>
   <link rel="icon" href="images/logo/favicon-32x32.png" sizes="32x32" />
@@ -126,7 +137,7 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
   </header>
-  <section class="hero">
+  <section class="hero col-md-offset-mt-7">
     <div class="hero__content">
       <div class="container">
         <div class="row hero__layer-text">
@@ -139,8 +150,8 @@
           <div class="col-sm-6 col-sm-offset-5 col-md-6 col-md-offset-5 col-lg-5 col-lg-offset-7">
             <div data-start="bottom:0%;" data-10-top="bottom: 7%;" class="card card--dark card--has-parallax">
               <div class="card-content active">
-                <div class="js-card-roll js-card-roll--line">
-                  <div class="card__featured-line"></div>
+                <div class="js-card-roll js-card-roll--line" style="width: 120px;">
+                  <div class="card__featured-line horizontalLine" ></div>
                 </div><br>
                 <div class="js-card-roll js-card-roll--tag">
                   <div class="card__featured-tag">Moss Adams</div>
@@ -203,7 +214,7 @@
 					developers, and advanced engineers into your business, we are as connected as your future is. Bring us your
 					complex challenges today and your vision tomorrow. We’ll bring incredible talent, deep collaboration, and
 					Budgies Design perspective to build your opportunities for growth. </p>
-				  <a href="/about/" class="button button--green button--ghost button--arrow mt-3x">Learn more</a>
+				  <a href="about.html" class="button button--green button--ghost button--arrow mt-3x">Learn more</a>
 			</div>
 		  </div>
 		</div>
@@ -326,7 +337,7 @@
             <div class="row">
               <div class="col-sm-12 col-md-10">
                 <div class="text__small site-footer__copyright hidden-xs hidden-sm">
-                  &copy; 2020 Budgiesdesign <span class="site-footer__fresh-pp"> &#8226; <a href="index.html"
+                  &copy; 2020 Budgiesdesign <span class="site-footer__fresh-pp"> &#8226; <a href="privacy-policy.html"
                       alt="Budgies Design Privacy Policy">Privacy Policy</a></span>
                 </div>
                 <div class="site-footer__nav-wrapper">
@@ -350,7 +361,7 @@
                     alt="Budgies Design on Facebook"></a>
               </div>
               <div class="col-sm-12 visible-xs visible-sm mt-3x center">
-                &copy; 2020 Budgies Design <span class="site-footer__fresh-pp"> &#8226; <a href="//privacy-policy/"
+                &copy; 2020 Budgies Design <span class="site-footer__fresh-pp"> &#8226; <a href="privacy-policy.html"
                     alt="Budgies Design Privacy Policy">Privacy
                     Policy</a></span>
               </div>
