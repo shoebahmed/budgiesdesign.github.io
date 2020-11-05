@@ -12540,7 +12540,7 @@ a {
 
 a:hover {
 	color: #418e3c;
-	/* text-decoration: underline */
+	text-decoration: none
 }
 
 a.gray {
