@@ -33,9 +33,51 @@
       visibility: hidden;
       left: -99999em
     }
+
+    .navbar-fixed {
+      top: 0;
+      z-index: 100;
+      position: fixed;
+      width: 100%;
+    }
+
+    #nav_bar {
+
+      background-color: #ffffff;
+
+
+
+    }
+
+    .horizontalLine {
+      width: 100px;
+      position: relative;
+      animation: lineAnimation 2s linear 0s infinite;
+    }
+
+    @keyframes lineAnimation {
+      0% {
+        left: 0px;
+        top: 0px;
+      }
+
+      50% {
+        left: -120px;
+        top: 0px;
+        right: 120px
+      }
+
+      100% {
+        left: 0px;
+        top: 0px;
+        right: 220px
+      }
+    }
+	
 	body{
-	  overflow-x: hidden;
+		overflow-x:hidden;
 	}
+    }
   </style>
   <link rel="icon" href="images/logo/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" href="images/logo/favicon-32x32.png" sizes="192x192" />
