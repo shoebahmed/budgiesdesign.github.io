@@ -3,3 +3,13 @@
 	padding-left: 15px !important;
     padding-right: 15px !important;
 }
+
+.pt-97{
+	padding-top: 97px;
+}
+
+@media (max-width: 767px) {
+	.pt-97{
+		padding-top: 0px;
+	}
+}
