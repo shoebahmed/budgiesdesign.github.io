@@ -7516,7 +7516,7 @@ tbody.collapse.in {
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
 	color: #555;
-	background-color: #e7e7e7
+	background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.disabled>a,
@@ -7532,7 +7532,7 @@ tbody.collapse.in {
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-	background-color: #fff !important;
+	background-color: #fcd327 !important;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -27809,7 +27809,7 @@ svg.pitch__videos-play-btn {
 	background-position: center center;
 	height: 300px;
 	position: relative;
-	box-shadow: 0 2px 5px 0 rgba(142, 138, 138, .5)
+	
 }
 .section-portfolio__grid-tile:hover {
 	text-decoration: none

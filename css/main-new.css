@@ -7712,8 +7712,8 @@ tbody.collapse.in {
 }
 
 .navbar-default {
-	background-color: #f8f8f8;
-	border-color: #e7e7e7
+	background-color: #242424;
+	border-color: #242424
 }
 
 .navbar-default .navbar-brand {
@@ -7736,15 +7736,14 @@ tbody.collapse.in {
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-	color: #333;
+	color: #fcd327;
 	background-color: transparent
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-	color: #555;
-	background-color: #e7e7e7
+	color: #ffffff;
 }
 
 .navbar-default .navbar-nav>.disabled>a,
@@ -7755,7 +7754,7 @@ tbody.collapse.in {
 }
 
 .navbar-default .navbar-toggle {
-	border-color: #f8f8f8
+	border-color: transparent;
 }
 
 .navbar-default .navbar-toggle:focus,
@@ -14116,8 +14115,8 @@ a:focus {
 	width: 100%;
 	/* height: 80px; */
 	overflow: hidden;
-	background: #fff;
-	border-bottom: #d8d8d8 1px solid;
+	background: #242424;
+	border-bottom: #242424 1px solid;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
 	-webkit-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
@@ -14918,7 +14917,7 @@ a:focus {
 }
 
 .megamenu .nav-link>a {
-	color: #29383f;
+	color: #ffffff;
 	font-family: EuclidCircular, sans-serif;
 	font-size: 14px;
 	font-weight: 500;
@@ -15628,7 +15627,7 @@ a:focus {
 	font-family: EuclidCircular, sans-serif;
 	font-weight: 500;
 	font-size: 24px;
-	color: #29383f;
+	color: #ffffff;
 	line-height: 1.4
 }
 
@@ -15659,7 +15658,7 @@ a:focus {
 	font-family: EuclidCircular, sans-serif;
 	font-weight: 500;
 	font-size: 18px;
-	color: #666a76
+	color: #ffffff
 }
 
 .page-section__description,
@@ -15667,7 +15666,7 @@ a:focus {
 	font-family: EuclidCircular, sans-serif;
 	font-weight: 300;
 	font-size: 16px;
-	color: #666a76;
+	color: #ffffff;
 	line-height: 26px
 }
 
@@ -15675,7 +15674,7 @@ a:focus {
 	font-family: EuclidCircular, sans-serif;
 	font-weight: 300;
 	font-size: 14px;
-	color: #666a76
+	color: #ffffff
 }
 
 .headline--services {
@@ -17030,7 +17029,7 @@ p.gform_button:hover {
 .nav-link>a:focus,
 .nav-link>a:hover {
 	text-decoration: none;
-	color: #2595a2
+	color: #fcd327
 }
 
 .brand-logo {
@@ -19130,7 +19129,7 @@ body.is-mobile #mobile-menu-toggle {
 }
 
 body.home {
-	background-color: #fff
+	background-color: #242424
 }
 
 body .img-lazy,
@@ -20230,7 +20229,7 @@ body .video-lazy {
 }
 
 .services {
-	background-color: #fff;
+	background-color: #242424;
 	position: relative;
 	text-align: center
 }
@@ -20805,7 +20804,7 @@ body .video-lazy {
 
 .section-portfolio {
 	padding-top: 40px;
-	background: #fff;
+	background: #242424;
 	text-align: center;
 	margin-bottom: 30px;
 }
@@ -20837,7 +20836,6 @@ body .video-lazy {
 	background-position: center center;
 	height: 300px;
 	position: relative;
-	box-shadow: 0 2px 5px 0 rgba(142, 138, 138, .5)
 }
 
 .section-portfolio__grid-tile:hover {
@@ -21542,13 +21540,13 @@ body .video-lazy {
 }
 
 .site-footer {
-	background: #fff;
+	background: #242424;
 	padding: 32px 0;
 	text-align: center
 }
 
 .site-footer a {
-	color: #666a76
+	color: #ffffff
 }
 
 .site-footer .footer-nav a {
@@ -21561,7 +21559,7 @@ body .video-lazy {
 }
 
 .site-footer .footer-nav a:hover {
-	color: #2595a2
+	color: #fcd327
 }
 
 @media (min-width:992px) {
