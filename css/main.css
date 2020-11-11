@@ -22037,7 +22037,7 @@ body .video-lazy {
 	font-family: EuclidCircular, sans-serif;
 	font-weight: 500;
 	font-size: 24px;
-	color: #29383f;
+	color: #ffffff;
 	line-height: 1.4
 }
 @media (min-width: 992px) {
@@ -22089,7 +22089,7 @@ body .video-lazy {
 	font-family: EuclidCircular, sans-serif;
 	font-weight: 300;
 	font-size: 16px;
-	color: #666a76;
+	color: #ffffff;
 	line-height: 26px
 }
 .text__small {
@@ -27158,7 +27158,7 @@ svg.pitch__videos-play-btn {
 	}
 }
 .page-template-template-about {
-	background-color: #fff
+	background-color: #242424
 }
 .page-template-template-team {
 	background-color: #fff

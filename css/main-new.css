@@ -10647,7 +10647,8 @@ button.close {
 .post-header .intro-text,
 .search-form .ghost.regular-size.search-submit,
 .text-sm {
-	font-size: 14px
+	font-size: 14px;
+	color: #ffffff;
 }
 
 .text-md,
@@ -10892,7 +10893,8 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: 300
+	font-weight: 300;
+	color: #ffffff;
 }
 
 [class*=' icon-'],
@@ -12107,10 +12109,10 @@ h6 {
 }
 
 body {
-	background-color: #f3f6f8;
+	background-color: #242424;
 	font-family: EuclidCircular, sans-serif;
 	font-weight: 300;
-	color: #29383f;
+	color: #ffffff;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale
 }
@@ -12551,11 +12553,11 @@ a.gray:hover {
 }
 
 a.gray-med {
-	color: #666
+	color: #ffffff;
 }
 
 a.gray-med:hover {
-	color: #333
+	color: #fcd327
 }
 
 a.no-underline:hover {
@@ -13933,7 +13935,8 @@ a:focus {
 }
 
 .location-contact-details .text-contact {
-	margin-bottom: 0
+	margin-bottom: 0;
+	color: #ffffff;
 }
 
 .contact-form {
@@ -17684,12 +17687,12 @@ body.is-mobile #mobile-menu-toggle {
 	transition: background-color .3s ease-in-out, border .3s ease-in-out;
 	padding: 15px 20px 11px 30px;
 	background-color: transparent;
-	border: #666a76 1px solid;
+	border: #fff 1px solid;
 	width: 100%;
 	letter-spacing: .07em;
 	text-transform: none;
 	font-weight: 400;
-	color: #1a2228
+	color: #ffffff
 }
 
 .contact-form .input-box input:focus,
