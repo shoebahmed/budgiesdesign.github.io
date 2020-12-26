@@ -17037,15 +17037,14 @@ p.gform_button:hover {
 
 .brand-logo {
 	display: block;
-	background-image: url(../images/logo/fresh-logo-with-text.svg);
+	background-image: url(../images/logo/fresh-logo-with-text.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 	text-indent: -9999px;
 	direction: ltr;
-	height: 30px;
-	width: 100px;
-	margin: 0 auto;
+	height: 10rem ;
+	margin-left: -11rem ;
 	padding: 0;
 	box-sizing: content-box;
 	position: relative;
@@ -17056,16 +17055,16 @@ p.gform_button:hover {
 	background-image: url(../images/logo/fresh-logo-white.svg)
 }
 
-@media (min-width:768px) {
+@media (max-width:768px) {
 	.brand-logo {
-		height: 60px;
-		width: 120px
+	   height: 3rem;
+       margin-left: -4rem;
 	}
 }
 
 @media (min-width:992px) {
 	.brand-logo {
-		width: 165px
+		#width: 165px
 	}
 }
 

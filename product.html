@@ -133,8 +133,8 @@
 				  <div id="example-sync" class="splide js-splide-primary p-splide p-splide--primary"
 					 data-splide="{&quot;type&quot;:&quot;fade&quot;,&quot;heightRatio&quot;:0.5,&quot;pagination&quot;:false,&quot;arrows&quot;:false,&quot;cover&quot;:true,&quot;lazyLoad&quot;:&quot;sequential&quot;}">
 					 <div class="splide__track image-height">
-						<ul class="splide__list">
-						    <li class="splide__slide p-splide__slide">
+						<ul id="splide-handle" class="splide__list">
+						    <!-- <li class="splide__slide p-splide__slide">
 								<img data-splide-lazy="splide/images/01.jpg" alt="Sample Image 01">
 							</li>
 						    <li class="splide__slide p-splide__slide">
@@ -163,15 +163,15 @@
 						   </li>
 						   <li class="splide__slide p-splide__slide" data-splide-html-video="splide/videos/1.mkv" alt="Sample Image 10">
 								<img src="splide/images/04.jpg">
-						  </li>
+						  </li> -->
 						</ul>
 					 </div>
 				  </div>
-				  <div id="example-sync-thumbnail" class="splide js-splide-secondary p-splide p-splide--secondary"
+				  <div id="thumbnailSplide" class="js-splide-secondary p-splide p-splide--secondary"
 					 data-splide="{&quot;rewind&quot;:true,&quot;fixedWidth&quot;:100,&quot;fixedHeight&quot;:60,&quot;isNavigation&quot;:true,&quot;gap&quot;:10,&quot;focus&quot;:&quot;center&quot;,&quot;pagination&quot;:false,&quot;cover&quot;:true,&quot;lazyLoad&quot;:&quot;sequential&quot;,&quot;breakpoints&quot;:{&quot;600&quot;:{&quot;fixedWidth&quot;:66,&quot;fixedHeight&quot;:40}}}">
 					 <div class="splide__track">
-						<ul class="splide__list">
-						    <li class="splide__slide p-splide__slide">
+						<ul id="splide-handle-thumbnails" class="splide__list" style="display: flex;">
+						    <!-- <li class="splide__slide p-splide__slide">
 								<img data-splide-lazy="splide/images/thumbnails/01.jpg" alt="Sample Image 01">
 						    </li>
 						    <li class="splide__slide p-splide__slide">
@@ -200,7 +200,7 @@
 							</li>
 							<li class="splide__slide p-splide__slide">
 								<img data-splide-lazy="splide/images/thumbnails/04.jpg" alt="Sample Image 10">
-							</li>
+							</li> -->
 						</ul>
 					 </div>
 					</div>
@@ -225,8 +225,6 @@
                 </div>
               </div>
           </div>
-          
-      
     </div>
   </div>
   <section class="page-section contact page-section--gradient-1">
@@ -325,12 +323,6 @@
       </div>
     </div>
   </footer>
-
-  <script type='text/javascript' src='js/jquery.mmenu.js'></script>
-  <script type='text/javascript' src='js/main-e1b8872fcd.js'></script>
-  <script type='text/javascript' src="js/jquery.min.js"></script>
-  <script type='text/javascript' src='splide/dist/js/6d18636b69498a3d513d6ed6047c58ec.js'></script>
-   
   <script>
 
     $(document).ready(function () {
@@ -352,27 +344,47 @@
             $("#heading-details").html(headingSection);
 
             var htmlSplide = '';
+			
+			var htmlSplideThumbnail = '';
+			
             $.each(val.splide, function (index, value) {
-
-              if (value.type == 'image') {
-                htmlSplide += '<li class=\"splide__slide\">' +
-                  '<div class=\"splide__slide__container\">' +
-                  '<img src=\"' + value.thumnail + '">' +
-                  '</div>' +
-                  '</li>';
-              } else if (value.type == 'video') {
-                htmlSplide += '<li class=\"splide__slide\" data-splide-html-video=\"' + value.media + '\">' +
-                  '<img src=\"' + value.thumnail + '\">' +
-                  '</li>';
+              if (value.type == 'images') {
+                htmlSplide += '<li class=\"splide__slide p-splide__slide\">'+
+								'<img data-splide-lazy=\"splide/images/'+ value.image +'.jpg\" alt="Sample Image '+ value.alt +'\">'+
+							'</li>';
+				
+              } else if (value.type == 'videos') {
+                htmlSplide += '<li class=\"splide__slide p-splide__slide\" data-splide-html-video=\"'+ value.media +'\" alt=\"Sample Image '+ value.alt +'\">'+
+								'<img src=\"splide/images/'+ value.image +'.jpg\">'+
+						  '</li>';
               }
+			  htmlSplideThumbnail += '<li class=\"splide__slide p-splide__slide\">'+
+								'<img data-splide-lazy=\"splide/images/thumbnails/'+ value.thumbnail +'.jpg\" alt=\"Sample Image '+ value.alt +'\">'+
+						    '</li>';
+			   
             });
-
+			
             $("#splide-handle").html(htmlSplide);
-
-            //Initialize Splide
-            new Splide('.splide', {
+			
+			$("#splide-handle-thumbnails").html(htmlSplideThumbnail);
+			
+			var secondarySlider = new Splide('#thumbnailSplide', {
+				
+				rewind      : true,
+				isNavigation: true,
+				breakpoints : {
+					'600': {
+						fixedWidth: 66,
+						height    : 40,
+					}
+				},
+            }).mount();
+            
+			//Initialize Splide
+			var primarySlider = new Splide('.splide', {
               type: 'loop',
-              speed: 400,
+              rewind : true,
+			  speed: 400,
               autoplay: true,
               interval: 3000,
               pauseOnHover: true,
@@ -382,12 +394,14 @@
                 mute: true
               }
             }).mount(window.splide.Extensions);
-
+			
+			// Set the thumbnails slider as a sync target and then call mount.
+			primarySlider.sync(secondarySlider).mount();
+            
           }
 
         }); //End Each for data
-
-
+		
       });
 	
       // Read a page's GET URL variables and return them as an associative array.
@@ -403,6 +417,10 @@
       }
     });
   </script>
+  <script type='text/javascript' src='js/jquery.mmenu.js'></script>
+  <script type='text/javascript' src='js/main-e1b8872fcd.js'></script>
+  <script type='text/javascript' src="js/jquery.min.js"></script>
+  <script type='text/javascript' src='splide/dist/js/6d18636b69498a3d513d6ed6047c58ec.js'></script>
 </body>
 
 </html>
