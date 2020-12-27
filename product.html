@@ -374,8 +374,11 @@
 			
 			var secondarySlider = new Splide('#thumbnailSplide', {
 				
-				rewind      : true,
+				autoplay: true,
+				interval: 4000,
 				isNavigation: true,
+				pauseOnHover: true,
+				pauseOnFocus: true,
 				breakpoints : {
 					'600': {
 						fixedWidth: 66,
@@ -387,10 +390,7 @@
 			//Initialize Splide
 			var primarySlider = new Splide('.splide', {
               type: 'loop',
-              rewind : true,
-			  speed: 400,
-              autoplay: true,
-              interval: 3000,
+			  rewind : true,
               pauseOnHover: true,
               pauseOnFocus: true,
               height: 450,

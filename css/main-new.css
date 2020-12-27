@@ -16130,8 +16130,8 @@ a:focus {
 .search-form .button--ghost.active.search-submit,
 .search-form .button--ghost.search-submit:hover {
 	background-color: transparent;
-	border-color: #2595a2;
-	color: #2595a2	
+	border-color: #fcd327;
+    color: #fcd327;
 }
 
 .button--ghost.active.button--green-bg-dk,
