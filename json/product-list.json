@@ -9,57 +9,47 @@
 							{
 							  "type" : "images",
 							  "image" : "01",
-							  "thumbnail" :"01",
-							  "alt"  : "01"
+							  "thumbnail" :"01"
 							},
 							{
 							  "type" : "images",
 							  "image" : "02",
-							  "thumbnail" :"02",
-							  "alt"  : "02"
+							  "thumbnail" :"02"
 							},{
 							  "type" : "images",
 							  "image" : "03",
-							  "thumbnail" :"03",
-							  "alt"  : "03"
+							  "thumbnail" :"03"
 							},{
 							  "type" : "images",
 							  "image" : "04",
-							  "thumbnail" :"04",
-							  "alt"  : "04"
+							  "thumbnail" :"04"
 							},{
 							  "type" : "images",
 							  "image" : "05",
-							  "thumbnail" :"05",
-							  "alt"  : "05"
+							  "thumbnail" :"05"
 							},{
 							  "type" : "images",
 							  "image" : "06",
-							  "thumbnail" :"06",
-							  "alt"  : "06"
+							  "thumbnail" :"06"
 							},
 							{
 							  "type" : "images",
 							  "image" : "07",
-							  "thumbnail" :"07",
-							  "alt"  : "07"
+							  "thumbnail" :"07"
 							},{
 							  "type" : "images",
 							  "image" : "08",
-							  "thumbnail" :"08",
-							  "alt"  : "08"
+							  "thumbnail" :"08"
 							},{
 							  "type" : "images",
 							  "image" : "09",
-							  "thumbnail" :"09",
-							  "alt"  : "09"
+							  "thumbnail" :"09"
 							},
 							{
 							  "type" : "videos",
 							  "image" : "01",
 							  "thumbnail" :"01",
-							  "media" : "splide/videos/01.mkv",
-							  "alt"  : "10"
+							  "media" : "01"
 							}
 						  ]
 	  },
@@ -71,26 +61,49 @@
 		 "detailText"	: "2 json Ben Bridge needed a <strong>digital partner</strong> to create an eCommerce presence that would have a more serious impact on their overall business",
 		 "splide"       : [
 							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/4.jpg"
+							  "type" : "images",
+							  "image" : "01",
+							  "thumbnail" :"01"
 							},
 							{
-							  "type" : "video",
-							  "thumnail" :"splide/images/4.jpg",
-							  "media" : "splide/videos/1.mkv"
+							  "type" : "images",
+							  "image" : "02",
+							  "thumbnail" :"02"
+							},{
+							  "type" : "images",
+							  "image" : "03",
+							  "thumbnail" :"03"
+							},{
+							  "type" : "images",
+							  "image" : "04",
+							  "thumbnail" :"04"
+							},{
+							  "type" : "images",
+							  "image" : "05",
+							  "thumbnail" :"05"
+							},{
+							  "type" : "images",
+							  "image" : "06",
+							  "thumbnail" :"06"
 							},
 							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/2.jpg"
+							  "type" : "images",
+							  "image" : "07",
+							  "thumbnail" :"07"
+							},{
+							  "type" : "images",
+							  "image" : "08",
+							  "thumbnail" :"08"
+							},{
+							  "type" : "images",
+							  "image" : "09",
+							  "thumbnail" :"09"
 							},
 							{
-							  "type" : "video",
-							  "thumnail" :"splide/images/1.jpg",
-							  "media" : "splide/videos/1.mkv"
-							},
-							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/3.jpg"
+							  "type" : "videos",
+							  "image" : "01",
+							  "thumbnail" :"01",
+							  "media" : "01"
 							}
 						  ]
 	  },
@@ -102,26 +115,49 @@
 		 "detailText"	: "3 json Ben Bridge needed a <strong>digital partner</strong> to create an eCommerce presence that would have a more serious impact on their overall business",
 		 "splide"       : [
 							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/2.jpg"
+							  "type" : "images",
+							  "image" : "01",
+							  "thumbnail" :"01"
 							},
 							{
-							  "type" : "video",
-							  "thumnail" :"splide/images/4.jpg",
-							  "media" : "splide/videos/1.mkv"
+							  "type" : "images",
+							  "image" : "02",
+							  "thumbnail" :"02"
+							},{
+							  "type" : "images",
+							  "image" : "03",
+							  "thumbnail" :"03"
+							},{
+							  "type" : "images",
+							  "image" : "04",
+							  "thumbnail" :"04"
+							},{
+							  "type" : "images",
+							  "image" : "05",
+							  "thumbnail" :"05"
+							},{
+							  "type" : "images",
+							  "image" : "06",
+							  "thumbnail" :"06"
 							},
 							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/2.jpg"
+							  "type" : "images",
+							  "image" : "07",
+							  "thumbnail" :"07"
+							},{
+							  "type" : "images",
+							  "image" : "08",
+							  "thumbnail" :"08"
+							},{
+							  "type" : "images",
+							  "image" : "09",
+							  "thumbnail" :"09"
 							},
 							{
-							  "type" : "video",
-							  "thumnail" :"splide/images/4.jpg",
-							  "media" : "splide/videos/1.mkv"
-							},
-							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/3.jpg"
+							  "type" : "videos",
+							  "image" : "01",
+							  "thumbnail" :"01",
+							  "media" : "01"
 							}
 						  ]
 	  },
@@ -133,26 +169,49 @@
 		 "detailText"	: "4 json Ben Bridge needed a <strong>digital partner</strong> to create an eCommerce presence that would have a more serious impact on their overall business",
 		 "splide"       : [
 							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/3.jpg"
+							  "type" : "images",
+							  "image" : "01",
+							  "thumbnail" :"01"
 							},
 							{
-							  "type" : "video",
-							  "thumnail" :"splide/images/4.jpg",
-							  "media" : "splide/videos/1.mkv"
+							  "type" : "images",
+							  "image" : "02",
+							  "thumbnail" :"02"
+							},{
+							  "type" : "images",
+							  "image" : "03",
+							  "thumbnail" :"03"
+							},{
+							  "type" : "images",
+							  "image" : "04",
+							  "thumbnail" :"04"
+							},{
+							  "type" : "images",
+							  "image" : "05",
+							  "thumbnail" :"05"
+							},{
+							  "type" : "images",
+							  "image" : "06",
+							  "thumbnail" :"06"
 							},
 							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/2.jpg"
+							  "type" : "images",
+							  "image" : "07",
+							  "thumbnail" :"07"
+							},{
+							  "type" : "images",
+							  "image" : "08",
+							  "thumbnail" :"08"
+							},{
+							  "type" : "images",
+							  "image" : "09",
+							  "thumbnail" :"09"
 							},
 							{
-							  "type" : "video",
-							  "thumnail" :"splide/images/4.jpg",
-							  "media" : "splide/videos/1.mkv"
-							},
-							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/3.jpg"
+							  "type" : "videos",
+							  "image" : "01",
+							  "thumbnail" :"01",
+							  "media" : "01"
 							}
 						  ]
 	  },
@@ -164,26 +223,49 @@
 		 "detailText"	: "5 json Ben Bridge needed a <strong>digital partner</strong> to create an eCommerce presence that would have a more serious impact on their overall business",
 		 "splide"       : [
 							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/4.jpg"
+							  "type" : "images",
+							  "image" : "01",
+							  "thumbnail" :"01"
 							},
 							{
-							  "type" : "video",
-							  "thumnail" :"splide/images/4.jpg",
-							  "media" : "splide/videos/1.mkv"
+							  "type" : "images",
+							  "image" : "02",
+							  "thumbnail" :"02"
+							},{
+							  "type" : "images",
+							  "image" : "03",
+							  "thumbnail" :"03"
+							},{
+							  "type" : "images",
+							  "image" : "04",
+							  "thumbnail" :"04"
+							},{
+							  "type" : "images",
+							  "image" : "05",
+							  "thumbnail" :"05"
+							},{
+							  "type" : "images",
+							  "image" : "06",
+							  "thumbnail" :"06"
 							},
 							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/2.jpg"
+							  "type" : "images",
+							  "image" : "07",
+							  "thumbnail" :"07"
+							},{
+							  "type" : "images",
+							  "image" : "08",
+							  "thumbnail" :"08"
+							},{
+							  "type" : "images",
+							  "image" : "09",
+							  "thumbnail" :"09"
 							},
 							{
-							  "type" : "video",
-							  "thumnail" :"splide/images/4.jpg",
-							  "media" : "splide/videos/1.mkv"
-							},
-							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/3.jpg"
+							  "type" : "videos",
+							  "image" : "01",
+							  "thumbnail" :"01",
+							  "media" : "01"
 							}
 						  ]
 	  },
@@ -195,26 +277,49 @@
 		 "detailText"	: "6 json Ben Bridge needed a <strong>digital partner</strong> to create an eCommerce presence that would have a more serious impact on their overall business",
 		 "splide"       : [
 							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/1.jpg"
+							  "type" : "images",
+							  "image" : "01",
+							  "thumbnail" :"01"
 							},
 							{
-							  "type" : "video",
-							  "thumnail" :"splide/images/4.jpg",
-							  "media" : "splide/videos/1.mkv"
+							  "type" : "images",
+							  "image" : "02",
+							  "thumbnail" :"02"
+							},{
+							  "type" : "images",
+							  "image" : "03",
+							  "thumbnail" :"03"
+							},{
+							  "type" : "images",
+							  "image" : "04",
+							  "thumbnail" :"04"
+							},{
+							  "type" : "images",
+							  "image" : "05",
+							  "thumbnail" :"05"
+							},{
+							  "type" : "images",
+							  "image" : "06",
+							  "thumbnail" :"06"
 							},
 							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/2.jpg"
+							  "type" : "images",
+							  "image" : "07",
+							  "thumbnail" :"07"
+							},{
+							  "type" : "images",
+							  "image" : "08",
+							  "thumbnail" :"08"
+							},{
+							  "type" : "images",
+							  "image" : "09",
+							  "thumbnail" :"09"
 							},
 							{
-							  "type" : "video",
-							  "thumnail" :"splide/images/4.jpg",
-							  "media" : "splide/videos/1.mkv"
-							},
-							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/3.jpg"
+							  "type" : "videos",
+							  "image" : "01",
+							  "thumbnail" :"01",
+							  "media" : "01"
 							}
 						  ]
 	  },
@@ -226,26 +331,49 @@
 		 "detailText"	: "7 json Ben Bridge needed a <strong>digital partner</strong> to create an eCommerce presence that would have a more serious impact on their overall business",
 		 "splide"       : [
 							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/2.jpg"
+							  "type" : "images",
+							  "image" : "01",
+							  "thumbnail" :"01"
 							},
 							{
-							  "type" : "video",
-							  "thumnail" :"splide/images/4.jpg",
-							  "media" : "splide/videos/1.mkv"
+							  "type" : "images",
+							  "image" : "02",
+							  "thumbnail" :"02"
+							},{
+							  "type" : "images",
+							  "image" : "03",
+							  "thumbnail" :"03"
+							},{
+							  "type" : "images",
+							  "image" : "04",
+							  "thumbnail" :"04"
+							},{
+							  "type" : "images",
+							  "image" : "05",
+							  "thumbnail" :"05"
+							},{
+							  "type" : "images",
+							  "image" : "06",
+							  "thumbnail" :"06"
 							},
 							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/2.jpg"
+							  "type" : "images",
+							  "image" : "07",
+							  "thumbnail" :"07"
+							},{
+							  "type" : "images",
+							  "image" : "08",
+							  "thumbnail" :"08"
+							},{
+							  "type" : "images",
+							  "image" : "09",
+							  "thumbnail" :"09"
 							},
 							{
-							  "type" : "video",
-							  "thumnail" :"splide/images/4.jpg",
-							  "media" : "splide/videos/1.mkv"
-							},
-							{
-							  "type" : "image",
-							  "thumnail" :"splide/images/3.jpg"
+							  "type" : "videos",
+							  "image" : "01",
+							  "thumbnail" :"01",
+							  "media" : "01"
 							}
 						  ]
 	  }

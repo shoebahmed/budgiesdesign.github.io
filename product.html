@@ -5,8 +5,9 @@
   <title>Product - Budgies Design</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel='stylesheet' href='css/jquery.mmenu.css' type='text/css' media='all' />
-  <link rel='stylesheet' href='css/main-new.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='jquery-mmenu/css-css' href='css/jquery.mmenu.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='sage/css-css' href='css/main.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='sage/css-css' href='css/main-new.css' type='text/css' media='all' />
 
   <script type='text/javascript' src='js/jquery.min.js?ver=3.5.1'></script>
   <script type='text/javascript' src='js/pzei2beoa0.jsonp'></script>
@@ -25,6 +26,9 @@
 
 
   <style type="text/css" id="wp-custom-css">
+	body{
+	  background-color: #242424 !important;
+	}
     .step-form .gform_footer input {
       display: inline;
       position: absolute;
@@ -350,16 +354,16 @@
             $.each(val.splide, function (index, value) {
               if (value.type == 'images') {
                 htmlSplide += '<li class=\"splide__slide p-splide__slide\">'+
-								'<img data-splide-lazy=\"splide/images/'+ value.image +'.jpg\" alt="Sample Image '+ value.alt +'\">'+
+								'<img data-splide-lazy=\"splide/images/'+ value.image +'.jpg\" >'+
 							'</li>';
 				
               } else if (value.type == 'videos') {
-                htmlSplide += '<li class=\"splide__slide p-splide__slide\" data-splide-html-video=\"'+ value.media +'\" alt=\"Sample Image '+ value.alt +'\">'+
+                htmlSplide += '<li class=\"splide__slide p-splide__slide\" data-splide-html-video=\"splide/videos/'+ value.media +'.mkv\">'+
 								'<img src=\"splide/images/'+ value.image +'.jpg\">'+
 						  '</li>';
               }
 			  htmlSplideThumbnail += '<li class=\"splide__slide p-splide__slide\">'+
-								'<img data-splide-lazy=\"splide/images/thumbnails/'+ value.thumbnail +'.jpg\" alt=\"Sample Image '+ value.alt +'\">'+
+								'<img data-splide-lazy=\"splide/images/thumbnails/'+ value.thumbnail +'.jpg\" >'+
 						    '</li>';
 			   
             });
