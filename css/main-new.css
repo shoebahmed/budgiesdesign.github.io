@@ -20939,7 +20939,7 @@ body .video-lazy {
 
 @media (min-width:768px) {
 	.section-portfolio {
-		padding-top: 10px;
+		padding-top: 10%;
 		padding-bottom: 10px
 	}
 	.section-portfolio__grid-item {

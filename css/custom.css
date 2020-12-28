@@ -42,6 +42,11 @@
 	border-color: #fcd327 !important;
 }
 
+.thumbnails-width{
+	margin: auto;
+	max-width: 80%;
+}
+
 @media (max-width: 767px) {
 	.top-left {
 			top:0%;

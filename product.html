@@ -8,6 +8,7 @@
   <link rel='stylesheet' id='jquery-mmenu/css-css' href='css/jquery.mmenu.css' type='text/css' media='all' />
   <link rel='stylesheet' id='sage/css-css' href='css/main.css' type='text/css' media='all' />
   <link rel='stylesheet' id='sage/css-css' href='css/main-new.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='css/custom.css' type='text/css' />
   
   <script type='text/javascript' src='js/jquery.min.js?ver=3.5.1'></script>
   <script type='text/javascript' src='js/pzei2beoa0.jsonp'></script>
@@ -134,10 +135,10 @@
 		<div class="p-example p-example--block spi-angle-left">
 			<div class="p-example__body">
 			   <div class="p-example__splide">
-				  <div id="example-sync" class="splide js-splide-primary p-splide p-splide--primary"
+				  <div id="example-sync" class="splide js-splide-primary p-splide p-splide--primary "
 					 data-splide="{&quot;type&quot;:&quot;fade&quot;,&quot;heightRatio&quot;:0.5,&quot;pagination&quot;:false,&quot;arrows&quot;:false,&quot;cover&quot;:true,&quot;lazyLoad&quot;:&quot;sequential&quot;}">
 					 <div class="splide__track image-height">
-						<ul id="splide-handle" class="splide__list">
+						<ul id="splide-handle" class="splide__list  is-playing">
 						    <!-- <li class="splide__slide p-splide__slide">
 								<img data-splide-lazy="splide/images/01.jpg" alt="Sample Image 01">
 							</li>
@@ -171,7 +172,7 @@
 						</ul>
 					 </div>
 				  </div>
-				  <div id="thumbnailSplide" class="js-splide-secondary p-splide p-splide--secondary"
+				  <div id="thumbnailSplide" class="js-splide-secondary p-splide p-splide--secondary thumbnails-width"
 					 data-splide="{&quot;rewind&quot;:true,&quot;fixedWidth&quot;:100,&quot;fixedHeight&quot;:60,&quot;isNavigation&quot;:true,&quot;gap&quot;:10,&quot;focus&quot;:&quot;center&quot;,&quot;pagination&quot;:false,&quot;cover&quot;:true,&quot;lazyLoad&quot;:&quot;sequential&quot;,&quot;breakpoints&quot;:{&quot;600&quot;:{&quot;fixedWidth&quot;:66,&quot;fixedHeight&quot;:40}}}">
 					 <div class="splide__track">
 						<ul id="splide-handle-thumbnails" class="splide__list" style="display: flex;">
@@ -301,9 +302,12 @@
 			$("#splide-handle-thumbnails").html(htmlSplideThumbnail);
 			
 			var secondarySlider = new Splide('#thumbnailSplide', {
-				autoplay: true,
 				pauseOnHover: true,
 				pauseOnFocus: true,
+				gap        : 10,
+				rewind     : true,
+				autoplay: true,
+				center: true,
 				breakpoints : {
 					'600': {
 						fixedWidth: 66,
@@ -314,12 +318,13 @@
             
 			//Initialize Splide
 			var primarySlider = new Splide('.splide', {
+			  pauseOnHover: true,
+              pauseOnFocus: true,
 			  type: 'loop',
 			  interval: 2000,
-              pauseOnHover: true,
-              pauseOnFocus: true,
               height: 500,
               video: {
+			    
                 mute: true
               }
             }).mount(window.splide.Extensions);
