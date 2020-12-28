@@ -15472,7 +15472,7 @@ a:focus {
 
 @media (min-width:992px) {
 	.brand-logo {
-		margin-right:500px;
+		/*margin-right:500px;*/
 		width: 165px
 	}
 }
@@ -15719,7 +15719,7 @@ body.is-mobile #mobile-menu-toggle {
 }
 
 .button--ghost.button--green-bg-dk {
-	border-color: #ffffff;
+	border-color: #2595a2;
 	color: #ffffff;
 	background-color: #2595a2;
 }

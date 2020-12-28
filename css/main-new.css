@@ -16085,7 +16085,7 @@ a:focus {
 
 .button--ghost.button--green,
 .search-form .button--ghost.search-submit {
-	border-color: #ffffff;
+	border-color: #2595a2;
 	color: #ffffff;
 	background-color: #2595a2;
 }
@@ -16129,9 +16129,9 @@ a:focus {
 .button--ghost:hover.button--green,
 .search-form .button--ghost.active.search-submit,
 .search-form .button--ghost.search-submit:hover {
-	background-color: transparent;
+	background-color: #fcd327;
 	border-color: #fcd327;
-    color: #fcd327;
+    color: #4e4e4e;
 }
 
 .button--ghost.active.button--green-bg-dk,
@@ -16145,7 +16145,7 @@ a:focus {
 .button--ghost.gform_button:hover,
 .button--ghost:hover.button--orange {
 	background-color: transparent;
-	color: #d14600
+	color: #ffffff
 }
 
 .button--ghost.active.button--white,
@@ -17044,7 +17044,7 @@ p.gform_button:hover {
 	text-indent: -9999px;
 	direction: ltr;
 	height: 10rem ;
-	margin-left: -11rem ;
+	margin-left: -10rem ;
 	padding: 0;
 	box-sizing: content-box;
 	position: relative;
@@ -19159,7 +19159,7 @@ body .video-lazy {
 .page-section--gradient-1 {
 	background-image: -webkit-linear-gradient(225deg, #29383f 0, #1a2228 100%);
 	background-image: -o-linear-gradient(225deg, #29383f 0, #1a2228 100%);
-	background-image: linear-gradient(-135deg, #29383f 0, #1a2228 100%)
+	background-image: linear-gradient(-135deg, #2595a2 0, #2595a2 100%)
 }
 
 .page-section--dark-bg {

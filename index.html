@@ -229,7 +229,7 @@
           <p class="page-section__description mt-2x">From strategy to execution, our winning combination of innovative
             thinking, scientific design, sophisticated development, and advanced engineering ensure we’re delivering
             Budgies Design value to help you grow.</p>
-          <a href="services.html" class="button button--green button--ghost button--arrow mt-3x">View our services</a>
+          <a href="services.html" class="button button--green button--ghost button--arrow mt-3x btn-border-col">View our services</a>
         </div>
       </div>
       <div class="row">
@@ -343,88 +343,16 @@
     </div>
   </section>
   <footer class="site-footer">
-    <div class="container">
-      <div class="row site-footer__top">
-        <div class="col-sm-1 col-md-1 hidden-xs">
-          <div class="logo__small"></div>
-        </div>
-        <div class="col-sm-offset-1 col-sm-3 col-md-2 col-md-offset-2 hidden-xs">
-          <div class="text__featured">Seattle</div>
-          <div class="text__regular mt-2x">
-            14725 SE 36th Street<br>
-              Suite 300<br>
-              Bellevue, WA 98006
-            
-            <br>
-            <br>
-            <a href="tel:(425)201-3713">(425) 201-3713</a>
-          </div>
-        </div>
-        <div class="col-sm-3 col-md-2 col-md-offset-1 hidden-xs">
-          <div class="text__featured">Portland</div>
-          <div class="text__regular mt-2x">
-            811 SE Stark Street<br>
-            Suite 300<br>
-            Portland, OR 97214<br>
-            <br>
-            <br>
-            <a href="tel:(503)610-8052">(503) 610-8052</a>
-          </div>
-        </div>
-        <div class="col-sm-4 col-md-3 col-md-offset-1 hidden-xs">
-          <div class="text__featured">Bangkok</div>
-          <div class="text__regular mt-2x">
-            67/8 Soi Sathorn 3 (Suanplu), <br>South Sathorn Road
-            <br>
-            Tungmahamek, Sathorn, Bangkok, Thailand 10120
-            <br>
-            <br>
-            <a href="tel:+6622871287">+66 2 287 1287</a>
-          </div>
-        </div>
-      </div>
-      <div class="row site-footer__bottom">
-        <div class="col-md-12">
-          <div class="site-footer__bottom-wrapper">
-            <div class="row">
-              <div class="col-sm-12 col-md-10">
-                <div class="text__small site-footer__copyright hidden-xs hidden-sm">
-                  &copy; 2020 Budgiesdesign <span class="site-footer__fresh-pp"> &#8226; <a href="privacy-policy.html"
-                      alt="Budgies Design Privacy Policy">Privacy Policy</a></span>
-                </div>
-                <div class="site-footer__nav-wrapper">
-                  <ul class="nav--horizontal footer-nav">
-                    <li class="nav__item"><a href="index.html">Home</a></li>
-                    <li class="nav__item"><a href="services.html">Services</a></li>
-                    <li class="nav__item"><a href="portfolio.html">Portfolio</a></li>
-                    <li class="nav__item"><a href="about.html">About</a></li>
-                    <li class="nav__item"><a href="contact.html">Contact</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-2 site-footer__socials">
-                <a href="#" target="_blank" rel="noopener" title=""><img src="images/logo/linkedin-in.svg"
-                    alt="Budgies Design on LinkedIn"></a>
-                <a href="#" target="_blank" rel="noopener" title=""><img src="images/logo/youtube.svg"
-                    alt="Budgies Design on YouTube"></a>
-                <a href="#" target="_blank" rel="noopener" title=""><img src="images/logo/twitter.svg"
-                    alt="Budgies Design on Twitter"></a>
-                <a href="#" target="_blank" rel="noopener" title=""><img src="images/logo/facebook-square.svg"
-                    alt="Budgies Design on Facebook"></a>
-              </div>
-              <div class="col-sm-12 visible-xs visible-sm mt-3x center">
-                &copy; 2020 Budgies Design <span class="site-footer__fresh-pp"> &#8226; <a href="privacy-policy.html"
-                    alt="Budgies Design Privacy Policy">Privacy
-                    Policy</a></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div id="footerIncludedContent">
     </div>
   </footer>
   <script type='text/javascript' src='js/jquery.mmenu.js'></script>
   <script type='text/javascript' src='js/main-d863cfc150.js'></script>
+  <script> 
+    $(function(){
+      $("#footerIncludedContent").load("footer.html"); 
+    });
+  </script>
 </body>
 
 </html>
