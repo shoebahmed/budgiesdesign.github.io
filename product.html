@@ -5,6 +5,8 @@
   <title>Product - Budgies Design</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/logo/favicon-16x16.png" />
+  
   <link rel='stylesheet' id='jquery-mmenu/css-css' href='css/jquery.mmenu.css' type='text/css' media='all' />
   <link rel='stylesheet' id='sage/css-css' href='css/main.css' type='text/css' media='all' />
   <link rel='stylesheet' id='sage/css-css' href='css/main-new.css' type='text/css' media='all' />
@@ -12,9 +14,6 @@
   
   <script type='text/javascript' src='js/jquery.min.js?ver=3.5.1'></script>
   <script type='text/javascript' src='js/pzei2beoa0.jsonp'></script>
-  <link rel="icon" href="images/logo/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" href="images/logo/favicon-32x32.png" sizes="192x192" />
-  <link rel="apple-touch-icon" href="images/logo/favicon-32x32.png" />
   
   <!-- Splide -->
   <link rel="stylesheet" href="splide/dist/css/splide.min.css">
@@ -304,10 +303,7 @@
 			var secondarySlider = new Splide('#thumbnailSplide', {
 				pauseOnHover: true,
 				pauseOnFocus: true,
-				gap        : 10,
-				rewind     : true,
 				autoplay: true,
-				center: true,
 				breakpoints : {
 					'600': {
 						fixedWidth: 66,
@@ -319,8 +315,8 @@
 			//Initialize Splide
 			var primarySlider = new Splide('.splide', {
 			  pauseOnHover: true,
-              pauseOnFocus: true,
-			  type: 'loop',
+              pauseOnFocus: true,			  
+			  rewind     : true,
 			  interval: 2000,
               height: 500,
               video: {

@@ -12068,7 +12068,7 @@ h6 {
 }
 
 .logo__small {
-	width: 48px;
+	width: 9rem;
 	height: 48px;
 	background-image: url(../images/logo/fresh-logo-footer.png);
 	background-repeat: no-repeat;
@@ -16085,9 +16085,9 @@ a:focus {
 
 .button--ghost.button--green,
 .search-form .button--ghost.search-submit {
-	border-color: #2595a2;
+	border-color: #fcd327;
 	color: #ffffff;
-	background-color: #2595a2;
+	background-color: #fcd327;
 }
 
 .button--ghost.button--green-bg-dk {
@@ -16129,9 +16129,9 @@ a:focus {
 .button--ghost:hover.button--green,
 .search-form .button--ghost.active.search-submit,
 .search-form .button--ghost.search-submit:hover {
-	background-color: #fcd327;
-	border-color: #fcd327;
-    color: #4e4e4e;
+	background-color: #0000000 !important;
+	border-color: #ffffff;
+    color: #ffffff;
 }
 
 .button--ghost.active.button--green-bg-dk,
