@@ -16085,9 +16085,9 @@ a:focus {
 
 .button--ghost.button--green,
 .search-form .button--ghost.search-submit {
-	border-color: #fcd327;
+	border-color: #2595a2;
 	color: #ffffff;
-	background-color: #fcd327;
+	background-color: #2595a2;
 }
 
 .button--ghost.button--green-bg-dk {
@@ -16129,9 +16129,9 @@ a:focus {
 .button--ghost:hover.button--green,
 .search-form .button--ghost.active.search-submit,
 .search-form .button--ghost.search-submit:hover {
-	background-color: #0000000 !important;
-	border-color: #ffffff;
-    color: #ffffff;
+	background-color: #fcd327;
+	border-color: #fcd327;
+    color: #4e4e4e;
 }
 
 .button--ghost.active.button--green-bg-dk,
@@ -20359,7 +20359,7 @@ body .video-lazy {
 
 @media only screen and (min-width:768px) {
 	.services {
-		padding-top: 12vw
+		/*padding-top: 12vw*/
 	}
 	.services .robot {
 		display: block;
