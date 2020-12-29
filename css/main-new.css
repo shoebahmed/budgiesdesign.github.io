@@ -17044,7 +17044,7 @@ p.gform_button:hover {
 	text-indent: -9999px;
 	direction: ltr;
 	height: 10rem ;
-	margin-left: -10rem ;
+	margin-left: -5rem ;
 	padding: 0;
 	box-sizing: content-box;
 	position: relative;
@@ -17691,7 +17691,7 @@ body.is-mobile #mobile-menu-toggle {
 	letter-spacing: .07em;
 	text-transform: none;
 	font-weight: 400;
-	color: #ffffff
+	color: #2595a2
 }
 
 .contact-form .input-box input:focus,
