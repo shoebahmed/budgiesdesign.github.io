@@ -324,14 +324,28 @@
 
 	<script>
 		function myMap() {
-		var mapProp= {
-		  center:new google.maps.LatLng(51.508742,-0.120850),
-		  zoom:5,
-		};
-		var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			var myLatlng = new google.maps.LatLng(41.762437905486074, -88.23237650972028);
+			var mapProp= {
+			  center: myLatlng,
+			  zoom:16,
+			  mapTypeId: google.maps.MapTypeId.HYBRID
+			};
+			
+			var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			
+			var marker = new google.maps.Marker({
+               position: new google.maps.LatLng(41.762437905486074, -88.23237650972028),
+               map: map,
+            });
+			
+			/*var infowindow = new google.maps.InfoWindow({
+               content:"BudgiesDesign 3457 Bradbury Cir. Aurora IL 60504 USA",
+            });
+			
+			infowindow.open(map,marker);*/
+			
 		}
 	</script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpAhun6jnbLO9wgR806DNFGCtTW28gJAE&q=Metrotown,+Vancouver&callback=myMap"></script>
-
 
 </html>
