@@ -263,14 +263,14 @@
 
     $(document).ready(function () {
 
-      var productId = getUrlVars()["productId"];
-      var filePath = 'json/product-list.json';
+      var serviceId = getUrlVars()["serviceId"];
+      var filePath = 'json/services-list.json';
 
       $.getJSON(filePath, function (data) {
 
         $.each(data, function (key, val) {
 
-          if (val.productId == productId) {
+          if (val.serviceId == serviceId) {
 
             //Details Section
             var headingSection = '<span class=\"intro-text text-lg\">' +

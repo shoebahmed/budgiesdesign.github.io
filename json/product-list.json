@@ -8,48 +8,38 @@
 		 "splide"       : [
 							{
 							  "type" : "images",
-							  "image" : "01",
-							  "thumbnail" :"01"
+							  "image" : "01"
 							},
 							{
 							  "type" : "images",
-							  "image" : "02",
-							  "thumbnail" :"02"
+							  "image" : "02"
 							},{
 							  "type" : "images",
-							  "image" : "03",
-							  "thumbnail" :"03"
+							  "image" : "03"
 							},{
 							  "type" : "images",
-							  "image" : "04",
-							  "thumbnail" :"04"
+							  "image" : "04"
 							},{
 							  "type" : "images",
-							  "image" : "05",
-							  "thumbnail" :"05"
+							  "image" : "05"
 							},{
 							  "type" : "images",
-							  "image" : "06",
-							  "thumbnail" :"06"
+							  "image" : "06"
 							},
 							{
 							  "type" : "images",
-							  "image" : "07",
-							  "thumbnail" :"07"
+							  "image" : "07"
 							},{
 							  "type" : "images",
-							  "image" : "08",
-							  "thumbnail" :"08"
+							  "image" : "08"
 							},{
 							  "type" : "images",
-							  "image" : "09",
-							  "thumbnail" :"09"
+							  "image" : "09"
 							},
 							{
 							  "type" : "videos",
 							  "image" : "01",
-							  "thumbnail" :"01",
-							  "media" : "01"
+							  "media" : "01.mkv"
 							}
 						  ]
 	  },
@@ -62,48 +52,38 @@
 		 "splide"       : [
 							{
 							  "type" : "images",
-							  "image" : "01",
-							  "thumbnail" :"01"
+							  "image" : "01"
 							},
 							{
 							  "type" : "images",
-							  "image" : "02",
-							  "thumbnail" :"02"
+							  "image" : "02"
 							},{
 							  "type" : "images",
-							  "image" : "03",
-							  "thumbnail" :"03"
+							  "image" : "03"
 							},{
 							  "type" : "images",
-							  "image" : "04",
-							  "thumbnail" :"04"
+							  "image" : "04"
 							},{
 							  "type" : "images",
-							  "image" : "05",
-							  "thumbnail" :"05"
+							  "image" : "05"
 							},{
 							  "type" : "images",
-							  "image" : "06",
-							  "thumbnail" :"06"
+							  "image" : "06"
 							},
 							{
 							  "type" : "images",
-							  "image" : "07",
-							  "thumbnail" :"07"
+							  "image" : "07"
 							},{
 							  "type" : "images",
-							  "image" : "08",
-							  "thumbnail" :"08"
+							  "image" : "08"
 							},{
 							  "type" : "images",
-							  "image" : "09",
-							  "thumbnail" :"09"
+							  "image" : "09"
 							},
 							{
 							  "type" : "videos",
 							  "image" : "01",
-							  "thumbnail" :"01",
-							  "media" : "01"
+							  "media" : "01.mkv"
 							}
 						  ]
 	  },
@@ -116,48 +96,38 @@
 		 "splide"       : [
 							{
 							  "type" : "images",
-							  "image" : "01",
-							  "thumbnail" :"01"
+							  "image" : "01"
 							},
 							{
 							  "type" : "images",
-							  "image" : "02",
-							  "thumbnail" :"02"
+							  "image" : "02"
 							},{
 							  "type" : "images",
-							  "image" : "03",
-							  "thumbnail" :"03"
+							  "image" : "03"
 							},{
 							  "type" : "images",
-							  "image" : "04",
-							  "thumbnail" :"04"
+							  "image" : "04"
 							},{
 							  "type" : "images",
-							  "image" : "05",
-							  "thumbnail" :"05"
+							  "image" : "05"
 							},{
 							  "type" : "images",
-							  "image" : "06",
-							  "thumbnail" :"06"
+							  "image" : "06"
 							},
 							{
 							  "type" : "images",
-							  "image" : "07",
-							  "thumbnail" :"07"
+							  "image" : "07"
 							},{
 							  "type" : "images",
-							  "image" : "08",
-							  "thumbnail" :"08"
+							  "image" : "08"
 							},{
 							  "type" : "images",
-							  "image" : "09",
-							  "thumbnail" :"09"
+							  "image" : "09"
 							},
 							{
 							  "type" : "videos",
 							  "image" : "01",
-							  "thumbnail" :"01",
-							  "media" : "01"
+							  "media" : "01.mkv"
 							}
 						  ]
 	  },
@@ -170,48 +140,38 @@
 		 "splide"       : [
 							{
 							  "type" : "images",
-							  "image" : "01",
-							  "thumbnail" :"01"
+							  "image" : "01"
 							},
 							{
 							  "type" : "images",
-							  "image" : "02",
-							  "thumbnail" :"02"
+							  "image" : "02"
 							},{
 							  "type" : "images",
-							  "image" : "03",
-							  "thumbnail" :"03"
+							  "image" : "03"
 							},{
 							  "type" : "images",
-							  "image" : "04",
-							  "thumbnail" :"04"
+							  "image" : "04"
 							},{
 							  "type" : "images",
-							  "image" : "05",
-							  "thumbnail" :"05"
+							  "image" : "05"
 							},{
 							  "type" : "images",
-							  "image" : "06",
-							  "thumbnail" :"06"
+							  "image" : "06"
 							},
 							{
 							  "type" : "images",
-							  "image" : "07",
-							  "thumbnail" :"07"
+							  "image" : "07"
 							},{
 							  "type" : "images",
-							  "image" : "08",
-							  "thumbnail" :"08"
+							  "image" : "08"
 							},{
 							  "type" : "images",
-							  "image" : "09",
-							  "thumbnail" :"09"
+							  "image" : "09"
 							},
 							{
 							  "type" : "videos",
 							  "image" : "01",
-							  "thumbnail" :"01",
-							  "media" : "01"
+							  "media" : "01.mkv"
 							}
 						  ]
 	  },
@@ -224,48 +184,38 @@
 		 "splide"       : [
 							{
 							  "type" : "images",
-							  "image" : "01",
-							  "thumbnail" :"01"
+							  "image" : "01"
 							},
 							{
 							  "type" : "images",
-							  "image" : "02",
-							  "thumbnail" :"02"
+							  "image" : "02"
 							},{
 							  "type" : "images",
-							  "image" : "03",
-							  "thumbnail" :"03"
+							  "image" : "03"
 							},{
 							  "type" : "images",
-							  "image" : "04",
-							  "thumbnail" :"04"
+							  "image" : "04"
 							},{
 							  "type" : "images",
-							  "image" : "05",
-							  "thumbnail" :"05"
+							  "image" : "05"
 							},{
 							  "type" : "images",
-							  "image" : "06",
-							  "thumbnail" :"06"
+							  "image" : "06"
 							},
 							{
 							  "type" : "images",
-							  "image" : "07",
-							  "thumbnail" :"07"
+							  "image" : "07"
 							},{
 							  "type" : "images",
-							  "image" : "08",
-							  "thumbnail" :"08"
+							  "image" : "08"
 							},{
 							  "type" : "images",
-							  "image" : "09",
-							  "thumbnail" :"09"
+							  "image" : "09"
 							},
 							{
 							  "type" : "videos",
 							  "image" : "01",
-							  "thumbnail" :"01",
-							  "media" : "01"
+							  "media" : "01.mkv"
 							}
 						  ]
 	  },
@@ -278,48 +228,38 @@
 		 "splide"       : [
 							{
 							  "type" : "images",
-							  "image" : "01",
-							  "thumbnail" :"01"
+							  "image" : "01"
 							},
 							{
 							  "type" : "images",
-							  "image" : "02",
-							  "thumbnail" :"02"
+							  "image" : "02"
 							},{
 							  "type" : "images",
-							  "image" : "03",
-							  "thumbnail" :"03"
+							  "image" : "03"
 							},{
 							  "type" : "images",
-							  "image" : "04",
-							  "thumbnail" :"04"
+							  "image" : "04"
 							},{
 							  "type" : "images",
-							  "image" : "05",
-							  "thumbnail" :"05"
+							  "image" : "05"
 							},{
 							  "type" : "images",
-							  "image" : "06",
-							  "thumbnail" :"06"
+							  "image" : "06"
 							},
 							{
 							  "type" : "images",
-							  "image" : "07",
-							  "thumbnail" :"07"
+							  "image" : "07"
 							},{
 							  "type" : "images",
-							  "image" : "08",
-							  "thumbnail" :"08"
+							  "image" : "08"
 							},{
 							  "type" : "images",
-							  "image" : "09",
-							  "thumbnail" :"09"
+							  "image" : "09"
 							},
 							{
 							  "type" : "videos",
 							  "image" : "01",
-							  "thumbnail" :"01",
-							  "media" : "01"
+							  "media" : "01.mkv"
 							}
 						  ]
 	  },
@@ -332,48 +272,38 @@
 		 "splide"       : [
 							{
 							  "type" : "images",
-							  "image" : "01",
-							  "thumbnail" :"01"
+							  "image" : "01"
 							},
 							{
 							  "type" : "images",
-							  "image" : "02",
-							  "thumbnail" :"02"
+							  "image" : "02"
 							},{
 							  "type" : "images",
-							  "image" : "03",
-							  "thumbnail" :"03"
+							  "image" : "03"
 							},{
 							  "type" : "images",
-							  "image" : "04",
-							  "thumbnail" :"04"
+							  "image" : "04"
 							},{
 							  "type" : "images",
-							  "image" : "05",
-							  "thumbnail" :"05"
+							  "image" : "05"
 							},{
 							  "type" : "images",
-							  "image" : "06",
-							  "thumbnail" :"06"
+							  "image" : "06"
 							},
 							{
 							  "type" : "images",
-							  "image" : "07",
-							  "thumbnail" :"07"
+							  "image" : "07"
 							},{
 							  "type" : "images",
-							  "image" : "08",
-							  "thumbnail" :"08"
+							  "image" : "08"
 							},{
 							  "type" : "images",
-							  "image" : "09",
-							  "thumbnail" :"09"
+							  "image" : "09"
 							},
 							{
 							  "type" : "videos",
 							  "image" : "01",
-							  "thumbnail" :"01",
-							  "media" : "01"
+							  "media" : "01.mkv"
 							}
 						  ]
 	  }
