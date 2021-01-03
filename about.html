@@ -14,29 +14,11 @@
   <link rel='stylesheet' id='jquery-mmenu/css-css' href='css/jquery.mmenu.css' type='text/css' media='all' />
   <link rel='stylesheet' id='sage/css-css' href='css/main.css' type='text/css' media='all' />
   <link rel='stylesheet' id='sage/css-css' href='css/main-new.css' type='text/css' media='all' />
-
-  
-  <style type="text/css" id="wp-custom-css">
-    .step-form .gform_footer input {
-      display: inline;
-      position: absolute;
-      visibility: hidden;
-      left: -99999em
-    }
-
-    @media (min-width: 992px) {
-      .fresh-four-dimensions__sub-title {
-        max-width: 100%;
-      }
-    } 
-	body{
-	overflow-x: hidden;
-	}
-  </style>
+  <link rel='stylesheet' href='css/custom.css' type='text/css'/>
 
 </head>
 
-<body class="page-template page-template-template-about page-template-template-about-php page page-id-7414 about">
+<body class="page-template page-template-template-about page-template-template-about-php page page-id-7414 about body-overflow">
   <header>
     <div class="site-header hidden-xs">
       <div class="container">
@@ -64,8 +46,7 @@
                         class="megamenu-item-link">About</a>
                     </div>
                     <div class="lets-build">
-                      <a href="contact.html" class="button button--ghost button--orange"
-                        style="margin-left: 24px; z-index:999; position:relative">Contact Us</a>
+                      <a href="contact.html" class="button button--ghost button--orange contact-us-style">Contact Us</a>
                     </div>
                   </div>
                 </nav>
@@ -76,7 +57,7 @@
         </div>
       </div>
     </div>
-    <nav class="navbar navbar-default fixed-top hidden-lg hidden-sm" style="margin-bottom:0px;">
+    <nav class="navbar navbar-default fixed-top hidden-lg hidden-sm mb-0">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <div class="brand-logo">
@@ -135,10 +116,9 @@
             </div>
           </div>
 
-          <div class="hero__video-background" style="background-image: url(images/night_city_1.jpg)">
+          <div class="hero__video-background hero-video-background">
             <div data-top="transform:translateY(0%);" data-top-bottom="transform:translateY(40%);"
-              class="toggle-hero-video wistia_embed wistia_async_ea8zbm5bku seo=false preload=true videoFoam=true controlsVisibleOnLoad=false playbar=false wmode=transparent fullscreenButton=false playbackRateControl=false settingsControl=false volumeControl=false playButton=false volume=0 autoPlay=true playerColor=ff0000 smallPlayButton=false endVideoBehavior=loop"
-              style="width:640px;height:360px;">&nbsp;
+              class="toggle-hero-video wistia_embed wistia_async_ea8zbm5bku seo=false preload=true videoFoam=true controlsVisibleOnLoad=false playbar=false wmode=transparent fullscreenButton=false playbackRateControl=false settingsControl=false volumeControl=false playButton=false volume=0 autoPlay=true playerColor=ff0000 smallPlayButton=false endVideoBehavior=loop hero-video-align">&nbsp;
             </div>
           </div>
         </section>
@@ -172,8 +152,7 @@
           <div class="fullwidth-media__player">
             <div class="wistia_embed wistia_async_72z1rqje9h playsinline=false preload=true">&nbsp;</div>
           </div>
-          <div class="fullwidth-media__placeholder js-fullwidth-media-placeholder"
-            style="background-image: url(images/about/hiking-trip-1024x556.jpg)">
+          <div class="fullwidth-media__placeholder js-fullwidth-media-placeholder hiking-trip-img"
           </div>
         </section>
 
@@ -202,8 +181,7 @@
           <h2 class="page-section__title">Ready to work ?</h2>
           <div class="mt-3x">
             <div class="lets-build">
-              <a href="contact.html" class="button button--ghost button--orange"
-                style="margin-left: 24px; position:relative">Contact Us</a>
+              <a href="contact.html" class="button button--ghost button--orange contact-us-style">Contact Us</a>
             </div>
           </div>
         </div>

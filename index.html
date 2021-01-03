@@ -16,71 +16,10 @@
   <link rel='stylesheet' id='frontpage-sage/css-css' href='css/main-new.css' type='text/css' media='all' />
   <link rel='stylesheet' href='css/custom.css' type='text/css' />
 
-
   <script type='text/javascript' src='js/jquery.min.js?ver=3.5.1'></script>
-  
-  <style type="text/css">
-    .recentcomments a {
-      display: inline !important;
-      padding: 0 !important;
-      margin: 0 !important;
-    }
-
-    .step-form .gform_footer input {
-      display: inline;
-      position: absolute;
-      visibility: hidden;
-      left: -99999em
-    }
-
-    .navbar-fixed {
-      top: 0;
-      z-index: 100;
-      position: fixed;
-      width: 100%;
-    }
-
-    #nav_bar {
-
-      background-color: #ffffff;
-
-
-
-    }
-
-    .horizontalLine {
-      width: 100px;
-      position: relative;
-      animation: lineAnimation 2s linear 0s infinite;
-    }
-
-    @keyframes lineAnimation {
-      0% {
-        left: 0px;
-        top: 0px;
-      }
-
-      50% {
-        left: -120px;
-        top: 0px;
-        right: 120px
-      }
-
-      100% {
-        left: 0px;
-        top: 0px;
-        right: 220px
-      }
-    }
-	
-	body{
-		overflow-x:hidden;
-	} 
-  }
-  </style>
 </head>
 
-<body class="home page-template-default page page-id-14 front-page-v5">
+<body class="home page-template-default page page-id-14 front-page-v5 body-overflow">
   <header data-headroom data-offset="80">
     <div class="site-header hidden-xs">
       <div class="container">
@@ -108,8 +47,7 @@
                         class="megamenu-item-link">About</a>
                     </div>
                     <div class="lets-build">
-                      <a href="contact.html" class="button button--ghost button--orange"
-                        style="margin-left: 24px; z-index:999; position:relative">Contact Us</a>
+                      <a href="contact.html" class="button button--ghost button--orange contact-us-style">Contact Us</a>
                     </div>
                   </div>
                 </nav>
@@ -120,7 +58,7 @@
         </div>
       </div>
     </div>
-    <nav class="navbar navbar-default hidden-lg hidden-sm nav_bar" style="margin-bottom:0px;">
+    <nav class="navbar navbar-default hidden-lg hidden-sm nav_bar mb-0">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <div class="brand-logo">
@@ -164,7 +102,7 @@
           <div class="col-sm-6 col-sm-offset-5 col-md-6 col-md-offset-5 col-lg-5 col-lg-offset-7">
             <div data-start="bottom:0%;" data-10-top="bottom: 7%;" class="card card--dark card--has-parallax card-width-300">
               <div class="card-content active">
-                <div class="js-card-roll js-card-roll--line" style="width: 120px;">
+                <div class="js-card-roll js-card-roll--line js-card-width">
                   <div class="card__featured-line horizontalLine"></div>
                 </div><br>
                 <div class="js-card-roll js-card-roll--tag">
@@ -231,7 +169,7 @@
       <div class="row">
 	   <div class="section-portfolio__tile-grid">
 		  <div class="section-portfolio__grid-item one">
-			 <a data-bottom-top="background-position: center bottom 0%" data-top-bottom="background-position: center bottom 110%" href="product.html?productId=1001" aria-label="Moss" adams"="" class="section-portfolio__grid-tile" style="background-image:url(images/home-screen/moss_adams_thumb-squashed.jpg)">
+			 <a data-bottom-top="background-position: center bottom 0%" data-top-bottom="background-position: center bottom 110%" href="product.html?productId=1001" aria-label="Moss" adams"="" class="section-portfolio__grid-tile home-img-div-1">
 				<div class="section-portfolio__item-label">
 				   <div class="section-portfolio__item-title">Moss Adams </div>
 				   <div class="button button--green-bg-dk button--ghost button--arrow mt-3x">View Work</div>
@@ -239,7 +177,7 @@
 			 </a>
 		  </div>
 		  <div class="section-portfolio__grid-item two">
-			 <a data-bottom-top="background-position: center bottom 0%" data-top-bottom="background-position: center bottom 110%" href="product.html?productId=1002" aria-label="Ben" bridge="" jeweler"="" class="section-portfolio__grid-tile" style="background-image:url(images/home-screen/ben_bridge_thumb.jpg)">
+			 <a data-bottom-top="background-position: center bottom 0%" data-top-bottom="background-position: center bottom 110%" href="product.html?productId=1002" aria-label="Ben" bridge="" jeweler"="" class="section-portfolio__grid-tile home-img-div-2">
 				<div class="section-portfolio__item-label">
 				   <div class="section-portfolio__item-title">Ben Bridge Jeweler </div>
 				   <div class="button button--green-bg-dk button--ghost button--arrow mt-3x">View Work</div>
@@ -247,7 +185,7 @@
 			 </a>
 		  </div>
 		  <div class="section-portfolio__grid-item three">
-			 <a data-bottom-top="background-position: center bottom 0%" data-top-bottom="background-position: center bottom 110%" href="product.html?productId=1003" aria-label="Laser" motive="" space="" elevator="" collaboration"="" class="section-portfolio__grid-tile" style="background-image:url(images/home-screen/laser_motive_thumb.jpg)">
+			 <a data-bottom-top="background-position: center bottom 0%" data-top-bottom="background-position: center bottom 110%" href="product.html?productId=1003" aria-label="Laser" motive="" space="" elevator="" collaboration"="" class="section-portfolio__grid-tile home-img-div-3">
 				<div class="section-portfolio__item-label">
 				   <div class="section-portfolio__item-title">Laser Motive Space Elevator Collaboration </div>
 				   <div class="button button--green-bg-dk button--ghost button--arrow mt-3x">View Work</div>
@@ -277,7 +215,7 @@
       <div class="row">
 		   <div class="section-portfolio__tile-grid">
 			  <div class="section-portfolio__grid-item eight">
-				 <a data-bottom-top="background-position: center bottom 0%" data-top-bottom="background-position: center bottom 110%" href="product.html?productId=1001" aria-label="Moss" adams"="" class="section-portfolio__grid-tile" style="background-image:url(images/home-screen/moss_adams_thumb-squashed.jpg)">
+				 <a data-bottom-top="background-position: center bottom 0%" data-top-bottom="background-position: center bottom 110%" href="product.html?productId=1001" aria-label="Moss" adams"="" class="section-portfolio__grid-tile home-img-div-4">
 					<div class="section-portfolio__item-label">
 					   <div class="section-portfolio__item-title">Moss Adams </div>
 					   <div class="button button--green-bg-dk button--ghost button--arrow mt-3x">View Work</div>
@@ -285,7 +223,7 @@
 				 </a>
 			  </div>
 			  <div class="section-portfolio__grid-item two">
-				 <a data-bottom-top="background-position: center bottom 0%" data-top-bottom="background-position: center bottom 110%" href="product.html?productId=1002" aria-label="Ben" bridge="" jeweler"="" class="section-portfolio__grid-tile" style="background-image:url(images/home-screen/ben_bridge_thumb.jpg)">
+				 <a data-bottom-top="background-position: center bottom 0%" data-top-bottom="background-position: center bottom 110%" href="product.html?productId=1002" aria-label="Ben" bridge="" jeweler"="" class="section-portfolio__grid-tile home-img-div-5">
 					<div class="section-portfolio__item-label">
 					   <div class="section-portfolio__item-title">Ben Bridge Jeweler </div>
 					   <div class="button button--green-bg-dk button--ghost button--arrow mt-3x">View Work</div>
@@ -293,7 +231,7 @@
 				 </a>
 			  </div>
 			  <div class="section-portfolio__grid-item three">
-				 <a data-bottom-top="background-position: center bottom 0%" data-top-bottom="background-position: center bottom 110%" href="product.html?productId=1003" aria-label="Laser" motive="" space="" elevator="" collaboration"="" class="section-portfolio__grid-tile" style="background-image:url(images/home-screen/laser_motive_thumb.jpg)">
+				 <a data-bottom-top="background-position: center bottom 0%" data-top-bottom="background-position: center bottom 110%" href="product.html?productId=1003" aria-label="Laser" motive="" space="" elevator="" collaboration"="" class="section-portfolio__grid-tile home-img-div-6">
 					<div class="section-portfolio__item-label">
 					   <div class="section-portfolio__item-title">Laser Motive Space Elevator Collaboration </div>
 					   <div class="button button--green-bg-dk button--ghost button--arrow mt-3x">View Work</div>
@@ -330,8 +268,7 @@
           <h2 class="page-section__title">Ready to work ?</h2>
           <div class="mt-3x">
             <div class="lets-build">
-              <a href="contact.html" class="button button--ghost button--orange"
-                style="margin-left: 24px; position:relative">Contact Us</a>
+              <a href="contact.html" class="button button--ghost button--orange contact-us-style">Contact Us</a>
             </div>
           </div>
         </div>

@@ -84,6 +84,99 @@
    color:    #ffffff !important;
 }
 
+.body-overflow{
+	overflow-x:hidden;
+}
+
+.contact-us-style{
+	margin-left: 24px;
+	z-index:999;
+	position:relative;
+}
+
+.js-card-width{
+	width: 120px;
+}
+
+.home-img-div-1{
+	background-image:url('../images/home-screen/moss_adams_thumb-squashed.jpg') !important;
+}
+
+.home-img-div-2{
+	background-image:url('../images/home-screen/ben_bridge_thumb.jpg') !important;
+}
+
+.home-img-div-3{
+	background-image:url('../images/home-screen/laser_motive_thumb.jpg') !important;
+}
+
+.home-img-div-4{
+	background-image:url('../images/home-screen/moss_adams_thumb-squashed.jpg') !important;
+}
+
+.home-img-div-5{
+	background-image:url('../images/home-screen/ben_bridge_thumb.jpg') !important;
+}
+
+.home-img-div-6{
+	background-image:url('../images/home-screen/laser_motive_thumb.jpg') !important;
+}
+
+.horizontalLine {
+      width: 100px;
+      position: relative;
+      animation: lineAnimation 2s linear 0s infinite;
+    }
+
+ @keyframes lineAnimation {
+      0% {
+        left: 0px;
+        top: 0px;
+      }
+
+      50% {
+        left: -120px;
+        top: 0px;
+        right: 120px
+      }
+
+      100% {
+        left: 0px;
+        top: 0px;
+        right: 220px
+      }
+ }
+	
+
+.body-color{
+	background-color: #242424;
+}
+
+.disply-flex-splide{
+	display: flex;
+}
+
+.billboad-margin{
+	padding-top:55px;
+	padding-bottom:90px;
+}
+
+.hero-video-align{
+	width:640px;
+	height:360px;
+}
+
+.hero-video-background{
+	background-image: url(../images/night_city_1.jpg) !important;
+}
+
+.hiking-trip-img{
+	background-image: url(../images/about/hiking-trip-1024x556.jpg) !important;
+}
+
+.m-top-20{
+	margin-top: 20px;
+}
 @media (max-width: 767px) {
 	.margin-bottom-30{
 		margin-bottom: 30%;
